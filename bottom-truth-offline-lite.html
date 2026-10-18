@@ -4330,11 +4330,14 @@ boot();
    After it has been shown it stays away for QUIET_DAYS, remembered in localStorage.
 
    No third-party script or frame is loaded: the email button is a mailto link and the tip button,
-   when TIP_URL is set, is a plain link. That keeps the privacy statement on the About page true. */
+   when TIP_URL is set, is a plain link. That keeps the privacy statement on the About page true.
+
+   EMAIL and TIP_URL switch parts on. With EMAIL empty the dialog points to GitHub issues only and
+   does not open by itself; set EMAIL only once mail to that address is confirmed to arrive. */
 (function () {
   'use strict';
 
-  var EMAIL = 'contact@bottomtruth.com';
+  var EMAIL = '';
   /* Leave empty until the Ko-fi page exists; set to its address (https://ko-fi.com/...) to show the
      tip paragraph and button. Nothing else needs to change. */
   var TIP_URL = '';
@@ -4342,6 +4345,7 @@ boot();
   var SHOW_AFTER_CLICKS = 5;
   var QUIET_DAYS = 60;
   var KEY = 'bt-support-shown';
+  var ISSUES = 'https://github.com/Rowow1/hardbottom/issues/new/choose';
 
   var box = null, lastFocus = null, clicks = 0, timer = null, autoDone = false, memShown = 0;
 
@@ -4372,23 +4376,26 @@ boot();
     box = document.createElement('div');
     box.id = 'support';
     box.hidden = true;
+    var ask = EMAIL ?
+      '<p>Email <a class="sp-addr" href="mailto:' + EMAIL + '">' + EMAIL + '</a> with:</p>' :
+      '<p>Report on <a href="' + ISSUES + '" target="_blank" rel="noopener">GitHub</a> (a free account is needed):</p>';
     box.innerHTML =
       '<div class="sp-card" role="dialog" aria-modal="true" aria-labelledby="sp-h">' +
       '<button type="button" class="sp-x" aria-label="Close">&times;</button>' +
       '<h3 id="sp-h">Help keep this map accurate</h3>' +
       '<p>Bottom Truth is free, has no ads, and is researched by one person. Divers who know a stretch ' +
-      'of coast are the best way to find what it gets wrong.</p>' +
-      '<p>Email <a class="sp-addr" href="mailto:' + EMAIL + '">' + EMAIL + '</a> with:</p>' +
+      'of coast are the best way to find what it gets wrong.</p>' + ask +
       '<ul><li>a posted sign or closure the map shows differently, with the location and a photo if you have one</li>' +
       '<li>a rule or local ordinance the map is missing</li>' +
       '<li>tips, suggestions and anything that would make the map more useful on a dive day</li></ul>' +
-      '<p class="sp-dim">No account is needed. Each report is checked against the official source before ' +
-      'the map changes, and corrections are listed in the changelog.</p>' +
+      '<p class="sp-dim">' + (EMAIL ? 'No account is needed. ' : '') + 'Each report is checked against the official ' +
+      'source before the map changes, and corrections are listed in the changelog.</p>' +
       (TIP_URL ?
         '<p>If you want to help with costs, you can leave a tip. Tips pay for the domain and for trips to ' +
         'photograph posted closure signs. A tip is a gift: it buys no service and no say in where a line is drawn.</p>' : '') +
       '<div class="sp-btns">' +
-      '<a class="hbtn sp-go" id="sp-mail" href="mailto:' + EMAIL + '">Email a correction or tip</a>' +
+      (EMAIL ? '<a class="hbtn sp-go" id="sp-mail" href="mailto:' + EMAIL + '">Email a correction or tip</a>' :
+        '<a class="hbtn sp-go" href="' + ISSUES + '" target="_blank" rel="noopener">Report on GitHub</a>') +
       (TIP_URL ? '<a class="hbtn" href="' + TIP_URL + '" target="_blank" rel="noopener">Leave a tip</a>' : '') +
       '<button type="button" class="hbtn sp-close">Not now</button>' +
       '</div>' +
@@ -4409,8 +4416,9 @@ boot();
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     });
     /* fill in the map view at the moment the visitor clicks, not when the dialog was built */
-    box.querySelector('#sp-mail').addEventListener('click', function () { this.href = mailHref(); });
-    box.querySelector('.sp-addr').addEventListener('click', function () { this.href = mailHref(); });
+    box.querySelectorAll('#sp-mail, .sp-addr').forEach(function (a) {
+      a.addEventListener('click', function () { this.href = mailHref(); });
+    });
   }
 
   function open() {
@@ -4452,6 +4460,8 @@ boot();
     if (hb) hb.addEventListener('click', function (e) { e.preventDefault(); open(); });
     if (location.hash === '#contact') open();
     window.addEventListener('hashchange', function () { if (location.hash === '#contact') open(); });
+    /* nothing worth interrupting a visitor for until an email address or a tip page exists */
+    if (!EMAIL && !TIP_URL) return;
     if (quiet()) return;
     timer = setTimeout(autoShow, SHOW_AFTER_MS);
     var m = document.getElementById('map');

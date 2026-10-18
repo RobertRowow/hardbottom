@@ -3,20 +3,20 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
-## 17 October 2026: contact address and a contact dialog
+## 17 October 2026: contact dialog
 
 No rule changed.
 
-- **Reports without a GitHub account.** Corrections, posted signs the map shows differently, tips and
-  suggestions can now be emailed to contact@bottomtruth.com. The About page lists the address beside
-  the GitHub issue link and has a new Support section.
-- **Contact dialog.** A Contact button in the header opens a short dialog with the address and what
-  to include. It also opens once by itself, after about three minutes on the map or five clicks on
-  it, and then not again for 60 days. It waits while a side panel or a map popup is open or while the
-  search box has focus. A link to `bottomtruth.com/#contact` opens it directly. The email button fills
-  in the current map view so a report says where the sender was looking.
-- **Tips.** The dialog has a tip paragraph and button that stay switched off until a tip page exists
-  (`TIP_URL` in `js/support.js`). No third-party script or frame is loaded either way.
+- **Contact dialog.** A Contact button in the header opens a short dialog on how to report a posted
+  sign the map shows differently, a missing rule, or a suggestion, and the About page gains a Support
+  section. A link to `bottomtruth.com/#contact` opens the dialog directly.
+- **Email address withdrawn the same evening.** contact@bottomtruth.com was published briefly but
+  has no mailbox behind it; mail sent to it did not arrive. Reports go through GitHub issues until a
+  working address replaces it. Once an address is set, the dialog also opens once by itself, after
+  about three minutes on the map or five clicks on it, then not again for 60 days, and its email
+  button fills in the current map view.
+- **Tips.** A tip paragraph and button stay switched off until a tip page exists (`TIP_URL` in
+  `js/support.js`). No third-party script or frame is loaded either way.
 
 ## 8 October 2026 (later): beach buffer statewide, rebuild without OpenStreetMap
 

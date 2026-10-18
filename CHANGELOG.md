@@ -3,6 +3,21 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
+## 17 October 2026: contact address and a contact dialog
+
+No rule changed.
+
+- **Reports without a GitHub account.** Corrections, posted signs the map shows differently, tips and
+  suggestions can now be emailed to contact@bottomtruth.com. The About page lists the address beside
+  the GitHub issue link and has a new Support section.
+- **Contact dialog.** A Contact button in the header opens a short dialog with the address and what
+  to include. It also opens once by itself, after about three minutes on the map or five clicks on
+  it, and then not again for 60 days. It waits while a side panel or a map popup is open or while the
+  search box has focus. A link to `bottomtruth.com/#contact` opens it directly. The email button fills
+  in the current map view so a report says where the sender was looking.
+- **Tips.** The dialog has a tip paragraph and button that stay switched off until a tip page exists
+  (`TIP_URL` in `js/support.js`). No third-party script or frame is loaded either way.
+
 ## 8 October 2026 (later): beach buffer statewide, rebuild without OpenStreetMap
 
 No rule changed. What changed is where three of the statewide buffers of r. 68B-20.003(2) are drawn.

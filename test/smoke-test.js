@@ -258,6 +258,26 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     await sleep(200);
     check('openSpot / ?spot= opens a spot popup', opened && /Western Sambo/.test(text('.leaflet-popup-content')));
 
+    /* contact and support dialog (js/support.js) */
+    w.FLSpearMap.map.closePopup();
+    check('support: no dialog before it is asked for', !w.document.querySelector('#support:not([hidden])'));
+    w.document.getElementById('contactbtn').click();
+    const sp = w.document.getElementById('support');
+    const spT = text('#support');
+    check('support: Contact button opens the dialog with the contact address',
+      sp && !sp.hidden && /contact@bottomtruth\.com/.test(spT) && /Not legal advice/.test(spT));
+    check('support: no tip link and no third-party frame or script while TIP_URL is empty',
+      !/Leave a tip/.test(spT) && !sp.querySelector('iframe, script') && !/ko-fi/i.test(sp.innerHTML));
+    const ml = w.document.getElementById('sp-mail');
+    ml.addEventListener('click', e => e.preventDefault(), { once: true });
+    ml.click();
+    check('support: email link carries the subject and the map view', /^mailto:contact@bottomtruth\.com\?subject=/.test(ml.href) &&
+      /Map%20view%3A%20/.test(ml.href), ml.href.slice(0, 90));
+    let spMem = null; try { spMem = w.localStorage.getItem('bt-support-shown'); } catch (e) { spMem = 'storage unavailable'; }
+    check('support: opening is remembered so it does not reappear for 60 days', !!spMem, String(spMem));
+    sp.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+    check('support: Escape closes the dialog', sp.hidden);
+
     /* public API still there */
     const api = ['setMode', 'setCategories', 'categories', 'setInland', 'setLaunch', 'flyTo', 'exportGpx', 'exportCsv', 'search', 'whatsHere'];
     check('FLSpearMap API complete', api.every(k => typeof w.FLSpearMap[k] === 'function'));

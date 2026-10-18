@@ -13,9 +13,9 @@ Last reviewed 8 October 2026.
 
 ## Next
 
-5. **A reporting channel that does not need GitHub.** The About page sends error reports to GitHub
-   issues, which only works once the repository is public and needs a GitHub account. A contact
-   email would widen it.
+5. **A reporting channel that does not need GitHub.** Done 17 Oct 2026 in code: contact@bottomtruth.com
+   on the About page and in the Contact dialog. The Hostinger forwarder must exist before this is
+   pushed. Open: a Ko-fi page, then set `TIP_URL` in `js/support.js` and add `.github/FUNDING.yml`.
 6. **Season dates expire.** `regs.json`, `species.json` and several `law.json` lines carry 2026
    dates. The re-check calendar from the 7 Oct 2026 pass: 9, 12, 14, 15, 23 and 28 Oct 2026; 1 Nov
    and 1 Dec 2026; 1 and 5 Jan 2027 (the main sweep, when the 2026 executive orders and temporary

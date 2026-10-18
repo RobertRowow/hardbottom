@@ -141,8 +141,9 @@ to rebuild it, is in [docs/BUILD.md](docs/BUILD.md); field-by-field formats are 
 
 ## Reporting an error
 
-Corrections are the most valuable contribution. Open an issue with the location, what the map
-shows, and what the posted sign or the law says, ideally with a photo of the sign or a link to the
+Corrections are the most valuable contribution. Open an issue, or email contact@bottomtruth.com if
+you have no GitHub account, with the location, what the map shows, and what the posted sign or the
+law says, ideally with a photo of the sign or a link to the
 official text. [CONTRIBUTING.md](CONTRIBUTING.md) sets out the evidence standard for changes, and
 [CHANGELOG.md](CHANGELOG.md) records every correction made.
 

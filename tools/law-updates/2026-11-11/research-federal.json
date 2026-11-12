@@ -121,5 +121,26 @@
    "verbatim": "n/a",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "neg-ecfr-fulltext-2026-11-12",
+  "cite": "eCFR full-text search for spearfishing, speargun, 'spear gun', spears, powerhead and rebreather, all titles, 12 Nov 2026",
+  "title": "Every C.F.R. section that mentions spears is either in the registry or outside Florida (confirmed negative)",
+  "juris": "federal",
+  "kind": "negative",
+  "url": "https://www.ecfr.gov/api/search/v1/results?query=%22spearfishing%22",
+  "effect": "The eCFR search returned 58 sections across all titles. Every section that applies in or off Florida is already in the registry (15 C.F.R. § 922.164; 36 C.F.R. §§ 1.4 and 7.27; 50 C.F.R. §§ 27.43, 32.28, 600.725, 622.2, 622.9, 622.35, 622.180, 622.182, 622.187, 622.188, 622.272 and 635.21). The rest govern other places (American Samoa, Gray's Reef in Georgia, the Virgin Islands, Puerto Rico, the Pacific islands, Alaska subsistence fishing, the Ozarks) or are definitions with no rule of their own.",
+  "excerpt": "[Method: ecfr.gov/api/search/v1/results queried in the author's Chrome for each quoted term, up to 500 results per term, and the section list compared against the registry's citations.]",
+  "full": null,
+  "verified": "secondary",
+  "scope": "Code of Federal Regulations, current as rendered by eCFR on 12 Nov 2026.",
+  "note": "Recorded so the federal layer's completeness for spear terms is on file. Terms that never mention spears (security zones, restricted areas, refuge closures) were checked separately in neg-cfr-165-2026-11-12 and neg-federal-parks-2026-11-12.",
+  "geom": null,
+  "axes": {
+   "in_force": "current eCFR",
+   "subsection": "n/a",
+   "verbatim": "method note only",
+   "url_resolves": "yes"
+  }
  }
 ]

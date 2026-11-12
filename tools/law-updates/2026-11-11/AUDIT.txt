@@ -5,6 +5,7 @@
 2026-11-11/research-federal | cfr-165-hurricane-ports | added
 2026-11-11/research-federal | neg-cfr-165-2026-11-12 | added
 2026-11-11/research-federal | neg-federal-parks-2026-11-12 | added
+2026-11-11/research-federal | neg-ecfr-fulltext-2026-11-12 | added
 2026-11-11/research-state | fac-68b-14-0036 | updated title,effect,excerpt,verified,url,note
 2026-11-11/research-state | neg-currency-2026-11-11 | added
 2026-11-11/research-state | neg-68b-3-broward-8636 | added

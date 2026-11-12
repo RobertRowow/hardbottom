@@ -57,8 +57,9 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
 - **Canal rules drawn.** The Melbourne Beach (§ 40-33), Satellite Beach (§ 66-1) and Cocoa Beach
   (§ 5-56) canal gear rules are now drawn closed over the USGS NHD canal areas inside each city, in
   place of the markers; Satellite Beach and Cocoa Beach draw every canal in the city, a superset of
-  the listed ones. Cape Coral, Sanibel, Pinellas County, Brevard County and Collier County canal rules
-  are still text and markers: their canal networks are too large to move through the browser.
+  the listed ones. Sanibel's canals are drawn the same way. Cape Coral, Pinellas County, unincorporated
+  Brevard and unincorporated Collier canal rules now have markers; their canal networks are too large
+  to move through the browser and are not drawn.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

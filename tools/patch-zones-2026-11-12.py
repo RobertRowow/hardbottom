@@ -350,6 +350,34 @@ Z.append(dict(
     src="USGS National Hydrography Dataset (high resolution) canal areas inside the TIGERweb city boundary.",
     flag="Every NHD canal area inside the city is drawn, a superset of the listed canals; the list after item (12) was not read."))
 
+Z.append(dict(
+    id="loc-sanibel-canals", n="Sanibel: hook and line, hand-held cast net or crab traps only in manmade saltwater canals",
+    law=["sanibel-85-440"], cat="local", kind="closed", r=dec_parts("SAN"), line=[], pts=[], active=None,
+    s="<b>Taking saltwater fish in any manmade saltwater canal in Sanibel by any method other than hook and line, a hand-held cast net or up to five blue crab traps is prohibited.</b> Spearing is not an allowed method.",
+    src="USGS National Hydrography Dataset (high resolution) canal areas inside the TIGERweb city boundary (pulled.txt line SAN).",
+    flag="Every NHD canal area inside the city is drawn; a few interior ditches may hold fresh water, where a speargun may not be carried anyway."))
+CANAL_MK = [
+    ("loc-capecoral-canals", "Cape Coral: hook and line or blue crab traps only in manmade saltwater canals", "capecoral-78-483", [26.64319, -81.99736],
+     "<b>Taking saltwater fish in any manmade saltwater canal in Cape Coral by any method other than hook and line or up to five blue crab traps is prohibited.</b> Spearing is not an allowed method.",
+     "Marker at the US Census TIGERweb internal point of the city. Not a boundary.",
+     "Every manmade saltwater canal in the city, roughly 400 miles of them, is covered. The canal network is too large to move through the browser pipeline and is not drawn."),
+    ("loc-pinellas-canals", "Pinellas County: hook and line, hand cast net or blue crab traps only in manmade saltwater canals", "pinellas-14-97", [27.90521, -82.79979],
+     "<b>Taking saltwater fish in any manmade saltwater canal in Pinellas County by any other method, spearing included, is prohibited.</b> The text reaches every manmade canal in the county, cities included.",
+     "Marker at the US Census TIGERweb internal point of the county. Not a boundary.",
+     "Every manmade saltwater canal in the county is covered and none is drawn."),
+    ("loc-brevard-canals", "Unincorporated Brevard: hook and line or hand cast net only in residential manmade saltwater canals", "brevard-122-3", [28.30924, -80.67596],
+     "<b>Taking fish from any residential manmade saltwater canal in unincorporated Brevard County by any method other than hook and line or a hand-thrown cast net is prohibited.</b> Marker: Merritt Island.",
+     "Marker at the US Census TIGERweb internal point of the Merritt Island census designated place. Not a boundary.",
+     "Every residential manmade canal in unincorporated Brevard (Merritt Island, the barrier island outside the cities, the mainland) is covered and none is drawn."),
+    ("loc-collier-canals", "Unincorporated Collier: hook and line, hand cast net or crab traps only in the listed residential canals", "collier-210-67", [25.98282, -81.72852],
+     "<b>Taking saltwater fish in the residential manmade canals of unincorporated Collier County listed in Exhibit A, Isles of Capri first, by any method other than hook and line, hand-held cast nets or up to five crab traps is prohibited.</b>",
+     "Marker at Isles of Capri, geocoded. Not a boundary.",
+     "Exhibit A was not read in full; treat every residential canal in unincorporated Collier as covered."),
+]
+for zid, n, law, pt, s, src, flag in CANAL_MK:
+    Z.append(dict(id=zid, n=n, law=[law], cat="local", kind="warn", r=[], line=[], pts=[pt], active=None,
+                  s=s, src=src, flag="GEOMETRY NOT MAPPED. " + flag))
+
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]
 ADD = {"loc-venice": "venice-46-64", "usace-334-580-porteverglades": "pev-tariff-280"}

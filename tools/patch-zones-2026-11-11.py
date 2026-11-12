@@ -66,7 +66,11 @@ data = {}
 for ln in io.open(os.path.join(G, "pulled.txt"), encoding="utf-8").read().split("\n"):
     if ln.startswith("DATA\t"):
         npr, sem = ln[5:].split("#")
-        data["NPR"], data["SEM"] = dec(npr), dec(sem)
+        for k, v in (("NPR", npr), ("SEM", sem)):
+            # simplification left a few rings touching themselves; buffer(0) repairs them without
+            # moving any edge, and enclaves stay filled because only exterior rings are kept
+            fixed = unary_union([Polygon(proj(r)).buffer(0) for r in dec(v)])
+            data[k] = rings_ll(fixed, tol=0)
 
 # Riviera Beach, Code § 13-31(a)(2): Lake Worth north of SR 703 and Phil Foster Park, east to the Singer
 # Island shore, west to a line 1,000 ft west of that shore, north to a line 1,000 ft north of SR 703.

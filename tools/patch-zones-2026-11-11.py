@@ -125,6 +125,16 @@ Z.append(dict(
     src="Marker at the centroid of the TIGER incorporated place 'St. Marks city'. Not a boundary.",
     flag="GEOMETRY NOT MAPPED. The section does not name the river, and the city sits where the St. Marks and Wakulla rivers meet. Treat both rivers inside the city as covered."))
 
+# Naples Special Acts art. 2 § 1 (Laws of Fla. ch. 90-469 as amended by ch. 92-258): canal entrance
+# points from the act's own table, degrees-minutes-seconds converted to decimal degrees
+NAPLES = [[float(a), float(b)] for a, b in (p.split(",") for p in "26.10389,-81.78833;26.10083,-81.78889;26.10083,-81.79667;26.10167,-81.79778;26.09611,-81.79889;26.11917,-81.79306;26.12250,-81.79333;26.12667,-81.79167;26.12750,-81.79389;26.12833,-81.79556;26.12944,-81.79583;26.12056,-81.78556;26.11944,-81.78694;26.11778,-81.78917;26.12639,-81.78806;26.12722,-81.78778;26.13056,-81.78722;26.13111,-81.78778;26.13250,-81.78861;26.13444,-81.78750;26.13556,-81.78778;26.13667,-81.78778;26.13778,-81.78750;26.17444,-81.81444".split(";"))]
+Z.append(dict(
+    id="loc-naples-canals", n="Naples: hook and line, cast net or crab trap only in the listed residential canals (no spearing)",
+    law=["naples-90-469"], cat="local", kind="warn", r=[], line=[], pts=NAPLES, active=None,
+    s="<b>Taking saltwater fish in the residential man-made canals of Naples listed in the 1990 special act is limited to hook and line, hand-held cast nets and up to five crab traps, for the full length and width of each canal from its entrance point.</b> The markers are the act's own entrance points for the Port Royal, Aqualane Shores, East Naples Bay and Moorings Bay canals.",
+    src="Markers: the 24 distinct entrance coordinates printed in the act's canal table (degrees, minutes, seconds; datum not stated). Checked on imagery: they sit at canal mouths on Naples Bay and Moorings Bay.",
+    flag="Only the entrance points are drawn. Every canal behind each point, for its full length and width, is covered and is not drawn. The coordinates are printed to the whole second, about 30 m."))
+
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]
 for z in Z:
@@ -132,7 +142,7 @@ for z in Z:
     zs[:] = [x for x in zs if x["id"] != z["id"]]
     zs.append(z)
 ADD = {"clw2106": "clearwater-8-08", "loc-venice": "venice-46-134", "loc-sib": "sunnyisles-201-6",
-       "loc-boca-inlet": "bocaraton-11-81"}
+       "loc-boca-inlet": "bocaraton-11-81", "loc-deerfield-beach": "deerfield-74-31"}
 for x in zs:
     if x["id"] in ADD and ADD[x["id"]] not in x["law"]:
         x["law"].append(ADD[x["id"]])

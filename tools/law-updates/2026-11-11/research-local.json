@@ -418,5 +418,60 @@
    "verbatim": "yes",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "cocoabeach-5-56",
+  "cite": "City of Cocoa Beach Code § 5-56(a)",
+  "title": "Cocoa Beach: hook and line or hand-thrown cast net only in the listed residential canals (no spearing)",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/cocoa_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH5BEFIBOWA_ARTIVINGE_S5-56FIMDESAWARECA",
+  "effect": "Taking fish by any means other than hook and line or a hand-thrown cast net is banned in the residential saltwater canals listed in (a)(1) to (12) and beyond, which cover the city's canal subdivisions on the Banana River side. Spearing is not among the allowed methods.",
+  "excerpt": "(a) Restricted areas. It shall be unlawful for any person to catch or take fish from the following salt water residential canals by means other than hook and line or cast net thrown by hand:",
+  "full": "(1) The canal lying between Willow Green Drive and Country Club Road bounded on the west by the exterior bulkhead line. (2) The canal located between Danube River Drive and Crystal River Drive. (3) Those canals bounded on the south by 4th Street South, bounded on the west by the interior bulkhead line, bounded on the north by Minutemen Causeway, and bounded by Brevard Avenue on the east. (4) Those canals lying within an area bounded on the south by Minutemen Causeway; bounded on the west by Crystal River Drive, and all other canals lying easterly of the interior bulkhead line; and bounded on the north by Andros Avenue and St. Croix Avenue. ... (6) The dredged major canal between the city's interior and exterior bulkhead lines, extending from the north end of Crystal River Drive northward to the west end of Andros Avenue. (7) The dredged major canal between the city's interior and exterior bulkhead lines, extending from the northwest corner of Yawl Drive residential land southward to the south city limits.",
+  "verified": "verbatim",
+  "scope": "Listed residential canals in the City of Cocoa Beach.",
+  "note": "Read 12 Nov 2026 in the author's Chrome through api.municode.com search (client Cocoa Beach, product 13994) with a 4,000 character fragment, because the content service returned the node empty on 8 Oct 2026. The fragment ends partway through item (12), so the list after (12) and the history note were not read; the lead-in quoted as the excerpt is complete. Closes the Cocoa Beach part of open question 28. Not drawn: the canals are described by streets and bulkhead lines.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(a) lead-in; (a)(1) to (11)",
+   "verbatim": "yes for the lead-in and items quoted",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "deerfield-74-31",
+  "cite": "City of Deerfield Beach Code § 74-31(b)(4)",
+  "title": "Deerfield Beach: no swimming or diving into a marked No Entry Area off the city beaches",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/deerfield_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH74WA_ARTIIBO_DIV1GE_S74-31VEEXZO",
+  "effect": "All persons, swimming, diving or wading, are barred from entering a marked No Entry Area. The section also sets a vessel exclusion zone about 400 ft east of mean high water along the city's beaches, shown on an Exhibit A held by the city clerk. No No Entry Area is located in the code text; they exist only where marked.",
+  "excerpt": "(4) \"No Entry Area\" - All vessels and all persons, either in vessels or swimming, diving or wading, are prohibited from entering the marked area.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Marked areas off the Deerfield Beach beaches.",
+  "note": "Read 12 Nov 2026 in the author's Chrome through the Municode content service. History: (Ord. No. 2018/004, § 2, 1-16-18). Closes the 30 Sep 2026 read owed on § 74-31. Not drawn: the marked areas are buoys on site and an exhibit, not a dataset; carried on the Deerfield Beach beach marker.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(b)(4), (c)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "naples-90-469",
+  "append": [
+   "note"
+  ],
+  "note": "Canal table read in full 12 Nov 2026 through the Municode content service (product 13804): four groups, (1) Port Royal, (2) Aqualane Shores, (3) East Naples Bay and (4) the Moorings Bay system, 45 rows with 24 distinct entrance positions given in degrees, minutes and seconds; the section's history reads (Laws of Fla. ch. 92-258, § 1), so the table as printed is the 1992 version. The rule covers 'the full length and width of the canal beginning at the entrance point'. The 24 entrance points are drawn as markers (loc-naples-canals); datum not stated, and a whole second of arc is about 30 m.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 1 table",
+   "verbatim": "coordinates as printed",
+   "url_resolves": "yes"
+  }
  }
 ]

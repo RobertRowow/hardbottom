@@ -58,5 +58,68 @@
    "verbatim": "yes",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "cfr-165-hurricane-ports",
+  "cite": "33 C.F.R. §§ 165.706(c)(4), 165.707(c)(4), 165.849",
+  "title": "Hurricane port conditions: Coast Guard closes Florida ports to vessel traffic under Port Condition ZULU",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.ecfr.gov/current/title-33/section-165.707",
+  "effect": "When the Captain of the Port sets Port Condition ZULU before a storm, the Key West zone (§ 165.707) and the Sector Mobile zone, which covers the western Panhandle (§ 165.849), close to all vessel traffic except as authorized; in the Sector Miami zone (§ 165.706) all port waterfront operations are suspended. A dive boat leaving port during a storm closure is covered. These are not drawn: they apply to whole Coast Guard zones and only while a condition is set.",
+  "excerpt": "Port Condition ZULU. The port is closed to all vessel traffic except as specifically authorized by the COTP.",
+  "full": "§ 165.706(c)(4): \"Port Condition ZULU. All port waterfront operations are suspended, except final preparations that are expressly permitted by the COTP as necessary to ensure the safety of the ports and facilities.\" § 165.849: \"Port Condition ZULU. Regulated areas are closed to all vessel traffic except those specifically authorized by the COTP.\"",
+  "verified": "verbatim",
+  "scope": "Sector Miami, Key West and Sector Mobile Captain of the Port zones.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on the eCFR renderer; §§ 165.706, 165.707 and 165.849 all carry version dates of 28 Sep 2026 (a Coast Guard nomenclature or consolidation change; § 165.849 was published at 91 FR 55479 on 28 Aug 2026). The excerpt is § 165.707(c)(4). Not a spearfishing rule; recorded so the map's federal layer is complete. Watch for broadcast notices to mariners when a storm approaches. Sector Jacksonville and Sector St. Petersburg sections were not found among the versions changed since May 2026 and were not read.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(c)(4)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-cfr-165-2026-11-12",
+  "cite": "33 C.F.R. parts 165 and 334, Federal Register and eCFR checks, 12 Nov 2026",
+  "title": "No new permanent Coast Guard security zone or Army Corps restricted area in Florida since June 2026 (confirmed negative)",
+  "juris": "federal",
+  "kind": "negative",
+  "url": "https://www.ecfr.gov/current/title-33/part-165",
+  "effect": "No permanent security zone, safety zone or regulated area in Florida waters was added to 33 C.F.R. part 165 between 1 Jun and 12 Nov 2026 apart from the hurricane port-condition sections, and no Florida section of part 334 changed. Temporary zones for events (races, fireworks, air shows) were published and expire on their own; they are not drawn.",
+  "excerpt": "[eCFR versioner for parts 165 and 334, substantive versions dated 1 May 2026 or later, filtered to Florida sections; Federal Register final and proposed rules in title 33 from 1 Jun 2026 filtered for Florida place names.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Florida waters.",
+  "note": "Checked 12 Nov 2026 in the author's Chrome: eCFR versioner title-33 parts 165 and 334; Federal Register API, CFR title 33 part 165 rules (13 Florida-named documents since 1 Jun 2026, 11 of them temporary; the other two are § 165.849 and a one-day Key West swim event) and title 33 proposed rules. §§ 165.793, 165.809, 165.847 and 165.848 changed but are in the Virgin Islands and Texas.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-federal-parks-2026-11-12",
+  "cite": "36 C.F.R. parts 1, 2 and 7; 50 C.F.R. parts 17, 26, 27, 32, 600 and 622; 15 C.F.R. part 922; NPS compendium pages; checked 12 Nov 2026",
+  "title": "No federal park, refuge, sanctuary or fishery rule affecting spearfishing changed between 1 Oct and 12 Nov 2026 apart from § 622.187 (confirmed negative)",
+  "juris": "federal",
+  "kind": "negative",
+  "url": "https://www.ecfr.gov/current/title-36/part-7",
+  "effect": "No substantive eCFR version since 1 Oct 2026 in 36 C.F.R. parts 1, 2 or 7 (including §§ 7.27 Dry Tortugas and 7.45 Everglades), 50 C.F.R. §§ 17.108, 32.28, parts 26, 27, § 600.725, or 15 C.F.R. § 922.16x. In part 622, §§ 622.34 and 622.39 changed on 6 Oct 2026 (Gulf Amendment 62, already recorded) and § 622.183 on 28 Oct 2026 changed only commercial trap, pot and golden tilefish longline provisions. Biscayne's compendium is still the one approved 17 Sep 2025 (page updated 22 Jun 2026); Everglades' compendium page (updated 31 Aug 2026) has no spear, projectile, diving or snorkeling provision, so 36 C.F.R. § 7.45 governs; Gulf Islands (1 Sep 2026) and Canaveral (12 Jun 2026) are unchanged since the October reads.",
+  "excerpt": "[eCFR versioner, substantive versions dated 1 Oct 2026 or later, for the parts and sections listed; NPS compendium pages for BISC, EVER, GUIS and CANA fetched and searched.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Federal parks, refuges, sanctuary and fisheries in and off Florida.",
+  "note": "Checked 12 Nov 2026 in the author's Chrome. § 622.183 was compared between its 27 Oct and 28 Oct 2026 versions on the eCFR renderer; the changed paragraphs are (b)(5)(i)(E), (F) and (b)(11). The standard compendium URLs for Dry Tortugas, Timucuan and Big Cypress return 404; Dry Tortugas is governed by § 7.27, Big Cypress is fresh water. Timucuan's compendium was not found.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
  }
 ]

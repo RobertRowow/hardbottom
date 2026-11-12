@@ -76,5 +76,47 @@
    "verbatim": "paraphrase in note only",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "far-31403864",
+  "cite": "Fla. Admin. Register notice 31403864 (23 Sep 2026, Vol. 52/185), notice of rule development, rr. 68B-35.001 to 68B-35.004",
+  "title": "FWC is developing new African pompano rules, including gear, to move into a new chapter 68B-66 (not in force)",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/View_notice.asp?id=31403864",
+  "effect": "Development only. FWC may change definitions, size and bag limits and gear rules for African pompano in state and adjacent federal waters, moving them to a new ch. 68B-66. Bears on open question 29 (whether spearing African pompano is allowed in federal waters). Nothing changes until a rule is adopted.",
+  "excerpt": "The purpose of this rule development notice is to address potential rule amendments for African pompano in Florida state waters and adjacent federal waters to ensure the continuing health and abundance of the species. The effect of these rule changes would be to modify management measures for African pompano in Florida state and federal waters, as well as to move rules regarding African pompano from Chapter 68B-35, F.A.C., to a new rule chapter, Chapter 68B-66, F.A.C.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Statewide and adjacent federal waters.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on flrules.org. Found by checking the notice history of every rule in chs. 68B-1 to 68B-62, 68C-22, 68A-19, 68A-23, 62D-2, 18-18, 18-20, 18-21 and 68D-24 (589 rules) for notices dated 1 Jun 2026 or later. The other open notices are not spearfishing rules: oyster spat licence (68B-8), Big Bend oysters (68B-27), cownose ray workshop (68B-44), shad (68B-52), Lake Okeechobee correction (68A-23.012), and boating restricted area criteria after ch. 2026-36 amended § 327.46 (68D-24.003, proposed 8 Sep 2026). Watch for a proposed rule.",
+  "geom": null,
+  "axes": {
+   "in_force": "development notice only",
+   "subsection": "purpose and effect",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-statutes-2026-11-12",
+  "cite": "Fla. Stat. §§ 379.101, 379.2401, 379.2402, 379.2412, 379.2425, 379.2431, 379.247, 379.2495, 379.2511, 379.354, 379.3671, 379.401, 379.407, 327.331, 790.33, 258.008, 253.12 (2026 edition)",
+  "title": "No 2026 session law amended the statutes the map relies on (confirmed negative)",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0379/Sections/0379.2425.html",
+  "effect": "The 2026 Florida Statutes show no 2026 chapter law in the history note of any listed section. § 379.101 was last amended in 2025 (ch. 2025-8) and its subsection (33) salt-water definition stands. § 327.46 (boating restricted areas) was amended by ch. 2026-36, which widens when local governments may create boating restricted areas; that is not a fishing or diving rule.",
+  "excerpt": "[Online Sunshine, The 2026 Florida Statutes, history notes of the listed sections read 12 Nov 2026.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Statewide.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on leg.state.fl.us.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "history notes",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
  }
 ]

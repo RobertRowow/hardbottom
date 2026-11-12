@@ -494,5 +494,425 @@
    "verbatim": "yes",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "pompano-98-02",
+  "cite": "City of Pompano Beach Code § 98.02(M), (N)",
+  "title": "Pompano Beach: no spearfishing guns, gigs or slings on the beach or in the waters of the public beach; no scuba within 50 yd of shore",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/pompanobeach/latest/pompanobeach_fl/0-0-0-83061",
+  "effect": "Using an underwater spearfishing gun, gig, sling, bow or similar gun on the beach or in the waters of the public beach is unlawful. Scuba diving within 50 yd east of the high tide line of all public beach areas is unlawful except when entering or leaving the water; snorkeling from the beach is allowed with a diver-down flag. How far 'the waters of the public beach' reach is not stated.",
+  "excerpt": "(M) Have or use surfboats or sailing devices or anything of a hard surface which can injure persons; use underwater spear-fishing guns, gigs, slings, bows or other type guns, excluding firearms which are subject to regulation under Chapter 790 F. S., on the beach or in the waters of the public beach. (N) Scuba diving within 50 yards eastward from the high tide line of all Public Beach areas, except when entering or leaving the water.",
+  "full": "Lead-in: \"It shall be unlawful for any person to do any acts hereafter set out on the cultural or recreational facilities described in § 98.01 or on other public properties.\" (N) continues: \"Snorkeling shall be permitted from the Public Beach. Divers must have an approved diver's down flag displayed in accordance with state requirements.\"",
+  "verified": "verbatim",
+  "scope": "City of Pompano Beach public beach and its waters.",
+  "note": "Found 12 Nov 2026 by a statewide search of every Florida code on American Legal (codelibrary.amlegal.com search API with includeRegions fl), then read on the chapter page in the author's Chrome. History begins (Ord. 713, passed 7-28-59; ...). NEW: the 30 Sep 2026 sweep had only §§ 91.22 and 98.12 for Pompano Beach. Drawn as a marker on the beach (loc-pompano-beach); the state 100 yd beach buffer already covers the nearshore water.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, code current through Ord. 2026-55",
+   "subsection": "(M), (N) and lead-in",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "mexicobeach-95-02",
+  "cite": "City of Mexico Beach Code § 95.02(A)(1), (2)",
+  "title": "Mexico Beach: no diving from the city pier, and no swimming within 50 ft of it",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/mexicobeach/latest/mexicobeach_fl/0-0-0-2707",
+  "effect": "No diving from the city pier and no swimming or otherwise occupying the water within 50 ft of it. The statewide 100 yd pier buffer already closes this water to spearfishing.",
+  "excerpt": "(1) It shall be unlawful for any person to dive from, launch boats from, or throw/push any articles, items or other paraphernalia, other than fishing tackle, from the pier. (2) It shall be unlawful for any person to swim, ride surfboards, operate boats of any kind, or otherwise occupy the waters within a 50-foot area of the pier.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Mexico Beach city pier.",
+  "note": "Found 12 Nov 2026 by the statewide American Legal search and read from the search service's large snippet in the author's Chrome. Not drawn: inside the state pier buffer.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(A)(1), (2)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-amlegal-fl-2026-11-12",
+  "cite": "Every Florida code hosted on American Legal (codelibrary.amlegal.com), statewide search, 12 Nov 2026",
+  "title": "American Legal Florida codes: no spear, scuba or diving rule beyond those recorded (confirmed negative)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://codelibrary.amlegal.com/regions/fl",
+  "effect": "A region-wide search of all Florida codes on American Legal for spear, speargun, spearfishing, harpoon, scuba, snorkel, skin diving, gig, underwater, diving, lance and projectile returned only Hollywood and Pompano Beach water rules (already recorded or added above), the Mexico Beach pier rule, Hollywood § 92.05 (manatee harassment, not a fishing closure), and land-use, tax and definition sections in Palm Shores, Pembroke Pines, Palm Bay and Weston. Melbourne Beach, Briny Breezes and Palm Bay have no spear or diving rule in that search; Melbourne Beach § 40-33 (canals) uses none of the search words and was read separately.",
+  "excerpt": "[codelibrary.amlegal.com/api/search, includeRegions fl, stemming on, 12 search terms, all result pages.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Florida jurisdictions hosted on American Legal.",
+  "note": "Searched 12 Nov 2026 in the author's Chrome. This replaces the section-by-section pass of 12 Nov 2026 that was stopped as too slow. The search service's query parameter is a deflate-compressed, base64 JSON object; the request shape is recorded in reads.md.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "stauguestine-7-55",
+  "cite": "City of St. Augustine Code § 7-55",
+  "title": "St. Augustine: no swimming in or within 500 ft of the municipal marina",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/st._augustine/codes/code_of_ordinances?nodeId=PTIICOOR_CH7BOBEWA_ARTIIIMUMA_S7-55SW",
+  "effect": "No swimming, freediving included, in or within 500 ft of the St. Augustine Municipal Marina on the Matanzas River by the Bridge of Lions.",
+  "excerpt": "It is unlawful for any person to swim in or within five hundred (500) feet of the municipal marina. (Code 1964, § 16-8(a))",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of St. Augustine municipal marina.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "panamacity-5-46",
+  "cite": "City of Panama City Code § 5-46",
+  "title": "Panama City: no swimming within 300 ft of any city-owned marina",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/panama_city/codes/code_of_ordinances?nodeId=SPAGEOR_CH5BODOWA_ARTIIMUPIDO_S5-46SW",
+  "effect": "No swimming within 300 ft of any city-owned marina (Panama City Marina and St. Andrews Marina) or its docks and breakwaters.",
+  "excerpt": "It shall be unlawful for any person to swim within 300 feet of any city-owned marina or any of its appurtenances. (Code 1982, § 6-40; Code 1992, § 6-46)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City-owned marinas in Panama City.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "miami-50-228",
+  "cite": "City of Miami Code § 50-228",
+  "title": "Miami: no swimming, diving or fishing in Dinner Key, Miamarina or Watson Island marina waters",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/miami/codes/code_of_ordinances?nodeId=PTIITHCO_CH50SHVEWA_ARTVCIMA_DIV1GE_S50-228SWDIFIMAWAPR",
+  "effect": "No swimming, diving or fishing in the waters of the Dinner Key yacht basin, Miamarina (Bayside) or Watson Island Marina.",
+  "excerpt": "It shall be unlawful for any person to swim, dive or fish in the waters of Dinner Key yacht basin, Miamarina or Watson Island Marina. (Code 1967, § 50-7; Code 1980, § 53-34)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Three City of Miami marinas.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "tampa-14-203",
+  "cite": "City of Tampa Code § 14-203",
+  "title": "Tampa: no swimming in any boat channel or boating zone, or within 200 ft of a boat ramp",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/tampa/codes/code_of_ordinances?nodeId=COOR_CH14OF_ARTVBODOWA_S14-203SWBOCH",
+  "effect": "No swimming or wading in any boat channel or boating zone in the City of Tampa, or within 200 ft of any boat ramp. A freediver in a marked channel in Tampa is swimming in it.",
+  "excerpt": "It is unlawful for any person to swim or wade in any boat channel or boating zone or within two hundred (200) feet of a boat ramp within the city. (Ord. No. 2012-38, § 12, 4-5-2012)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Tampa.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "callaway-10-5-18",
+  "cite": "City of Callaway Code § 10.5-18(b)",
+  "title": "Callaway: no swimming within 100 ft of a public bridge, boat ramp or dock",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/callaway/codes/code_of_ordinances?nodeId=PTIICOOR_CH10.5PARE_S10.5-18CEACPRVIPUBRBORADO",
+  "effect": "No swimming within 100 ft of any public bridge, boat ramp or dock in Callaway (Bay County).",
+  "excerpt": "(b) It shall be unlawful and a violation of this chapter to swim within 100 feet of a public bridge, boat ramp, or dock.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Callaway.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "lynnhaven-42-19-20",
+  "cite": "City of Lynn Haven Code §§ 42-19(e), 42-20(b)",
+  "title": "Lynn Haven: no swimming within 100 ft of a public bridge, or in a boat basin or its channel to the bay",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/lynn_haven/codes/code_of_ordinances?nodeId=SPAGEOR_CH42PARE_ARTIINGE_S42-20CEACPRVIPUBR",
+  "effect": "No swimming within 100 ft of any public bridge in Lynn Haven; § 42-19(e) adds no swimming in or out of any boat basin and the channel connecting the basin with the bay.",
+  "excerpt": "(b) It shall be unlawful and a violation of this chapter to swim within 100 feet of a public bridge.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Lynn Haven.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned. § 42-19(e): \"It shall be unlawful to swim or water ski in or out of any boat basin and the channel connecting the basin with the bay. (Code 1962, § 16-1(r))\"",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "§ 42-20(b); § 42-19(e)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "carrabelle-74-66",
+  "cite": "City of Carrabelle Code § 74-66(a)",
+  "title": "Carrabelle: no swimming from or within 50 ft of the municipal docks",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/carrabelle/codes/code_of_ordinances?nodeId=PTIICOOR_CH74WA_ARTIIIMUDOFA_S74-66PRAC",
+  "effect": "No swimming from or within 50 ft of the city's municipal docking facilities.",
+  "excerpt": "(a) No person shall swim from or within 50 feet of the docks;",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Carrabelle municipal docks.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(a)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "belleairbeach-30-195",
+  "cite": "City of Belleair Beach Code § 30-195(b)",
+  "title": "Belleair Beach: no swimming or diving in the city marina",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/belleair_beach/codes/code_of_ordinances?nodeId=PTIICICO_CH30MASTACFA_ARTVBEBEMA_S30-195BIROSKROBLSKSWDI",
+  "effect": "No swimming or diving inside the Belleair Beach city marina. The code calls the marina city-owned property but does not say where it is, and it was not identified on imagery, so it is not drawn. A separate section bars diving or jumping from the Causeway Boulevard bridge immediately east of City Hall.",
+  "excerpt": "(b) All swimming and diving shall be prohibited within the marina. (Ord. No. 94-17, § 28-14, 10-17-1994)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Belleair Beach marina.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "annamaria-66-44",
+  "cite": "City of Anna Maria Code § 66-44(c)",
+  "title": "Anna Maria: no swimming in Lake LaVista Inlet",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/anna_maria/codes/code_of_ordinances?nodeId=PTIICOOR_CH66WA_ARTIIBO_DIV2SAST_S66-44ADPRAC",
+  "effect": "No swimming in Lake LaVista Inlet. The code does not locate the inlet. Local reporting places the Lake La Vista inlet and its rock jetty on the Tampa Bay shore of Anna Maria just west of the City Pier; the map's marker sits at the channel mouth read off imagery there. The same section bars jumping from any bridge in the city.",
+  "excerpt": "(c) Swimming in Lake LaVista Inlet is prohibited. (Ord. No. 17-832, § 2, 7-13-17)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Lake LaVista Inlet, City of Anna Maria.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned. Re-read 12 Nov 2026 with the rest of division 2 (§§ 66-36 to 66-45): no section locates the inlet, and the code holds no Bean Point swimming ban (the September 2025 emergency ban was vetoed).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(c)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "collier-146-51",
+  "cite": "Collier County Code § 146-51(g)",
+  "title": "Collier County beaches: no swimming within 150 ft of a pier or jetty",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/collier_county/codes/code_of_ordinances?nodeId=PTICO_CH146WA_ARTIICOCOCOWABEOR_DIV3BEWASA_S146-51REUSCOBE",
+  "effect": "On the beaches the section regulates, no swimming within 150 ft of any pier or jetty, which is larger than the 100 ft statewide jetty buffer.",
+  "excerpt": "(g) Swimming. No person, except a person actually engaged in a rescue attempt, shall: (1) Swim or bathe within 150 feet measured in any direction from a pier or jetty; or (2) Swim or bathe in any area posted exclusively for vessel and/or sailcraft use.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Collier County beaches regulated by § 146-51.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(g)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "marathon-36-177",
+  "cite": "City of Marathon Code § 36-177(b)",
+  "title": "Marathon: no diving or snorkeling in canals, marinas or within 300 ft of improved shoreline during lobster mini-season",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/marathon/codes/code_of_ordinances?nodeId=PTIICOOR_CH36WA_ARTVIIDISNRE_S36-177DISNREDUTYSPLOSE",
+  "effect": "During the two-day lobster mini-season, no diving or snorkeling in any navigable canal or marina, or within 300 ft of improved residential or commercial shoreline, in the City of Marathon. A map is kept at City Hall.",
+  "excerpt": "(b) Diving and snorkeling prohibited. It is a public nuisance and unlawful for any person to dive or snorkel in any navigable canal, marine, or within 300 feet of an improved residential or commercial shoreline during the entirety of the lobster mini-season.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Marathon.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned. The text reads 'marine', meaning marina.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "flaglerbeach-6-3",
+  "cite": "City of Flagler Beach Code § 6-3",
+  "title": "Flagler Beach: no swimming within 150 ft either side of the municipal pier",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/flagler_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH6BERE_ARTIINGE_S6-3SWNEPI",
+  "effect": "No swimming within 150 ft either side of the Flagler Beach pier; lifeguards may expand the area. Inside the statewide 100 yd pier buffer.",
+  "excerpt": "It shall be unlawful for any person, other than lifeguards or other emergency personnel acting in the course of official duty, to swim within one hundred fifty (150) feet on either side of the municipal pier; provided, however, that due to adverse conditions the restricted area may be expanded at the discretion of the lifeguard on duty. (Ord. No. 82-23, § 1, 9-9-82)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Flagler Beach municipal pier.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "venice-46-64",
+  "cite": "City of Venice Code § 46-64",
+  "title": "Venice Fishing Pier: no swimming or surfing within 150 ft of the pier centreline",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPAGEOR_CH46PARE_ARTIIICOPA_S46-64VEFIPI",
+  "effect": "No diving from, or swimming within 150 ft of, the Venice Fishing Pier. Venice is drawn closed citywide already.",
+  "excerpt": "dive or jump from the fishing pier or swim or surf within 150 feet of the centerline of the pier structure.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Venice Fishing Pier.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned. The quoted words are item text from a numbered list that opens: \"In addition to the rules and regulations set forth in section 46-62, the following rules and regulations shall be in effect for use at the Venice Fishing Pier:\".",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "as quoted",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "neg-manatee-2-21-3",
+  "cite": "Manatee County Code § 2-21-3",
+  "title": "Manatee County: the 'spear fishing prohibited in certain areas, § 2-21-3' cross-reference points to a reserved section (confirmed negative)",
+  "juris": "county",
+  "kind": "negative",
+  "url": "https://library.municode.com/fl/manatee_county/codes/code_of_ordinances?nodeId=PTIIMACOCOOR_CH2-21MIPROF_ARTIMACOJUCUOR_SS2-21-3--2-21-30RE",
+  "effect": "The chapter 2-32 cross-reference table lists 'spear fishing prohibited in certain areas, § 2-21-3', but §§ 2-21-3 to 2-21-30 are printed as Reserved. No Manatee County spearfishing area closure is in force in the code.",
+  "excerpt": "Secs. 2-21-3—2-21-30. - Reserved.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Manatee County.",
+  "note": "Found 12 Nov 2026 by a second whole-code Municode search of 195 Florida coastal clients (diving, swimming, snorkeling and gig terms next to piers, bridges, inlets, jetties, channels, canals, marinas and docks) and read in the author's Chrome through the Municode content service, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "heading",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "lighthousepoint-54-8",
+  "cite": "City of Lighthouse Point Code § 54-8",
+  "title": "Lighthouse Point: no fishing from or within 25 ft of any city bridge at night",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/lighthouse_point/codes/code_of_ordinances?nodeId=PTIICICO_CH54OFMIPR_ARTIINGE_S54-8FIBRDUCEHOPR",
+  "effect": "No fishing from any bridge in the city, or within 25 ft of one, from half an hour after sunset to half an hour after sunrise. The text says fishing without limiting the method, so the map reads it as covering spearfishing. Every bridge in the city is already inside the statewide 100 yd bridge buffer, so this changes nothing drawn; it matters for night dives near the city's canal bridges.",
+  "excerpt": "It shall be unlawful for any person to fish from any bridge located in the city or within 25 feet of any bridge located within the city between the nighttime hours of one-half hour after sunset and one-half hour after sunrise. (Code 1979, § 12-26)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Every bridge inside the City of Lighthouse Point (Broward County).",
+  "note": "Found 12 Nov 2026. Lighthouse Point is not in Municode's statewide client list (that list stops at 416 clients); the client was resolved through the library's organization lookup (client 3021) and its whole code searched for fish, spear, dive and bridge. Section text as returned by the Municode content service in the author's Chrome. No other water-use rule in the city code bears on spearfishing.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "neg-southpasadena-2026-11-12",
+  "cite": "City of South Pasadena Code, whole-code search, checked 12 Nov 2026",
+  "title": "South Pasadena: no city spearfishing rule (confirmed negative)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://ecode360.com/SO1390",
+  "effect": "The city code on eCode360 has no spearfishing, spear gun or diving prohibition of its own. The only hit for spear is a line in a uniform notice-to-appear fine schedule attached to chapter 1, which lists a county or state offense and creates no rule. Section 130-17 lists diving among the permitted uses of the Aquatic Lands zoning district.",
+  "excerpt": "[Method: eCode360 whole-code search of code SO1390 for spear, harpoon, dive, diving, snorkel and fish. The single spear result is the entry 'Spears or harpoons; unlawful use of (IV)' in the chapter 1 Exhibit A notice-to-appear schedule.]",
+  "full": null,
+  "verified": "secondary",
+  "scope": "City of South Pasadena (Pinellas County).",
+  "note": "Read 12 Nov 2026 in the author's Chrome on ecode360.com. Recorded so the city is not searched again. Pinellas County ordinances and the statewide rules still apply in city waters.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "whole code",
+   "verbatim": "method note only",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-small-towns-2026-11-12",
+  "cite": "Ocean Breeze, St. Lucie Village, Grant-Valkaria and Everglades City published codes, checked 12 Nov 2026",
+  "title": "Four small waterfront towns off Municode: no spearfishing or fishing rule found in what each town publishes (confirmed negative, with limits)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://grant-valkaria.municipalcodeonline.com/book?type=ordinances",
+  "effect": "Ocean Breeze: the town's charter and related ordinances (54 pages, compiled 4 Oct 2023) contain no fishing, diving or water-use rule, and the legal description places the town line at the westerly shore of the Indian River. St. Lucie Village: the index of every ordinance and resolution from 1961 to 2022-4 lists none on fishing, spearfishing, diving or swimming; the closest are dock and seawall construction ordinances (91-5, 94-5) and a 1988 marina ordinance superseded in 1995. Grant-Valkaria: only the land development regulations are published online, and their single water section (§ 20-3668, Class II waters) is a 50 ft shoreline construction buffer, not a use rule. Everglades City: the city publishes only its land development code, charter, comprehensive plan and utility handbook, as image scans with no text layer; no general code of ordinances is online. County ordinances and the statewide rules apply in all four towns' waters.",
+  "excerpt": "[Method: Ocean Breeze 'Town Charter and Related Ordinances October 4 2023' PDF and St. Lucie Village 'Index of Ordinances & Resolutions (1961-Present)' PDF read with PDF.js in the author's Chrome and searched for fish, spear, dive, swim, dock, pier, boat, vessel, river, lagoon, marina and shore; Grant-Valkaria municipalcodeonline.com search for fishing (five hits, none a use rule); Everglades City public-documents page read and both linked PDFs found to be image-only.]",
+  "full": null,
+  "verified": "secondary",
+  "scope": "Towns of Ocean Breeze, St. Lucie Village and Grant-Valkaria; City of Everglades City.",
+  "note": "Closes the four 'not on Municode' towns left from neg-local-2026-11-11, except that Grant-Valkaria's and Everglades City's general codes are not published online, so a rule could exist in an uncodified or unpublished ordinance. Everglades City sits on the Barron River at the entrance to the Ten Thousand Islands and is the one of these four where that gap matters to divers; it is carried as an open question.",
+  "geom": null,
+  "axes": {
+   "in_force": "as published 12 Nov 2026",
+   "subsection": "whole documents",
+   "verbatim": "method note only",
+   "url_resolves": "yes"
+  }
  }
 ]

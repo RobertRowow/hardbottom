@@ -2,10 +2,15 @@
 2026-11-11/research-federal | fknms-blueprint-2025 | updated  appended note
 2026-11-11/research-federal | eo-14430 | updated  appended note
 2026-11-11/research-federal | fr-91-72841 | added
+2026-11-11/research-federal | cfr-165-hurricane-ports | added
+2026-11-11/research-federal | neg-cfr-165-2026-11-12 | added
+2026-11-11/research-federal | neg-federal-parks-2026-11-12 | added
 2026-11-11/research-state | fac-68b-14-0036 | updated title,effect,excerpt,verified,url,note
 2026-11-11/research-state | neg-currency-2026-11-11 | added
 2026-11-11/research-state | neg-68b-3-broward-8636 | added
 2026-11-11/research-state | fac-68b-35-004 | updated  appended note
+2026-11-11/research-state | far-31403864 | added
+2026-11-11/research-state | neg-statutes-2026-11-12 | added
 2026-11-11/research-local | rivierabeach-13-32 | added
 2026-11-11/research-local | rivierabeach-13-26 | added
 2026-11-11/research-local | pbc-21-27 | added
@@ -30,3 +35,23 @@
 2026-11-11/research-local | deerfield-74-31 | added
 2026-11-11/research-local | naples-90-469 | updated  appended note
 2026-11-11/research-local | melbournebeach-40-33 | added
+2026-11-11/research-local | pompano-98-02 | added
+2026-11-11/research-local | mexicobeach-95-02 | added
+2026-11-11/research-local | neg-amlegal-fl-2026-11-12 | added
+2026-11-11/research-local | stauguestine-7-55 | added
+2026-11-11/research-local | panamacity-5-46 | added
+2026-11-11/research-local | miami-50-228 | added
+2026-11-11/research-local | tampa-14-203 | added
+2026-11-11/research-local | callaway-10-5-18 | added
+2026-11-11/research-local | lynnhaven-42-19-20 | added
+2026-11-11/research-local | carrabelle-74-66 | added
+2026-11-11/research-local | belleairbeach-30-195 | added
+2026-11-11/research-local | annamaria-66-44 | added
+2026-11-11/research-local | collier-146-51 | added
+2026-11-11/research-local | marathon-36-177 | added
+2026-11-11/research-local | flaglerbeach-6-3 | added
+2026-11-11/research-local | venice-46-64 | added
+2026-11-11/research-local | neg-manatee-2-21-3 | added
+2026-11-11/research-local | lighthousepoint-54-8 | added
+2026-11-11/research-local | neg-southpasadena-2026-11-12 | added
+2026-11-11/research-local | neg-small-towns-2026-11-12 | added

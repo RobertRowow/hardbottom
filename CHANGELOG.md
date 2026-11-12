@@ -3,6 +3,29 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
+## 12 November 2026 (later): marina, inlet and citywide swimming rules
+
+Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 25 secondary).
+
+- **Marina closures, newly drawn.** St. Augustine § 7-55 (no swimming in or within 500 ft of the
+  municipal marina) and Panama City § 5-46 (no swimming within 300 ft of a city-owned marina) are
+  drawn closed around each marina's docks and breakwaters, at 125 per cent of the stated distance.
+  Miami § 50-228 (no swimming, diving or fishing in the Dinner Key, Miamarina and Watson Island
+  marina waters) is drawn closed over each basin. Marina outlines were read off imagery.
+- **New markers.** Anna Maria § 66-44(c) (no swimming in Lake LaVista Inlet), Carrabelle § 74-66
+  (50 ft of the municipal docks), Pompano Beach § 98.02(M) (no spearguns, gigs or slings in the
+  waters of the public beach), and citywide rules in Tampa (boat channels and 200 ft of ramps),
+  Callaway, Lynn Haven and Marathon (mini-season canals and 300 ft of developed shore).
+- **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
+  bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
+  code does not locate, so it is not drawn.
+- **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
+  fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
+  online; Everglades City is a new open question.
+- **Open questions.** Four added: Everglades City's code, the reach of Pompano Beach's 'waters of the
+  public beach', the location of the Belleair Beach marina, and the limits of Miami's three marina
+  basins.
+
 ## 12 November 2026: statewide sweep, new local closures, open questions page
 
 Rules current as of 11 Nov 2026. The registry holds 349 entries (326 verbatim, 23 secondary).

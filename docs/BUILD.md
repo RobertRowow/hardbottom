@@ -59,6 +59,10 @@ python3 tools/build-jetties.py                    # data/jetties.json from tools
 python3 tools/build-bridge-spans.py               # bridges.json: rv, ds, dk and sp from tools/bridges-2026-10-08/decks.txt
 python3 tools/build-beaches.py                    # data/beaches.json from tools/beaches-2026-10-08/waterline.txt
 python3 tools/patch-2026-10-08-buffers.py         # regs.json: statewide buffer text for the three layers above
+python3 tools/patch-zones-2026-11-11.py           # zones-statewide.json: 11 and 12 Nov sweep (TIGER places, Riviera Beach, markers)
+python3 tools/patch-zones-2026-11-12.py           # zones-statewide.json: marina, inlet, beach and citywide swim and dive rules
+python3 tools/patch-regs-species-2026-11-11.py    # regs.json, species.json: Atlantic and Keys gag and black grouper
+python3 tools/build-questions.py                  # questions.html from data/questions.json and the flagged zones
 python3 tools/check-text.py                       # no dashes, no permissive wording in the map's own text
 python3 tools/test-data.py
 NODE_PATH=<jsdom>/node_modules node test/smoke-test.js

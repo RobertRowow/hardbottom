@@ -31,6 +31,8 @@ committed beside it.
 
 Second review of 8 Oct 2026: `tools/patch-zones-2026-10-07.py` adds `clw2106` (Clearwater, TIGERweb place), `mxb9503` (Mexico Beach marker on the west jetty traced on NAIP) and `vol20121` (300 ft around the Ponce Inlet jetties as charted in NOAA ENC cell US5FL7GL) to `zones-local.json`, and `st-steinhatchee` (USGS NHD flowline) to `zones-statewide.json`; it also closes `nwr-cry` and adds § 18-1 to `loc-inlet-boynton`. Its inputs are in `tools/law-updates/2026-10-07/geom/`. No OpenStreetMap input.
 
+Statewide sweep of 11 and 12 Nov 2026: `tools/patch-zones-2026-11-11.py` adds New Port Richey and Seminole (TIGERweb incorporated places, outer rings), the Riviera Beach Phil Foster Park and Blue Heron Bridge closure (positions read off USGS National Map and Esri World Imagery), and markers for county park water, St. Marks and the Naples canal entrances (the act's own coordinates). `tools/patch-zones-2026-11-12.py` adds the St. Augustine, Panama City and Miami marina closures (dock envelopes read off Esri World Imagery, buffered by 125 per cent of any stated distance) and markers for Anna Maria, Carrabelle, Pompano Beach, Tampa, Callaway, Lynn Haven and Marathon (imagery readings or TIGERweb internal points). Both write `zones-statewide.json`. No OpenStreetMap input.
+
 ## Structure and access
 
 | File | Contents | Source | Derivation | Records | Licence |

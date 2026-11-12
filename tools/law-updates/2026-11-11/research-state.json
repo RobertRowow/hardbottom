@@ -118,5 +118,26 @@
    "verbatim": "n/a",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "fac-40d-9-230",
+  "cite": "Fla. Admin. Code r. 40D-9.230 (Southwest Florida Water Management District)",
+  "title": "Water management district lands: no spear guns, and no scuba without a special use authorization",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=40D-9.230",
+  "effect": "On Southwest Florida Water Management District lands, possessing or using a spear gun is prohibited except during authorized hunts, district land work or under a special use authorization (r. 40D-9.230), and scuba is prohibited without a special use authorization (r. 40D-9.181). The Suwannee River and St. Johns River districts bar scuba on their lands the same way (rr. 40B-9.1381(8), 40C-9.190), and Suwannee River counts spear guns among 'firearms and similar devices' (r. 40B-9.021(14)). South Florida's public use rules close swimming, snorkeling and scuba in its impoundment areas (r. 40E-7.5384). District lands are mostly inland, where a speargun may not be carried on fresh water anyway; the rule matters on coastal district preserves. District land boundaries are not drawn.",
+  "excerpt": "The possession or use of potentially dangerous equipment on District Lands, as set forth below, is prohibited except: (1) For hunting purposes during specifically authorized hunts; (2) For District initiated land management activities; (3) As authorized by a Special Use Authorization. Potentially dangerous equipment includes blow guns, crossbows, spear guns, or other devices capable of mechanically propelling an arrow, spear, or similar projectile.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Lands owned or managed by the five water management districts (Southwest Florida quoted).",
+  "note": "Read 12 Nov 2026 in the author's Chrome: all 157 rules in FLRules chapters 40A-7, 40A-9, 40B-9, 40C-9, 40D-9 and 40E-7 fetched and their adopted Word files searched for spear, scuba, snorkel, underwater, skin diving and diving; eight rules matched. The excerpt is r. 40D-9.230 as adopted, effective 15 Jul 2012. SWFWMD published proposed amendments to chapter 40D-9 in 2026 (development notice 26 Aug 2026, Vol. 52/166); the redline keeps the spear gun ban and the scuba rule.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, effective 15 Jul 2012; amendments in development",
+   "subsection": "whole rule",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
  }
 ]

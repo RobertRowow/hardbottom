@@ -214,9 +214,43 @@ mk("loc-melbournebeach-canals", "Melbourne Beach: hook and line or hand-thrown c
    "<b>Catching fish by any means other than hook and line or a hand-thrown cast net is banned in the Driftwood Avenue, Riverview Lane, Sandy Key, Anchor Key and Pelican Key canals.</b>",
    TIGER, "The five canals are not drawn.")
 
+# Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
+# the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
+# CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see
+# tools/law-updates/2026-11-11/geom/pulled.txt line CPA), joined to the hull of the two Canaveral jetty
+# lines in data/jetties.json (NOAA ENC) and the canal outline points east of 80.5925 W, which closes the
+# entrance between the jetties out to their tips.
+G = os.path.join(ROOT, "tools", "law-updates", "2026-11-11", "geom")
+lines = io.open(os.path.join(G, "pulled.txt"), encoding="utf-8").read().split("\n")
+cpa = next(lines[i + 1][5:] for i, ln in enumerate(lines) if ln.startswith("CPA\t"))
+canal = cpa.split("#")[0].split("|")[0]          # outer ring only; the 5-point hole is filled
+pts, a, o = [], 0, 0
+for k, p in enumerate(canal.split(";")):
+    x, y = map(int, p.split(","))
+    a, o = (x, y) if k == 0 else (a + x, o + y)
+    pts.append(fwd(a / 1e5, o / 1e5))
+from shapely.geometry import MultiPoint
+from shapely.ops import unary_union
+JET = {j["id"]: j for j in json.load(io.open(os.path.join(ROOT, "data", "jetties.json"), encoding="utf-8"))["zones"]}
+jp = [fwd(lo, la) for jid in ("jetty-canaveral-n", "jetty-canaveral-s") for part in JET[jid]["line"] for la, lo in part]
+east = [q for q in pts if inv(*q)[0] > -80.5925]   # canal outline points in the entrance reach
+harbor = unary_union([Polygon(pts).buffer(0), MultiPoint(jp + east).convex_hull]).buffer(0)
+hr = [[round(y, 5), round(x, 5)] for x, y in (inv(*c) for c in harbor.simplify(1.0).exterior.coords)]
+Z.append(dict(
+    id="loc-portcanaveral-diving", n="Port Canaveral: underwater diving prohibited east of the Barge Canal lock through the jetties",
+    law=["cpa-tariff-380"], cat="local", kind="closed", r=[hr], line=[], pts=[], active=None,
+    s="<b>Underwater diving is prohibited within the confines of Port Canaveral, defined as all water east of the Barge Canal lock through the jetties to the Atlantic, except dive operations the Harbormaster authorizes.</b> Navy, Army Corps and Coast Guard waters are outside the rule but are closed by their own security and restricted-area rules.",
+    src="USGS National Hydrography Dataset (high resolution) canal area east of the lock, joined to the hull of the two jetties as charted by NOAA ENC (data/jetties.json).",
+    flag="The rule is written for dive operations; the map reads it as covering any diving, the reading that closes more water. NHD's canal area ends at the shoreline, so berths and slips cut into the bank after NHD was drawn may be missing from the outline."))
+mk("loc-portpalmbeach-diving", "Port of Palm Beach: underwater diving prohibited within the port unless authorized",
+   ["ppb-tariff-546"], [[26.76806, -80.04865]],
+   "<b>Underwater diving is prohibited within the confines of the Port of Palm Beach except when authorized by the Director of Operations.</b>",
+   "Marker in the port turning basin read off Esri World Imagery. Not a boundary.",
+   "The tariff does not define 'the confines of the port'. Treat the slips, berths and turning basin as closed; parts are also inside the fixed Coast Guard security zones.")
+
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]
-ADD = {"loc-venice": "venice-46-64", "loc-naples-canals": None}
+ADD = {"loc-venice": "venice-46-64", "usace-334-580-porteverglades": "pev-tariff-280"}
 for x in zs:
     if ADD.get(x["id"]) and ADD[x["id"]] not in x["law"]:
         x["law"].append(ADD[x["id"]])

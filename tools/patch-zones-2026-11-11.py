@@ -64,7 +64,7 @@ def rings_ll(geom, tol=0.5):
 
 data = {}
 for ln in io.open(os.path.join(G, "pulled.txt"), encoding="utf-8").read().split("\n"):
-    if ln.startswith("DATA\t"):
+    if ln.startswith("DATA\t") and not data:   # the first DATA line; later lines belong to later patches
         npr, sem = ln[5:].split("#")
         for k, v in (("NPR", npr), ("SEM", sem)):
             # simplification left a few rings touching themselves; buffer(0) repairs them without

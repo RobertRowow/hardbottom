@@ -914,5 +914,89 @@
    "verbatim": "method note only",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "cpa-tariff-380",
+  "cite": "Canaveral Port Authority Tariff No. 16, Rule 380 (eff. 1 Oct 2026)",
+  "title": "Port Canaveral: underwater diving prohibited east of the Barge Canal lock through the jetties, unless the Harbormaster authorizes it",
+  "juris": "district",
+  "kind": "rule",
+  "url": "https://www.portcanaveral.com/docs/default-source/about/port-documents---reports/cpa_tariff_16_fy27-_final_20261001_ada.pdf",
+  "effect": "Underwater diving is prohibited in all water east of the Canaveral Barge Canal lock through the jetties to the Atlantic, except dive operations the Harbormaster authorizes. The rule is written for commercial dive operations, but its prohibition is not limited to them; the map reads it as closing the harbor to freediving and spearfishing too. It does not apply to waters under Navy, Army Corps or Coast Guard control.",
+  "excerpt": "Underwater diving operations are prohibited within the confines of Port Canaveral except when authorized by the Harbormaster. [...] For purposes of this Rule the confines of Port Canaveral are defined as including all water east of the Barge Canal Lock through the Jetties to the Atlantic Ocean. This Rule does not apply to waters under the control of the United States Navy, United States Army Corps of Engineers, or to the U.S. Coast Guard.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Port Canaveral harbor and the Canaveral Barge Canal east of the lock, to the jetties.",
+  "note": "Read 12 Nov 2026 in the author's Chrome from the tariff PDF on portcanaveral.com (page 14 to 15 of 52, Tariff No. 16 dated 1 Oct 2026); text taken from the PDF's own content streams. The omitted middle sentences set the notice, VHF and dive-flag duties for authorized operations. The Canaveral Port Authority is an independent special district; its tariff rules bind users of the port. The HTML tariff pages on the same site render empty. Jetty Park's posted rules page has no spearfishing or diving rule.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, Tariff No. 16 effective 1 Oct 2026",
+   "subsection": "Rule 380",
+   "verbatim": "yes, with one marked omission",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "ppb-tariff-546",
+  "cite": "Port of Palm Beach District Tariff No. 24E, Item 546 (eff. 1 Oct 2025)",
+  "title": "Port of Palm Beach: underwater diving prohibited within the port unless the Director of Operations authorizes it",
+  "juris": "district",
+  "kind": "rule",
+  "url": "https://www.portofpalmbeach.com/DocumentCenter/View/5519/Tariff-24E-Final-Effective-10125",
+  "effect": "Underwater diving is prohibited within the confines of the Port of Palm Beach unless the Director of Operations authorizes it in writing at least 24 hours ahead, with certification and insurance. The tariff does not define 'the confines of the port'. Read conservatively, no freediving or spearfishing in the port's slips and turning basin.",
+  "excerpt": "546 – DIVING OPERATIONS Underwater diving operations are prohibited within the confines of the Port of Palm Beach except when authorized by the Director of Operations. Written request must be made so that authorization can be granted no less than 24 hours in advance that includes a copy of the diver(s) certification(s) along with proof of commercial and dive accident insurance.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "The Port of Palm Beach, Riviera Beach (Lake Worth Lagoon west of the inlet).",
+  "note": "Read 12 Nov 2026 in the author's Chrome with PDF.js from the tariff PDF on portofpalmbeach.com (page 35). The Port of Palm Beach District is an independent special district. The fixed Coast Guard security zones of 33 C.F.R. § 165.760 also cover parts of the port.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, Tariff 24E effective 1 Oct 2025",
+   "subsection": "Item 546",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "pev-tariff-280",
+  "cite": "Port Everglades Tariff No. 12, Item No. 280 (Broward County Administrative Code, eff. 1 Oct 2023, tariff of 1 Oct 2026)",
+  "title": "Port Everglades: no dive operations without the Harbormaster's prior written approval",
+  "juris": "county",
+  "kind": "rule",
+  "url": "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/porteverglades/Tariff_No_12_entire10012026AdminCode_ad9b3ecd-8370-4db0-9443-f11a09e69751.pdf",
+  "effect": "Every dive operation inside Port Everglades needs the Harbormaster's prior written approval, requested by email at least 24 hours ahead, with VHF monitoring and hourly security calls. The item is written for vessel work; read conservatively, no freediving or spearfishing inside the port. A separate item limits the port's piers and docks to people with valid credentials and names fishing as an unauthorized activity there.",
+  "excerpt": "For all dive operations inside of Port Everglades, the following steps must be taken: [...] No dive operations are permitted without prior written approval from the Harbormaster.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Port Everglades (Broward County), inside the port.",
+  "note": "Read 12 Nov 2026 in the author's Chrome with PDF.js from the complete Tariff No. 12 PDF linked from porteverglades.net/business/tariff (page 50). Port Everglades is a Broward County department; the tariff is part of the county's administrative code. The separate 'Section Two' PDF on the same page is an image scan.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, tariff of 1 Oct 2026, item issue effective 1 Oct 2023",
+   "subsection": "Item No. 280",
+   "verbatim": "yes, with one marked omission",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-port-tariffs-2026-11-12",
+  "cite": "JAXPORT, PortMiami and Port Tampa Bay tariffs in force 12 Nov 2026",
+  "title": "JAXPORT, PortMiami and Port Tampa Bay: no diving, swimming or fishing rule in the port tariff (confirmed negative)",
+  "juris": "district",
+  "kind": "negative",
+  "url": "https://www.jaxport.com/wp-content/uploads/2026/09/Tariff2026.10.01.pdf",
+  "effect": "The current tariffs of JAXPORT (1 Oct 2026), PortMiami (Terminal Tariff effective 1 Oct 2026) and Port Tampa Bay (2026 master tariff) contain no rule on diving, swimming, snorkeling, spearfishing or fishing. Coast Guard security zones and county and city ordinances still apply in those ports. Port Manatee's tariff is published only through a SharePoint and a Dropbox link and was not read; Port of Fernandina and Port Panama City were not checked.",
+  "excerpt": "[Method: each tariff PDF read with PDF.js in the author's Chrome on the port's own site and searched for swim, diving, dive, diver, spear, fishing, snorkel and underwater; no hits.]",
+  "full": null,
+  "verified": "secondary",
+  "scope": "JAXPORT, PortMiami, Port Tampa Bay.",
+  "note": "Checked 12 Nov 2026. URLs: jaxport.com/wp-content/uploads/2026/09/Tariff2026.10.01.pdf; miamidade.gov/resources-port/documents/tariff/port-tariff.pdf; porttb.com/wp-content/uploads/2026/10/2026-TPA-MASTER-Tariff-document.pdf. The PortMiami file is a scanned tariff with a text layer of uneven quality, so a rule in it could have been missed.",
+  "geom": null,
+  "axes": {
+   "in_force": "tariffs current 12 Nov 2026",
+   "subsection": "whole tariffs",
+   "verbatim": "method note only",
+   "url_resolves": "yes"
+  }
  }
 ]

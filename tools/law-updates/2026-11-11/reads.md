@@ -32,3 +32,7 @@ Whitespace was collapsed; nothing else was changed.
 | 24 | 36 C.F.R. parts 1, 2 and 7; 50 C.F.R. parts 17, 26, 27, 32, 600 and 622; 15 C.F.R. part 922; NPS compendium pages | eCFR renderer, version comparison of § 622.183 (27 and 28 Oct 2026); nps.gov | no spearfishing change; three compendium URLs return 404 (`neg-federal-parks-2026-11-12`) |
 | 25 | Notice history of 589 rules in chs. 68B-1 to 68B-62, 68C-22, 68A-19, 68A-23, 62D-2, 18-18, 18-20, 18-21 and 68D-24 | flrules.org rule pages and notice viewer | one spearfishing-relevant open notice, the African pompano development notice (`far-31403864`) |
 | 26 | Fla. Stat. §§ 379.101, 379.2401, 379.2402, 379.2412, 379.2425, 379.2431, 379.247, 379.2495, 379.2511, 379.354, 379.3671, 379.401, 379.407, 327.331, 790.33, 258.008, 253.12 (2026 edition) | leg.state.fl.us Online Sunshine | no change bearing on spearfishing (`neg-statutes-2026-11-12`) |
+| 27 | Canaveral Port Authority Tariff No. 16 (1 Oct 2026), Rule 380 | portcanaveral.com tariff PDF, text from the PDF's content streams in page (the HTML tariff pages render empty) | quoted in `cpa-tariff-380` |
+| 28 | Port of Palm Beach Tariff 24E (1 Oct 2025), Item 546; Port Everglades Tariff No. 12 (1 Oct 2026), Item No. 280 | PDF.js in page on each port's site | quoted in `ppb-tariff-546` and `pev-tariff-280` |
+| 29 | JAXPORT, PortMiami and Port Tampa Bay tariffs | PDF.js in page | no hits; `neg-port-tariffs-2026-11-12` |
+| 30 | Port Canaveral harbor outline | USGS NHD MapServer/9, CanalDitch 125274012 and Lock Chamber 125256958 | geom/pulled.txt line CPA |

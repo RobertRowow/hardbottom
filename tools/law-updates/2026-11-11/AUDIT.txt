@@ -55,3 +55,7 @@
 2026-11-11/research-local | lighthousepoint-54-8 | added
 2026-11-11/research-local | neg-southpasadena-2026-11-12 | added
 2026-11-11/research-local | neg-small-towns-2026-11-12 | added
+2026-11-11/research-local | cpa-tariff-380 | added
+2026-11-11/research-local | ppb-tariff-546 | added
+2026-11-11/research-local | pev-tariff-280 | added
+2026-11-11/research-local | neg-port-tariffs-2026-11-12 | added

@@ -24,6 +24,12 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   Flagler Beach and Mexico Beach piers, Palm Coast marinas, Gulfport posted areas, and the Cocoa Beach
   and Melbourne Beach canals. Venice § 46-64 joins the Venice zone. Not drawn: Volusia County
   conservation lands (locations not listed), Belleair Beach's marina and Collier County § 146-51.
+- **Port authority rules.** Canaveral Port Authority Tariff Rule 380 prohibits underwater diving in all
+  water east of the Barge Canal lock through the jetties, unless the Harbormaster authorizes it; the
+  harbor is drawn closed. The Port of Palm Beach tariff (Item 546) prohibits underwater diving within
+  the port (marker), and Port Everglades Tariff Item 280 requires the Harbormaster's written approval
+  for any dive inside the port. JAXPORT, PortMiami and Port Tampa Bay tariffs have no such rule. The
+  encyclopedia gains a group for port authorities and special districts.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
   bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
   code does not locate, so it is not drawn.

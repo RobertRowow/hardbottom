@@ -28,7 +28,7 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 FIELDS = ["id", "cite", "title", "juris", "kind", "url", "effect", "excerpt", "full",
           "verified", "scope", "note", "geom"]
-JURIS = {"federal", "state", "county", "city"}
+JURIS = {"federal", "state", "county", "city", "district"}
 KINDS = {"statute", "rule", "cfr", "ordinance", "specialact", "negative"}
 VER = {"verbatim", "secondary", "unverified"}
 

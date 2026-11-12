@@ -139,5 +139,26 @@
    "verbatim": "yes",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "fac-68a-15-065-guana",
+  "cite": "Fla. Admin. Code r. 68A-15.065(13), item 14 (Guana River Wildlife Management Area)",
+  "title": "Guana River WMA: spear guns prohibited in Lake Ponte Vedra (Guana Lake)",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68A-15.065",
+  "effect": "Possessing or using a spear gun in Lake Ponte Vedra, the Guana River impoundment inside the Guana River Wildlife Management Area, is prohibited; gill nets, trawls, seines and gigs are too, except gigs for frogs. Cast nets and gigs are also barred within 50 yd of the Guana Dam water control structure.",
+  "excerpt": "14. The possession or use of gill nets, trawls, seines, gigs, or spear guns is prohibited in Lake Ponte Vedra, except that gigs may be used to harvest frogs. The use of cast nets or gigs within 50 yards of the water control structure located on the Guana Dam is prohibited.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Lake Ponte Vedra (Guana Lake), St. Johns County, north of the Guana Dam.",
+  "note": "Found 12 Nov 2026 by fetching every rule in FLRules chapters 68A-15, 68A-17 to 68A-20, 68A-25, 68A-27, 62D-2, 5I-4, 18-2 and 18-14 (59 rules) and searching the adopted Word files for spear, scuba, snorkel, underwater, skin diving and diving. Text as extracted from the adopted file (history ends 7-1-26). The paragraph letter above item 14 is not in the extracted text, so the citation gives the area paragraph and item number. Other hits in that search: Chassahowitzka WMA scuba rules (r. 68A-15.061, spring waters), and 62D-2.014 (state parks, already in the registry).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, amended 7-1-26",
+   "subsection": "(13), item 14",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
  }
 ]

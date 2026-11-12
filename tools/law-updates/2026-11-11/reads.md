@@ -42,3 +42,5 @@ Whitespace was collapsed; nothing else was changed.
 | 34 | Belleair Beach marina location | cityofbelleairbeach.com/public-works/page/marina | "located on the Intracoastal Waterway at 3505 Gulf Boulevard" |
 | 35 | American Legal Florida-wide search | /api/search, 'fishing within', 'swim within', 'swimming within', 'fishing from', 'no fishing', 'diving from', 'skin diving', scuba, snorkel, underwater | 18 sections in 6 clients; new: Mexico Beach § 95.20; Pompano Beach § 132.35(D) recorded as a negative |
 | 36 | FLRules chapters 40A-7, 40A-9, 40B-9, 40C-9, 40D-9, 40E-7 (157 rules, adopted Word files) | flrules.org ChapterHome, ruleNo and readFile in page | rr. 40D-9.230, 40D-9.181, 40B-9.021(14), 40B-9.1381(8), 40C-9.190, 40E-7.5384; see `fac-40d-9-230` |
+| 37 | FLRules chapters 68A-15, 68A-17 to 68A-20, 68A-25, 68A-27, 62D-2, 5I-4, 18-2, 18-14 (59 rules) | adopted Word files in page | r. 68A-15.065(13) item 14 (Guana River WMA, `fac-68a-15-065-guana`); Chassahowitzka WMA scuba rules (spring waters, not recorded) |
+| 38 | Lake Ponte Vedra outline | USGS NHD MapServer/12 waterbody 125545721 and MapServer/9 area 125550816 | geom/pulled.txt line GUA |

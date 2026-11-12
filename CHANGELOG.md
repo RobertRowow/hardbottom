@@ -50,6 +50,10 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   anyway. On American Legal, Mexico Beach § 95.20 (no swimming in buoyed rental channels) joins the
   Mexico Beach pier marker, and Pompano Beach § 132.35 is recorded as not reaching spears: it defines
   fishing as line, hooks, nets or baskets.
+- **State land rules.** FWC's Guana River Wildlife Management Area rule bans spear guns in Lake Ponte
+  Vedra (Guana Lake), r. 68A-15.065(13); the impoundment above the Guana Dam is drawn closed from USGS
+  NHD. Water management district land rules bar spear guns and scuba on district lands without a
+  special use authorization (r. 40D-9.230 and similar); district lands are not drawn.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

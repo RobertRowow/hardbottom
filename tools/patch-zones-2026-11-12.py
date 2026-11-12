@@ -297,6 +297,27 @@ mk("loc-portpalmbeach-diving", "Port of Palm Beach: underwater diving prohibited
    "Marker in the port turning basin read off Esri World Imagery. Not a boundary.",
    "The tariff does not define 'the confines of the port'. Treat the slips, berths and turning basin as closed; parts are also inside the fixed Coast Guard security zones.")
 
+# Guana River WMA, r. 68A-15.065(13) item 14: spear guns prohibited in Lake Ponte Vedra. USGS NHD
+# waterbody 'Lake Ponte Vedra' (the head of the impoundment) and the unnamed NHD area that fills Guana
+# Lake south to the dam, pulled 12 Nov 2026 (pulled.txt line GUA). The two do not meet: the river reach
+# between them is not in either feature and is not drawn.
+gua = next(lines[i + 1][5:] for i, ln in enumerate(lines) if ln.startswith("GUA\t"))
+grings = []
+for part in gua.split("#"):
+    pts2, a2, o2 = [], 0, 0
+    for k, p in enumerate(part.split(";")):
+        x, y = map(int, p.split(","))
+        a2, o2 = (x, y) if k == 0 else (a2 + x, o2 + y)
+        pts2.append((a2 / 1e5, o2 / 1e5))
+    poly = Polygon([fwd(lo, la) for lo, la in pts2]).buffer(0)
+    grings.append([[round(y, 5), round(x, 5)] for x, y in (inv(*c) for c in poly.exterior.coords)])
+Z.append(dict(
+    id="st-guana-lakepontevedra", n="Guana River WMA: spear guns prohibited in Lake Ponte Vedra (Guana Lake)",
+    law=["fac-68a-15-065-guana"], cat="stateareas", kind="closed", r=grings, line=[], pts=[], active=None,
+    s="<b>Possessing or using a spear gun in Lake Ponte Vedra (Guana Lake) is prohibited</b>, r. 68A-15.065(13). Gigs are barred too except for frogs, and cast nets and gigs within 50 yd of the Guana Dam structure.",
+    src="USGS National Hydrography Dataset (high resolution): the waterbody named Lake Ponte Vedra and the unnamed area that fills the lake south to the Guana Dam.",
+    flag="NHD names only the head of the impoundment 'Lake Ponte Vedra'; the map reads the name as the whole impoundment above the Guana Dam, which closes more water. The river reach joining the two NHD features is not drawn."))
+
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]
 ADD = {"loc-venice": "venice-46-64", "usace-334-580-porteverglades": "pev-tariff-280"}

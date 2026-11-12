@@ -16,6 +16,14 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   (50 ft of the municipal docks), Pompano Beach § 98.02(M) (no spearguns, gigs or slings in the
   waters of the public beach), and citywide rules in Tampa (boat channels and 200 ft of ramps),
   Callaway, Lynn Haven and Marathon (mini-season canals and 300 ft of developed shore).
+- **Local rules that were in the encyclopedia but not on the map.** A check of every rule id
+  against the map files found 24 local rules with no map feature. Each now has a marker: Lighthouse
+  Point, Redington Shores, the Town of Palm Beach beaches, Tampa marinas and park waters, Hillsborough,
+  Manatee, Brevard, Indian River and Wakulla county parks, Indian Harbour Beach, Golden Beach and
+  Ormond Beach parks, Navarre Beach and Escambia beaches, Yankeetown's yacht basin, the Titusville,
+  Flagler Beach and Mexico Beach piers, Palm Coast marinas, Gulfport posted areas, and the Cocoa Beach
+  and Melbourne Beach canals. Venice § 46-64 joins the Venice zone. Not drawn: Volusia County
+  conservation lands (locations not listed), Belleair Beach's marina and Collier County § 146-51.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
   bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
   code does not locate, so it is not drawn.

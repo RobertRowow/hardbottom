@@ -107,8 +107,119 @@ for zid, n, law, pt, s, flag in CITY:
                   s=s, src="Marker at the US Census TIGERweb internal point of the incorporated place. Not a boundary.",
                   flag="GEOMETRY NOT MAPPED. " + flag))
 
+# Local rules already in the registry that had no map feature (found by checking every non-negative
+# law id against the zone files and js/ on 12 Nov 2026). Markers only. Pier positions come from
+# data/piers.json (FWC fishing pier inventory); town and city points are TIGERweb internal points;
+# park positions were geocoded by name (Esri World Geocoder, point of interest matches) and checked
+# on Esri World Imagery, except where the note says the position was read off imagery directly.
+def mk(zid, n, law, pts, s, src, flag):
+    Z.append(dict(id=zid, n=n, law=law, cat="local", kind="warn", r=[], line=[], pts=pts, active=None,
+                  s=s, src=src, flag="GEOMETRY NOT MAPPED. " + flag))
+
+
+TIGER = "Marker at the US Census TIGERweb internal point of the incorporated place. Not a boundary."
+mk("loc-lighthousepoint-bridges", "Lighthouse Point: no fishing from or within 25 ft of any city bridge at night",
+   ["lighthousepoint-54-8"], [[26.27856, -80.08570]],
+   "<b>No fishing from any bridge in Lighthouse Point, or within 25 ft of one, from half an hour after sunset to half an hour after sunrise.</b>",
+   TIGER, "Applies at every bridge in the city. Each is already inside the statewide 100 yd bridge buffer, so nothing more is closed to spearing; the rule matters for night dives near the canal bridges.")
+mk("loc-redshores-standoff", "Redington Shores: no speargun within 200 ft of a swimmer or of a pier, dock or seawall being fished from",
+   ["redshores-77-2"], [[27.83195, -82.83364]],
+   "<b>Within town limits, firing a speargun is unlawful within 200 ft of any swimmer or bather, or within 200 ft of a pier, dock or seawall being fished from.</b>",
+   TIGER, "These are moving buffers around people and cannot be drawn. Keep 200 ft from swimmers and from anyone fishing off a structure anywhere in the town.")
+mk("loc-pbtown-beaches", "Town of Palm Beach: no spearfishing gear on five named beaches; dive rules off guarded beaches",
+   ["pbtown-74-161", "pbtown-74-200", "pbtown-74-162"], [[26.70601, -80.03295], [26.63895, -80.03852]],
+   "<b>Possession of spearfishing equipment is banned on Phipps Ocean Park, Midtown Beach, the Clarke Avenue beach, the Kreusler Park beach and the Palm Beach Inlet dock; on other Town beaches a speargun must be carried uncocked and unloaded.</b> Diving off lifeguarded Town beaches needs the buddy system, a certification card for scuba, a BC and a dive flag. Markers: Midtown Beach and Phipps Ocean Park.",
+   "Midtown Beach position read off Esri World Imagery at the east end of Royal Palm Way; Phipps Ocean Park geocoded and checked on imagery.",
+   "Only two of the five named beaches carry a marker. Clarke Avenue, Kreusler Park and the Palm Beach Inlet dock are covered too.")
+mk("loc-tampa-parks-marinas", "Tampa: no spear or harpoon in city marinas and mooring fields, or in waters next to city park land",
+   ["tampa-16-76", "tampa-16-41"], [[27.92881, -82.45343]],
+   "<b>Using a spear or harpoon is unlawful in any City of Tampa marina or mooring field and on any adjacent pier, and fishing by any device is prohibited in waters next to Parks and Recreation Department land except where designated.</b> Marker: Davis Islands Park.",
+   "Davis Islands Park geocoded and checked on imagery. Not a boundary.",
+   "Every city marina, mooring field and waterfront park in Tampa is covered and none is drawn. 'Adjacent' waters have no stated width.")
+mk("loc-hillsborough-parks", "Hillsborough County parks: no spear or gig fishing in park waters except where designated",
+   ["hillsborough-38-25"], [[27.74811, -82.47073]],
+   "<b>In Hillsborough County park waters, fresh or salt, all fishing including spear and gig is prohibited except at places the Parks Department designates.</b> Marker: E.G. Simmons Regional Park.",
+   "E.G. Simmons Regional Park geocoded and checked on imagery. Not a boundary.",
+   "Every county park with water is covered; 'park waters' has no stated seaward limit.")
+mk("loc-manatee-beachparks", "Manatee County beach parks: no fishing where swimming is permitted; no swimming under or diving from the groins and piers",
+   ["manatee-2-24-6"], [[27.49712, -82.71245], [27.46158, -82.69755]],
+   "<b>At Manatee County beach parks, fishing (spearing included) is barred where swimming is permitted, scuba is barred inside marked swim areas, and nobody may enter, dive from or swim under the three groins or any pier.</b> Markers: Manatee Public Beach and Coquina Beach, where the three groins are.",
+   "Both parks geocoded and checked on imagery; the three groins are visible off Coquina Beach.",
+   "The swim areas are where posted and the groins are not drawn. Cortez Beach is covered too.")
+mk("loc-brevard-parks", "Brevard County parks: no diving, scuba or fishing except in designated areas",
+   ["brevard-78-112"], [[28.34187, -80.60693]],
+   "<b>In any Brevard County park, recreational facility or department-managed land, diving, scuba and fishing (spearing included) are unlawful unless the area is designated for them.</b> Marker: Lori Wilson Park.",
+   "Lori Wilson Park geocoded and checked on imagery (the point falls about 70 m inland of the beach). Not a boundary.",
+   "Every county beach park and waterfront park in Brevard is covered, with no stated seaward limit.")
+mk("loc-irc-parks", "Indian River County parks: no diving, scuba or fishing except in designated areas",
+   ["indianrivercounty-205-03"], [[27.76349, -80.39705]],
+   "<b>In Indian River County parks, diving, scuba and fishing are prohibited except in designated areas.</b> Marker: Wabasso Beach Park.",
+   "Wabasso Beach Park geocoded. Not a boundary.",
+   "Every county park with water is covered.")
+mk("loc-ihb-parks", "Indian Harbour Beach parks: no diving, scuba or fishing except in designated areas",
+   ["indianharbourbeach-12-36"], [[28.15767, -80.60030]], "<b>In Indian Harbour Beach city parks, diving, scuba and fishing are prohibited except in designated areas.</b>",
+   TIGER, "Every city park with water is covered.")
+mk("loc-goldenbeach-parks", "Golden Beach parks: no diving, scuba or fishing except in designated areas",
+   ["goldenbeach-22-61"], [[25.96327, -80.12215]], "<b>In Golden Beach town parks, diving, scuba and fishing are prohibited except in designated areas.</b>",
+   TIGER, "Every town park with water is covered, the beach park included.")
+mk("loc-ormond-parks", "Ormond Beach: no spear guns in city park waters; no skin or scuba diving in parks except where designated",
+   ["ormond-15-6"], [[29.27094, -81.02939]],
+   "<b>Spear guns are prohibited for taking fish in Ormond Beach city park waters, and skin or scuba diving in city parks is prohibited except where the director designates.</b> Marker: Andy Romano Beachfront Park.",
+   "Andy Romano Beachfront Park geocoded. Not a boundary.", "Every city park with water is covered, river parks included.")
+mk("loc-wakulla-parks", "Wakulla County parks and facilities: no spear gun discharge",
+   ["wakulla-23-005"], [[29.97340, -84.34065]],
+   "<b>Discharging a spear gun in a Wakulla County park or county facility is unlawful unless authorized.</b> Marker: Mashes Sands Park.",
+   "Mashes Sands Park geocoded. Not a boundary.", "Every county park and facility is covered, boat ramps and docks included.")
+mk("loc-navarre-bathing", "Navarre Beach: spearfishing may be barred in posted bathing areas, 1 Mar to 31 Oct",
+   ["santarosa-14-52"], [[30.38001, -86.86374]],
+   "<b>From 1 March to 31 October, fishing with a spear may be prohibited in public bathing areas at Navarre Beach that the county designates and posts.</b> Marker: Navarre Beach Fishing Pier.",
+   "Pier position from the FWC fishing pier inventory (data/piers.json).", "The bathing areas are where posted and are not drawn.")
+mk("loc-escambia-beaches", "Escambia County beaches: lifeguards may order spearfishers away from bathers",
+   ["escambia-74-36-18"], [[30.33085, -87.14269]],
+   "<b>On Escambia County beaches, disobeying a lifeguard's reasonable command to stop spear fishing too close to bathers is unlawful.</b> Marker: Pensacola Beach Fishing Pier at Casino Beach.",
+   "Pier position from the FWC fishing pier inventory (data/piers.json).", "Applies on every county beach; no distance is stated.")
+mk("loc-yankeetown-basin", "Yankeetown: no swimming, diving, snorkeling or scuba at the Yacht Basin Boat Ramp and Yacht Basin Park",
+   ["yankeetown-22-3"], [[29.03078, -82.71296]],
+   "<b>No swimming, diving, snorkeling or scuba within or from the shoreline or structures of the Yacht Basin Boat Ramp and Yacht Basin Park, including the fishing pier.</b>",
+   "Ramp position from the FWC boat ramp inventory (data/ramps.json, 'Yankeetown Yacht Basin Park').",
+   "The water the rule reaches from the shoreline and structures is not stated.")
+mk("loc-titusville-pier", "Titusville: no spear or gig within 100 ft of the Titusville Pier",
+   ["titusville-12-7"], [[28.61949, -80.80048]],
+   "<b>No fishing with a gig or spear within 100 ft of the Titusville Pier, the remaining part of the old bridge.</b> The statewide 100 yd pier buffer already closes this water.",
+   "Pier position from the FWC fishing pier inventory (data/piers.json, 'Titusville Veteran's Memorial Fishing Pier').",
+   "Nothing beyond the statewide pier buffer.")
+mk("loc-flaglerbeach-pier", "Flagler Beach: no swimming within 150 ft either side of the municipal pier",
+   ["flaglerbeach-6-3"], [[29.47984, -81.12649]],
+   "<b>No swimming within 150 ft on either side of the Flagler Beach municipal pier</b>; lifeguards may expand the area. Inside the statewide 100 yd pier buffer.",
+   "Pier position from the FWC fishing pier inventory (data/piers.json).", "Nothing beyond the statewide pier buffer unless a lifeguard expands the area.")
+mk("loc-mexicobeach-pier", "Mexico Beach: no diving from the city pier, and no swimming within 50 ft of it",
+   ["mexicobeach-95-02"], [[29.94310, -85.41111]],
+   "<b>No diving from the Mexico Beach city pier and no swimming or otherwise occupying the water within 50 ft of it.</b>",
+   "Marker on the beach where the geocoder places the pier; no pier structure is visible there on Esri World Imagery.",
+   "The pier was destroyed by Hurricane Michael in 2018 and its rebuild was not confirmed; the FWC pier inventory has no Mexico Beach entry. Where a pier stands, the statewide 100 yd pier buffer applies as well.")
+mk("loc-palmcoast-marinas", "Palm Coast: no swimming, diving or skin diving inside a marina area",
+   ["palmcoast-4-16"], [[29.57690, -81.19330]],
+   "<b>Swimming, diving, water-skiing and skin diving are prohibited within a marina area in Palm Coast.</b> Marker: Palm Coast Marina.",
+   "Palm Coast Marina geocoded. Not a boundary.", "Every marina area in the city is covered.")
+mk("loc-gulfport-posted", "Gulfport: no fishing of any kind, spear included, in posted no-fishing areas",
+   ["gulfport-17-22"], [[27.74644, -82.70994]],
+   "<b>Fishing by any method, spear and gig included, is banned in areas the city designates and posts as no-fishing areas.</b>",
+   TIGER, "The posted areas are not listed in the code and are not drawn.")
+mk("loc-cocoabeach-canals", "Cocoa Beach: hook and line or hand-thrown cast net only in the listed residential canals",
+   ["cocoabeach-5-56"], [[28.32914, -80.62754]],
+   "<b>Taking fish by any means other than hook and line or a hand-thrown cast net is banned in the residential saltwater canals listed in § 5-56(a).</b> Spearing is not an allowed method.",
+   TIGER, "The listed canals cover the city's canal subdivisions on the Banana River side and are not drawn.")
+mk("loc-melbournebeach-canals", "Melbourne Beach: hook and line or hand-thrown cast net only in five named residential canals",
+   ["melbournebeach-40-33"], [[28.06687, -80.55960]],
+   "<b>Catching fish by any means other than hook and line or a hand-thrown cast net is banned in the Driftwood Avenue, Riverview Lane, Sandy Key, Anchor Key and Pelican Key canals.</b>",
+   TIGER, "The five canals are not drawn.")
+
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]
+ADD = {"loc-venice": "venice-46-64", "loc-naples-canals": None}
+for x in zs:
+    if ADD.get(x["id"]) and ADD[x["id"]] not in x["law"]:
+        x["law"].append(ADD[x["id"]])
 for z in Z:
     assert all(i in LAW for i in z["law"]), z["id"]
     zs[:] = [x for x in zs if x["id"] != z["id"]]

@@ -16,3 +16,8 @@ Whitespace was collapsed; nothing else was changed.
 | 8 | Whole-code keyword search, 166 Municode clients | api.municode.com/search, terms spear* OR speargun* OR harpoon* OR scuba OR snorkel* OR "skin diving" OR "skin dive" OR "underwater fishing" | 189 hits in 94 clients, 72 clients with none (`neg-local-2026-11-11`) |
 | 9 | Fla. Admin. Code r. 68B-3.045; ch. 68B-3 listing | flrules.org | quoted in `neg-68b-3-broward-8636` |
 | 10 | Fla. Admin. Code rr. 68B-35.002(14), 68B-35.004(5), 68B-20.005 | flrules.org .doc text extracted in page | paraphrased in the `fac-68b-35-004` note |
+| 11 | Hollywood Code chs. 98, 99, 103, 131 to 133 (186 section pages) | codelibrary.amlegal.com, section pages fetched in page | only § 99.03(F) and § 98.011(B); see `neg-hollywood-2026-11-11` |
+| 12 | Cocoa Beach § 5-56(a) | api.municode.com/search with a 4,000 character fragment (content service returns the node empty) | lead-in and items (1) to (11) quoted in `cocoabeach-5-56` |
+| 13 | Deerfield Beach § 74-31 | api.municode.com CodesContent | "(4) \"No Entry Area\" - All vessels and all persons, either in vessels or swimming, diving or wading, are prohibited from entering the marked area." |
+| 14 | Naples Special Acts art. 2 § 1 canal table | api.municode.com CodesContent, product 13804 | 45 rows, 24 distinct entrance positions; history "(Laws of Fla. ch. 92-258, § 1)" |
+| 15 | Melbourne Beach § 40-33 | codelibrary.amlegal.com 0-0-0-18947 | quoted whole in `melbournebeach-40-33` |

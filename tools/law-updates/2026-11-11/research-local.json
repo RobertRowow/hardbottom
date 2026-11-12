@@ -473,5 +473,26 @@
    "verbatim": "coordinates as printed",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "melbournebeach-40-33",
+  "cite": "Town of Melbourne Beach Code § 40-33",
+  "title": "Melbourne Beach: hook and line or hand-thrown cast net only in five named residential canals (no spearing)",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/melbournebeach/latest/melbournebeach_fl/0-0-0-18947",
+  "effect": "Catching fish by any means other than hook and line, or any net other than a hand-thrown cast net, is banned in the five dredged residential canals named in the section (Driftwood Avenue, Riverview Lane, Sandy Key, Anchor Key and Pelican Key canals). Spearing is not an allowed method.",
+  "excerpt": "It shall be unlawful for any person to catch or take fish or attempt to catch or take fish by means other than hook and line or use any net other than a cast net thrown by hand in the following manmade saltwater residential canals:",
+  "full": "(1) The dredged canal lying between Driftwood Avenue on the north and Pelican Key, Riverview Lane, Sandy Key and other dredged canals on the south. (2) The dredged canal lying between Riverview Lane on the west and Sandy Key on the east. (3) The dredged canal lying between Sandy Key on the west and Anchor Key, Pelican Key and other dredged canals on the east. (4) The dredged canal lying between Pelican Key on the north and Anchor Key on the south. (5) The dredged canal lying between Anchor Key on the north and Riverview Lane on the south. ('75 Code, § 8-5) (Ord. 84-3, passed 5-8-84; Am. Ord. 85-1, passed 2-12-85)",
+  "verified": "verbatim",
+  "scope": "Five named canals in the Town of Melbourne Beach.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on codelibrary.amlegal.com (section page fetched in page, text extracted). Closes the Melbourne Beach part of open question 28. Not drawn: the canals are named by streets only.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
  }
 ]

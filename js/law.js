@@ -8,7 +8,7 @@
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
   var nl2br = function (s) { return esc(s).replace(/\n/g, '<br>'); };
 
-  var JLABEL = { federal: 'Federal', state: 'Florida state', county: 'County', city: 'Municipal' };
+  var JLABEL = { federal: 'Federal', state: 'Florida state', county: 'County', district: 'Port authorities and special districts', city: 'Municipal' };
   var VLABEL = {
     verbatim:  ['ok',   'Read verbatim from the primary source'],
     secondary: ['warn', 'From a secondary source; citation not confirmed word for word'],
@@ -67,7 +67,7 @@
       return (e.cite + ' ' + e.title + ' ' + e.effect + ' ' + (e.excerpt || '') + ' ' +
               (e.scope || '') + ' ' + (e.note || '') + ' ' + (e.full || '')).toLowerCase().indexOf(q) >= 0;
     });
-    var order = ['federal', 'state', 'county', 'city'];
+    var order = ['federal', 'state', 'county', 'district', 'city'];
     var html = '';
     order.forEach(function (j) {
       var g = hits.filter(function (e) { return e.juris === j && e.kind !== 'negative'; });

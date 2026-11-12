@@ -1,0 +1,365 @@
+{
+ "version": "2026-11-11",
+ "intro": "Each question below is a point where the map cannot settle what the law means or where it applies, from public text alone. Most need an answer from the agency or city that enforces the rule. Until one arrives, the map draws the reading that closes more water and says so in the popup.",
+ "status_def": {
+  "needs-person": "Needs an answer from an agency, a city clerk or a park office. More reading will not settle it.",
+  "partly": "Partly answered from primary sources; the rest needs a person.",
+  "needs-source": "The governing text exists but has not been read in full at the primary host.",
+  "needs-geometry": "The rule is read; what is missing is a public map source for its boundary."
+ },
+ "questions": [
+  {
+   "n": 1,
+   "status": "partly",
+   "region": "Keys",
+   "title": "Key West and Great White Heron national wildlife refuges: is refuge water closed to spearfishing?",
+   "why": "50 C.F.R. part 32 does not open either refuge to sport fishing, which on its face closes their water to spearing. The Fish and Wildlife Service's own pages say fishing follows state law and that the State of Florida manages the submerged land. The map draws both refuges amber.",
+   "ask": "Florida Keys National Wildlife Refuges Complex, Big Pine Key",
+   "contact": null,
+   "q": "Do refuge officers treat spearfishing under Florida law as permitted in Key West and Great White Heron NWR waters, given that 50 C.F.R. part 32 does not list either refuge as open to sport fishing?",
+   "zones": [
+    "nwr-kew",
+    "nwr-gwh"
+   ],
+   "law": [
+    "cfr-50-27-21"
+   ]
+  },
+  {
+   "n": 2,
+   "status": "needs-person",
+   "region": "Northeast",
+   "title": "Volusia County: where are the \"inland salt waters\"?",
+   "why": "Rule 68B-3.008 restricts spearing in Volusia County's inland salt waters and never defines them. The map treats the whole Halifax River and Mosquito Lagoon system as covered.",
+   "ask": "FWC Division of Law Enforcement",
+   "contact": null,
+   "q": "Where does FWC treat the inland salt waters of Volusia County under r. 68B-3.008(3) as beginning and ending?",
+   "zones": [
+    "vol"
+   ],
+   "law": [
+    "fac-68b-3-008"
+   ]
+  },
+  {
+   "n": 3,
+   "status": "partly",
+   "region": "Statewide",
+   "title": "Federal waters: may a recreational diver spear king mackerel or Atlantic Spanish mackerel?",
+   "why": "50 C.F.R. § 622.375(a)(1) leaves spear off the gear list for directed fisheries for these species, while § 600.725(v) lists spear for the fishery. \"Directed fishery\" is not defined. The species cards keep the conservative reading.",
+   "ask": "NOAA Fisheries Southeast Regional Office, Sustainable Fisheries Division",
+   "contact": null,
+   "q": "Does NMFS treat a recreational diver spearing king mackerel or Atlantic Spanish mackerel in the EEZ as a directed fishery using unauthorized gear, and is the bag limit the only consequence?",
+   "zones": [],
+   "law": [
+    "cfr-622-375",
+    "cfr-600-725"
+   ]
+  },
+  {
+   "n": 4,
+   "status": "needs-person",
+   "region": "Atlantic",
+   "title": "Is a dive charter a \"vessel for hire\" under the Atlantic For-Hire Reef Fish Registry?",
+   "why": "Rule 68B-14.009(4), effective 1 Sep 2026, requires vessels for hire to join a registry. The text does not say whether a boat carrying paying spearfishers counts.",
+   "ask": "FWC Division of Marine Fisheries Management",
+   "contact": null,
+   "q": "Does a boat that carries paying divers who spear reef fish need to join the Atlantic For-Hire Reef Fish Registry under r. 68B-14.009(4)?",
+   "zones": [],
+   "law": [
+    "fac-68b-14-009"
+   ]
+  },
+  {
+   "n": 5,
+   "status": "needs-person",
+   "region": "Southwest",
+   "title": "Venice: how far from the city is \"near\" the city's waters?",
+   "why": "Venice Code § 46-114 bans spearfishing \"within or near\" the city's territorial waters and does not define near. The map closes the whole city and Venice Inlet.",
+   "ask": "City of Venice clerk or police marine unit",
+   "contact": null,
+   "q": "What distance from city waters does the city apply as \"near\" under § 46-114?",
+   "zones": [
+    "loc-venice"
+   ],
+   "law": [
+    "venice-46-114",
+    "venice-46-134"
+   ]
+  },
+  {
+   "n": 6,
+   "status": "needs-person",
+   "region": "Tampa Bay",
+   "title": "Treasure Island, Clearwater and Seminole: has any area been designated as permissible for spearfishing?",
+   "why": "All three cities ban discharging spring, gas or air powered weapons citywide and except spearfishing only \"in any area where such activity has been designated as being permissible\" by the city, the state or the United States. No designated area was found in any of the three codes. Treasure Island § 58-34 also gives John's Pass a 1,500 ft extension with no stated width.",
+   "ask": "Treasure Island City Clerk; Clearwater City Clerk; Seminole City Clerk",
+   "contact": "Treasure Island City Clerk: (727) 547-4575 ext. 228 (from the Pinellas County municipal clerks list)",
+   "q": "Has the city designated any area as permissible for spearfishing, and does it treat water where state law allows spearfishing as designated? (Treasure Island also: what lateral width does the city apply to the § 58-34 extensions?)",
+   "zones": [
+    "loc-ti222",
+    "ti58",
+    "clw2106"
+   ],
+   "law": [
+    "ti-22-2",
+    "clearwater-21-06",
+    "clearwater-8-08",
+    "seminole-38-2"
+   ]
+  },
+  {
+   "n": 7,
+   "status": "partly",
+   "region": "Southeast",
+   "title": "Sunny Isles Beach § 108-4: always in force, or only in dangerous conditions?",
+   "why": "The last sentence of § 108-4 bars fishing in the Atlantic by spear except in designated areas and carries no dangerous-conditions trigger; the article heading suggests one. The map draws it as standing.",
+   "ask": "City of Sunny Isles Beach City Clerk",
+   "contact": "305.792.1703, cityclerk@sibfl.net (from the city's departments page)",
+   "q": "Is the last sentence of § 108-4 enforced at all times, and has the city designated any place in the Atlantic where spearfishing is exempt from it?",
+   "zones": [
+    "loc-sib"
+   ],
+   "law": [
+    "sib-108-4",
+    "sunnyisles-201-6"
+   ]
+  },
+  {
+   "n": 8,
+   "status": "needs-person",
+   "region": "Southwest",
+   "title": "Lee County parks: how far do \"adjacent littoral waters\" run?",
+   "why": "Lee County bans spears in county parks, defined to include beaches, piers and adjacent littoral waters. Only the Lynn Hall pier is drawn.",
+   "ask": "Lee County Parks and Recreation",
+   "contact": null,
+   "q": "How far seaward do adjacent littoral waters of a county park run under § 20-25, and which beach parks does it cover?",
+   "zones": [
+    "loc-lee-lynnhall"
+   ],
+   "law": [
+    "lee-20-25"
+   ]
+  },
+  {
+   "n": 9,
+   "status": "partly",
+   "region": "Southeast",
+   "title": "Hallandale Beach: does the beach spearfishing ban reach the water?",
+   "why": "§ 16-23 bans spearfishing on the public beach except in a designated area, and the public beach is land seaward of the erosion control line. The map draws the city amber.",
+   "ask": "City of Hallandale Beach City Clerk or Parks and Recreation",
+   "contact": null,
+   "q": "Does the § 16-23 spearfishing ban apply in the water off the public beach, and has the parks department designated any spearfishing area?",
+   "zones": [
+    "loc-hallandale"
+   ],
+   "law": [
+    "hallandale-16-23"
+   ]
+  },
+  {
+   "n": 10,
+   "status": "needs-person",
+   "region": "Statewide",
+   "title": "State parks with no mapped water: how far does park water run?",
+   "why": "Spearfishing is banned in every state park's waters. Twelve parks and preserves have no water polygon. Until answered, treat water beside them as closed.",
+   "ask": "FDEP Division of Recreation and Parks",
+   "contact": null,
+   "q": "How far does the Division's jurisdiction run over sovereign submerged land beside Amelia Island, Navarre Beach, St. George Island, Werner-Boyce Salt Springs, The Barnacle and the other parks with no mapped water?",
+   "zones": [],
+   "law": [
+    "fac-62d-2-014",
+    "fac-68b-20-003-2"
+   ]
+  },
+  {
+   "n": 12,
+   "status": "needs-person",
+   "region": "Tampa Bay",
+   "title": "St. Pete Beach: where is \"Blind Pass south of the 75th Avenue centerline\"?",
+   "why": "§ 94-1 bans swimming and skin diving in that part of Blind Pass. The named pass sits north of 75th Avenue, so the rule's area is unclear. The map shows a marker only.",
+   "ask": "City of St. Pete Beach City Clerk",
+   "contact": null,
+   "q": "Which water does the city treat as Blind Pass south of the 75th Avenue centreline, and where is the § 94-1(2) Pass-a-Grille area?",
+   "zones": [
+    "spb94"
+   ],
+   "law": [
+    "spb-94-1"
+   ]
+  },
+  {
+   "n": 15,
+   "status": "partly",
+   "region": "Keys",
+   "title": "Florida Keys National Marine Sanctuary: which zoning applies where?",
+   "why": "The 2025 Restoration Blueprint governs federal water; the 1997 zoning still governs state water. eCFR still prints the 1997 text and no effective-date notice has been published.",
+   "ask": "Florida Keys National Marine Sanctuary",
+   "contact": "305-809-4700",
+   "q": "From what date does NOAA treat the Blueprint as effective in federal waters, and will it publish the effective-date notice 90 FR 6104 promised?",
+   "zones": [],
+   "law": [
+    "fknms-blueprint-2025",
+    "cfr-922-163"
+   ]
+  },
+  {
+   "n": 17,
+   "status": "needs-person",
+   "region": "Statewide",
+   "title": "National wildlife refuges: does the refuge boundary include water, and to what line?",
+   "why": "Nine refuges are drawn from a boundary layer that mixes land and interest parcels. Hobe Sound, Pinellas and Egmont Key allow only hook and line, so their water extent decides real closures.",
+   "ask": "U.S. Fish and Wildlife Service, Southeast Region; Tampa Bay Refuges office",
+   "contact": null,
+   "q": "Does the refuge boundary include water, and to what line? (Egmont Key, Great White Heron, Island Bay, Key West, Matlacha Pass, Hobe Sound, Passage Key, Pine Island, Pinellas)",
+   "zones": [
+    "nwr-egk",
+    "nwr-gwh",
+    "nwr-isb",
+    "nwr-kew",
+    "nwr-map",
+    "nwr-hbs",
+    "nwr-pak",
+    "nwr-pii",
+    "nwr-pin"
+   ],
+   "law": [
+    "cfr-50-27-21"
+   ]
+  },
+  {
+   "n": 19,
+   "status": "partly",
+   "region": "Panhandle",
+   "title": "Gulf Islands National Seashore: was the 2021 spear ban removed on purpose?",
+   "why": "The current compendium (1 Sep 2026) has no spear or projectile provision, but two park web pages still print the 2021 ban. The map draws the seashore amber.",
+   "ask": "Gulf Islands National Seashore, Florida District",
+   "contact": null,
+   "q": "Was the 2021 compendium provision banning pole spears, spear guns and Hawaiian slings removed on purpose?",
+   "zones": [
+    "npsguis"
+   ],
+   "law": [
+    "guis-compendium"
+   ]
+  },
+  {
+   "n": 20,
+   "status": "needs-person",
+   "region": "Southwest",
+   "title": "Sarasota County and City of Sarasota: which channels count as \"marked\"?",
+   "why": "Both codes ban diving and spearfishing in any marked navigable channel. Only the federal channel is drawn; local marked channels are not in any dataset.",
+   "ask": "Sarasota County Sheriff's Office Marine Unit; City of Sarasota",
+   "contact": null,
+   "q": "Which channels do officers treat as marked navigable channels under County § 130-33(j) and City § 10-64?",
+   "zones": [
+    "sar130"
+   ],
+   "law": [
+    "sarasota-130-33",
+    "sarasota-city-10-66"
+   ]
+  },
+  {
+   "n": 23,
+   "status": "needs-person",
+   "region": "Keys",
+   "title": "Monroe County: is there an uncodified bridge diving ban?",
+   "why": "No bridge diving rule is codified, but a 2025 or 2026 ordinance not yet codified cannot be ruled out.",
+   "ask": "Monroe County Attorney's Office or Clerk to the Board",
+   "contact": null,
+   "q": "Did the Board adopt an ordinance in 2025 or 2026 restricting diving or snorkeling near bridges, and is it codified yet?",
+   "zones": [
+    "mon26"
+   ],
+   "law": [
+    "monroe-26-art4"
+   ]
+  },
+  {
+   "n": 27,
+   "status": "partly",
+   "region": "Southeast",
+   "title": "Broward County's 1921 inside-waters act: still law, and fresh or salt water?",
+   "why": "Broward Code § 13-5 (Laws of Fla. ch. 8636) limits taking food fish in rivers, creeks, canals and inside waters to hook and line or cast net. FWC has not repealed it (checked 11 Nov 2026). If it reaches salt water, every canal and the Intracoastal in Broward is closed to spearing. Not drawn.",
+   "ask": "FWC Division of Marine Fisheries Management; Broward County Attorney",
+   "contact": null,
+   "q": "Is Broward County Code § 13-5 (Sp. Acts 1921, ch. 8636) still in force, and does FWC treat it as reaching salt water?",
+   "zones": [],
+   "law": [
+    "broward-13-5",
+    "neg-68b-3-broward-8636"
+   ]
+  },
+  {
+   "n": 31,
+   "status": "needs-person",
+   "region": "Northeast",
+   "title": "Long-jetty exception: where is \"the shoreline\"?",
+   "why": "R. 68B-20.003(2)(d) lifts the jetty buffer along the last 500 yd of a jetty more than 1,500 yd long measured from the shoreline, which the rule does not define. The map measures from the visible beach line.",
+   "ask": "FWC Division of Law Enforcement",
+   "contact": null,
+   "q": "From what line does FWC measure a jetty's 1,500 yd length under r. 68B-20.003(2)(d)?",
+   "zones": [],
+   "law": [
+    "fac-68b-20-003-2"
+   ]
+  },
+  {
+   "n": 36,
+   "status": "needs-person",
+   "region": "Southeast",
+   "title": "Palm Beach County parks: how far does \"park property\" run into the water?",
+   "why": "Palm Beach County Code § 21-27(c) bans spear fishing within park property, which § 21-18 defines to include park water on the Intracoastal, Lake Worth Lagoon and the ocean. That reaches Phil Foster Park, Peanut Island and the county beach parks, but no seaward limit is stated. Not drawn yet.",
+   "ask": "Palm Beach County Parks and Recreation Department",
+   "contact": null,
+   "q": "How far into the water does park property extend for § 21-27(c), at Phil Foster Park, Peanut Island and the county beach parks?",
+   "zones": [],
+   "law": [
+    "pbc-21-27"
+   ]
+  },
+  {
+   "n": 37,
+   "status": "needs-person",
+   "region": "Southeast",
+   "title": "Miami-Dade County parks: where are \"park waters\"?",
+   "why": "Rule 17 in Miami-Dade Code § 26-1 bans fishing by spear or gig in park waters, fresh or salt, except where prescribed. That reaches Crandon, Haulover, Matheson Hammock, Black Point and other county parks, but no water limit is stated. Not drawn yet.",
+   "ask": "Miami-Dade Parks, Recreation and Open Spaces",
+   "contact": null,
+   "q": "Which water does the county treat as park waters under Rule 17, and are any places prescribed for spearfishing?",
+   "zones": [],
+   "law": [
+    "miamidade-26-1-r17"
+   ]
+  },
+  {
+   "n": 38,
+   "status": "needs-person",
+   "region": "Southeast",
+   "title": "Riviera Beach: which bridge is the \"Riviera Beach Memorial Bridge\"?",
+   "why": "§ 13-26(a) bans spears and gigs from, and within 150 ft of, the Riviera Beach Memorial Bridge. The code does not say which crossing carries that name.",
+   "ask": "City of Riviera Beach City Clerk",
+   "contact": null,
+   "q": "Which bridge is the Riviera Beach Memorial Bridge named in § 13-26?",
+   "zones": [],
+   "law": [
+    "rivierabeach-13-26"
+   ]
+  },
+  {
+   "n": 39,
+   "status": "needs-person",
+   "region": "Big Bend",
+   "title": "St. Marks: which river stretch does the 1967 skin diving ban cover?",
+   "why": "§ 78-1 bans skin and scuba diving from the west side of Magnolia Street to the south side of 2nd Street without naming the river. The map shows a marker.",
+   "ask": "City of St. Marks City Clerk",
+   "contact": null,
+   "q": "Which water does the city treat as covered by § 78-1, the St. Marks River, the Wakulla River, or both?",
+   "zones": [],
+   "law": [
+    "stmarks-78-1"
+   ]
+  }
+ ]
+}

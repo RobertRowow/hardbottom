@@ -1,0 +1,422 @@
+[
+ {
+  "id": "rivierabeach-13-32",
+  "cite": "City of Riviera Beach Code §§ 13-31(a)(2), (3), 13-32",
+  "title": "Riviera Beach: no spearfishing by Phil Foster Park and the Blue Heron Bridge, or within 75 ft of any dock, wharf or bridge",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/riviera_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH13PARE_ARTIIWASP_DIV2INVIPHFOMEPA_S13-32SPFIPRCEAR",
+  "effect": "Spearing (spear, gig or similar device used by a person submerged or partly under water) is banned in Lake Worth north of State Road 703 (Blue Heron Boulevard) and Phil Foster Memorial Park, within 1,000 ft west of the Singer Island shore and 1,000 ft north of SR 703; within 75 ft of any dock, wharf or bridge in the city; and within 150 ft of the southern shoreline of Phil Foster Memorial Park.",
+  "excerpt": "It shall be unlawful for any person to engage in the activity of spear fishing, which includes the taking of any marine life through the instrumentality of a spear, gig or other similar device operated by a person submerged or partially underwater within the areas designated in subsections 13-31(2) and 13-31(3) and within 150 feet of the southern shoreline of Phil Foster Memorial Park. (Code 1957, § 16-16)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Riviera Beach: Lake Worth by Phil Foster Memorial Park and the Blue Heron Bridge, and every dock, wharf and bridge in the city.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. The areas are those of § 13-31(a): \"(2) That portion of the waters of Lake Worth bounded on the south by State Road No. 703 and Phil Foster Memorial Park; on the east by the shores of Singer Island; on the west by a line parallel to and 1,000 feet west of the shores of Singer Island; and, on the north by a line parallel to and 1,000 feet north of that portion of State Road No. 703 which lies between the western shore of Singer Island and the eastern shore of the mainland. (3) Within 75 feet of any dock, wharf or bridge.\" § 13-33 also bans swimming within 500 ft of the park north of SR 703. NEW: Riviera Beach was recorded as a negative in August 2026 and not re-searched on 30 Sep 2026; this overturns that negative. Phil Foster Park is the Blue Heron Bridge dive site.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 13-32; § 13-31(a)(2), (3)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "rivierabeach-13-26",
+  "cite": "City of Riviera Beach Code § 13-26(a)",
+  "title": "Riviera Beach: no spear or gig from, or within 150 ft of, the Riviera Beach Memorial Bridge",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/riviera_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH13PARE_ARTIIWASP_DIV1GE_S13-26FISWCEAR",
+  "effect": "No fish spear or gig may be used from the Riviera Beach Memorial Bridge, or in fishing within 150 ft of either side of it. (b) also bans fishing and swimming within 180 ft of the Lake Worth shore east of the FPL plant property.",
+  "excerpt": "(a) It is hereby declared to be unlawful for any person to use a fish spear or gig from Riviera Beach Memorial Bridge for any purpose or to use a fish spear or gig in fishing within an area 150 feet from either side of such bridge.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Riviera Beach Memorial Bridge; the Lake Worth shore east of the FPL plant.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History: (Code 1957, §§ 16-7, 16-8). Which bridge carries the name \"Riviera Beach Memorial Bridge\" is not stated in the section; the city clerk can confirm.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 13-26(a), (b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "pbc-21-27",
+  "cite": "Palm Beach County Code §§ 21-18, 21-27(c)",
+  "title": "Palm Beach County parks: spear fishing prohibited on park property, which includes park water on the ICW, Lake Worth Lagoon and the ocean",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_beach_county/codes/code_of_ordinances?nodeId=PABECOCO_CH21PARE_ARTIIPARU_S21-27FI",
+  "effect": "Spear fishing is banned within Palm Beach County park property. Park property is defined to include water areas on inland and coastal areas, including park property within or adjacent to the waters of the Atlantic Intracoastal Waterway, Lake Worth Lagoon and the Atlantic Ocean, and beaches. That reaches county beach parks, Phil Foster Park and Peanut Island.",
+  "excerpt": "(c) The use of a troll line or spear for fishing purposes is prohibited within park property.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "All Palm Beach County park property, land and water.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. § 21-18 defines \"Park\" to include \"lakes, streams, canals, lagoons, waterways, pools, waterparks, water areas located on inland and coastal areas including park property located within or adjacent to the waters of the Atlantic Intracoastal Waterway, Lake Worth Lagoon, and Atlantic Ocean, and beaches therein\", and \"park property\" to cover all areas described in that definition. How far park property runs into the water is not stated. History of § 21-27: (Ord. No. 04-022, § 12, 8-17-04; Ord. No. 2011-003, § 6, 2-15-11; Ord. No. 2019-001, § 8, 1-15-19). NEW 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 21-27(c); § 21-18",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "newportrichey-14-3",
+  "cite": "City of New Port Richey Code § 14-3(a)",
+  "title": "New Port Richey: discharging an underwater spear gun banned citywide except on a designated range",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/new_port_richey/codes/code_of_ordinances?nodeId=PTIICOOR_CH14MIOF_ARTIINGE_S14-3DIARBOPR",
+  "effect": "Nobody may discharge an underwater spear gun anywhere in the city except on a range the police department designates. No range may be in a residential zone. In effect a citywide closure to spearguns, including city waters of the Pithlachascotee River.",
+  "excerpt": "(a) It shall be unlawful for any person to discharge any device which propels an arrow, dart or bolt or projectile by means of any common bow, compound bow, crossbow, or underwater spear gun except upon areas designated by city policy department as range areas.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of New Port Richey, land and water.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History: (Code 1964, § 15-7; Ord. No. 1322, § 1, 7-20-93; Ord. No. 1477, § 1, 2-2-99; Ord. No. 1968, § 3, 9-20-2011). \"city policy department\" is printed so. NEW 11 Nov 2026: New Port Richey was on the 30 Sep 2026 not-checked list.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 14-3(a)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "seminole-38-2",
+  "cite": "City of Seminole Code § 38-2(b), (c)",
+  "title": "Seminole: shooting animals with spring, gas or projectile weapons banned citywide, spearfishing excepted only where designated",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/seminole/codes/code_of_ordinances?nodeId=SPAGEOR_CH38STSICEOTPUPR_ARTIINGE_S38-2WEPR",
+  "effect": "No shooting at any animal in the city with an air or gas gun, bow, slingshot or other weapon dangerous to wildlife. The exception for spearfishing covers only areas designated as permissible by the city, the state or the United States. Same wording and same open question as Treasure Island § 22-2 and Clearwater § 8.08.",
+  "excerpt": "(c) This section does not apply to a person lawfully defending life or property, to a person discharging the weapon on properties expressly approved for hunting by the Fish and Wildlife Conservation Commission or Division of Forestry, or to a person spear fishing in any area where such activity has been designated as being permissible either by the city, the state, or the United States.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Seminole, including its water on Long Bayou and Boca Ciega Bay.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. (b): \"No person shall shoot or shoot at any animal or fowl in the city, with a BB gun, air gun or gas operated gun, or with bows and arrows, slingshots, or other weapons potentially dangerous to animals or wildlife.\" History ends: \"Ord. No. 03-2011, § 2, 10-25-2011; Ord. No. 28-2017, § 1, 12-19-17\". NEW 11 Nov 2026: Seminole was on the 30 Sep 2026 not-checked list.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 38-2(b), (c)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "clearwater-8-08",
+  "cite": "City of Clearwater Code § 8.08",
+  "title": "Clearwater: shooting animals with spring or gas weapons banned citywide, spearfishing excepted only where designated (companion to § 21.06)",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/clearwater/codes/code_of_ordinances?nodeId=SPAGEOR_CH8AN_ARTIINGE_S8.08SHPR",
+  "effect": "No shooting at any animal in the city with a weapon propelled by compressed air, gas or a spring. Spearfishing is excepted only in areas designated as permissible by the city, the state or the United States. Adds to the citywide § 21.06 discharge rule already drawn as clw2106.",
+  "excerpt": "(2) This section does not apply to a person lawfully defending life or property, to a person discharging the weapon on properties expressly approved for hunting by the Fish and Wildlife Conservation Commission or Division of Forestry, or to a person spear fishing in any area where such activity has been designated as being permissible either by the city, the state or the United States.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Clearwater.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History: (Code 1980, § 91.08; Ord. No. 8275-11, § 1, 9-1-11).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 8.08(1), (2)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "stmarks-78-1",
+  "cite": "City of St. Marks Code § 78-1",
+  "title": "St. Marks: skin diving and scuba banned in the river from Magnolia Street to 2nd Street",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/st._marks/codes/code_of_ordinances?nodeId=PTIICOOR_CH78WA_ARTIINGE_S78-1SKDISCDI",
+  "effect": "No skin diving or scuba diving in the stretch from the west side of Magnolia Street to the south side of 2nd Street; carrying diving gear on the water or banks of any river or stream there is prima facie evidence of a violation. A freediver with a spear is skin diving.",
+  "excerpt": "It shall be unlawful for any person to engage in skin diving or scuba diving, with or without aqualungs, wet suits or other aids to facilitate the activity of skin diving from the west side of Magnolia Street to the south side of 2nd Street.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of St. Marks, rivers between Magnolia Street and 2nd Street.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History: (Ord. No. 67-10, §§ 1, 2, 9-13-1967). The section does not name the river; St. Marks lies at the confluence of the St. Marks and Wakulla rivers. NEW 11 Nov 2026 (St. Marks was not checked on 30 Sep 2026).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "yankeetown-22-3",
+  "cite": "Town of Yankeetown Code § 22-3",
+  "title": "Yankeetown: no swimming, diving, snorkeling or scuba at the Yacht Basin Boat Ramp and Yacht Basin Park",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/yankeetown/codes/code_of_ordinances?nodeId=PTIICOOR_CH22PARE_ARTIINGE_S22-3PRSWWAAC",
+  "effect": "No swimming, diving, snorkeling or scuba within or from the shoreline or structures of the Yacht Basin Boat Ramp and Yacht Basin Park, including the fishing pier.",
+  "excerpt": "(a) It shall be unlawful for any person to swim, bathe, dive, snorkel, or SCUBA dive or engage in any other water activity (other than launching, recovering or using a boat, kayak, or canoe) within or from the shoreline or other structure of the following listed town parks: (1) Yacht Basin Boat Ramp; (2) Yacht Basin Park, including fishing pier.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Two town parks on the Withlacoochee River.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History: (Ord. No. 2018-04, § 3, 8-6-2018). NEW 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 22-3(a)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "titusville-12-7",
+  "cite": "City of Titusville Code § 12-7",
+  "title": "Titusville: no spear or gig within 100 ft of the Titusville (Municipal Fishing) Pier",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/titusville/codes/code_of_ordinances?nodeId=PTIICOOR_CH12MIOF_S12-7FIUNPI",
+  "effect": "No fishing with a gig or spear within 100 ft of the Titusville Pier, the remaining part of the old bridge. The statewide 100 yd pier buffer already closes this water to spearfishing.",
+  "excerpt": "No person shall fish or attempt to fish, or catch any fish, within one hundred (100) feet of the Titusville Pier, sometimes known as Municipal Fishing Pier, being a portion of the old bridge with any gig, spear, snatch-hook, gill net, seine or any other net. (Code 1963, § 15-10)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Titusville Pier, Indian River.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. NEW 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "palmcoast-4-16",
+  "cite": "City of Palm Coast Unified Land Development Code § 4.16",
+  "title": "Palm Coast: no swimming, diving or skin diving inside a marina area",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_coast/codes/land_development_code?nodeId=PACOUNLADECO_CH4COLISPUSAC_S4.16MA",
+  "effect": "Swimming, diving, water-skiing and skin diving are prohibited within a marina area, except bona fide research, inspection or maintenance diving.",
+  "excerpt": "6. It is prohibited and unlawful to swim, dive, water-ski, or skin dive within a marina area; provided, however, that a person may dive or skin dive for the purpose of bona fide scientific research, inspection of the marina or a watercraft, maintenance of a watercraft, or making of emergency repairs on any watercraft.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Marina areas in the City of Palm Coast.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. NEW 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 4.16, item 6",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "venice-46-134",
+  "cite": "City of Venice Code §§ 46-134, 46-135",
+  "title": "Venice: no skin or scuba diving in any marked navigable channel, or within 200 ft of anyone fishing or an anchored boat",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPAGEOR_CH46PARE_ARTIVMAAC_DIV3SKSCDI_S46-134DIMANACH",
+  "effect": "No skin or scuba diving inside any marked navigable channel without police authorization; § 46-135 adds a 200 ft standoff from anyone fishing or any anchored boat. Venice is already drawn closed citywide under § 46-114.",
+  "excerpt": "It shall be unlawful for any person to skin dive or scuba dive within the bounds of any marked navigable channel unless authorized by the police department upon showing of some necessity for diving in such channel. (Code 1982, § 13-54)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Venice.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. § 46-135: \"It shall be unlawful for any person to skin dive or scuba dive within 200 feet of any person fishing, or any boat anchored, prior to commencement of diving.\" (exclusions not read). NEW to the registry 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 46-134; § 46-135 (first sentence)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "gulfport-17-22",
+  "cite": "City of Gulfport Code § 17-22(b)",
+  "title": "Gulfport: no fishing of any kind, spear included, in posted no-fishing areas",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/gulfport/codes/code_of_ordinances?nodeId=COOR_CH17STSIPAPA_ARTIIPA_S17-22FI",
+  "effect": "Fishing by any method, including spear and gig, is banned in areas the city designates and posts as no-fishing areas. Commercial fishing is banned in any park and within 100 ft of any park.",
+  "excerpt": "(b) No fishing of any kind shall be conducted in any area designated and posted as a \"no fishing\" area by the city.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Posted areas in the City of Gulfport.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. Fishing in (b) is defined in the same section to include taking by spear and gig. Recorded in jurisdictions.json on 30 Sep 2026 but never added to the registry; added 11 Nov 2026. Not drawn: posted areas are signs, not a dataset.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "§ 17-22(a), (b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "sunnyisles-201-6",
+  "cite": "City of Sunny Isles Beach Code § 201-6, Rule 23",
+  "title": "Sunny Isles Beach parks: no fishing by spear in park waters except in prescribed places",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/sunny_isles_beach/codes/code_of_ordinances?nodeId=PAII_CH201PAREAR_S201-6ATCABOFI",
+  "effect": "No fishing in city park waters by hook and line, seine, trap, spear gig or other device except where prescribed.",
+  "excerpt": "Rule 23. Fishing. No person, adult or minor, shall fish in park waters by use of hook and line, seine, trap, spear gig or other device except at such places and in such areas as have been prescribed for such usage.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Sunny Isles Beach park waters.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. Adds to § 108-4, already drawn citywide (loc-sib). NEW 11 Nov 2026.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "Rule 23",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "miamidade-26-1-r17",
+  "cite": "Miami-Dade County Code § 26-1, Rule 17",
+  "title": "Miami-Dade County parks: no spear or gig fishing in park waters, fresh or salt, except where prescribed",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/miami_-_dade_county/codes/code_of_ordinances?nodeId=PTIIICOOR_CH26PAREDERURE_ARTIINGE_S26-1RUREAD",
+  "effect": "No fishing in Miami-Dade County park waters, fresh or salt, by spear, gig or any other device except at places prescribed for it, which the rule says include stretches of ocean beach marked by movable signs away from bathing areas. Reaches county parks such as Crandon, Haulover, Matheson Hammock, Black Point and Homestead Bayfront.",
+  "excerpt": "Rule 17. Fishing No person, adult or minor, shall fish in park waters, either fresh or salt, by use of hook-and-line, seine, net, trap, spear, gig or other device except at such places and in such areas as have been prescribed for such usage which will include specified lakes, canals, lagoons, creeks and stretches on ocean beaches marked by moveable signs in areas other than those used for bathing. (Ord. No. 59-14, Rules, Art. 4 §, 6-16-59)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Miami-Dade County park waters.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. Rule 18 also bars spring guns and any weapon harmful to wildlife on or in any park area. CORRECTS the August 2026 negative for Miami-Dade (neg-miamidade), which read ch. 7 only. \"Park waters\" is not given a seaward limit in the text read.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "Rule 17",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "bocaraton-11-81",
+  "cite": "City of Boca Raton Code § 11-81(1)",
+  "title": "Boca Raton parks: no swimming or scuba in water in or adjacent to any park except where provided",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/boca_raton/codes/code_of_ordinances?nodeId=PTIICOOR_CH11PARE_ARTIIIRE_DIV2RE_S11-81BASWSU",
+  "effect": "Park-water rule: no diving, scuba or fishing (spearfishing included) in or from the park except where designated. How far park water reaches is not stated.",
+  "excerpt": "(1) No person, regardless of age, sex or manner of dress, shall swim, scuba dive, surf, wade or bathe in waters or waterways in or adjacent to any park, other than such places as are provided for such activities, and in compliance with the rules of these areas, as to hours of the day and safety limitations for such use.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Boca Raton parks and adjacent water.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. Companion to § 11-85 (no spear guns on park property), already in the registry. NEW 11 Nov 2026. Not drawn: no dataset carries the water limits of these parks.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole provision",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "indianharbourbeach-12-36",
+  "cite": "City of Indian Harbour Beach Code § 12-36",
+  "title": "Indian Harbour Beach parks: no diving, scuba or fishing except in designated areas",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/indian_harbour_beach/codes/code_of_ordinances?nodeId=CH12PARE_ARTIIUSCORE_DIV1GE_S12-36WAAC",
+  "effect": "Park-water rule: no diving, scuba or fishing (spearfishing included) in or from the park except where designated. How far park water reaches is not stated.",
+  "excerpt": "No person shall swim, ski, dive, surf, scuba, fish or use boats in any area in any park or recreational area unless such area is specifically designated for such purpose. (Ord. No. 80-7, § 4(21), 5-27-80)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City parks and recreational areas.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. NEW 11 Nov 2026. Not drawn: no dataset carries the water limits of these parks.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole provision",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "indianrivercounty-205-03",
+  "cite": "Indian River County Code § 205.03(21)",
+  "title": "Indian River County parks: no diving, scuba or fishing except in designated areas",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/indian_river_county/codes/code_of_ordinances?nodeId=COOR_TITIITAUTSPDI_CH205PARE_S205.03RURE",
+  "effect": "Park-water rule: no diving, scuba or fishing (spearfishing included) in or from the park except where designated. How far park water reaches is not stated.",
+  "excerpt": "(21) Water activity. No person shall swim, ski, dive, surf, scuba, fish or use boats in any area, in any park or recreational area unless such area is specifically designated for such purpose.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "County parks and recreational areas.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. History ends: Ord. No. 2022-017, § 2, 12-20-22. NEW 11 Nov 2026. Not drawn: no dataset carries the water limits of these parks.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole provision",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "goldenbeach-22-61",
+  "cite": "Town of Golden Beach Code § 22-61",
+  "title": "Golden Beach parks: no diving, scuba or fishing except in designated areas",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/golden_beach/codes/code_of_ordinances?nodeId=SPAGEOR_CH22PARE_ARTIIIRURE_S22-61WAAC",
+  "effect": "Park-water rule: no diving, scuba or fishing (spearfishing included) in or from the park except where designated. How far park water reaches is not stated.",
+  "excerpt": "No Person shall swim, ski, dive, surf, scuba dive, fish or use boats or any other watercraft in any area in any Park or Recreational Facility unless such area is specifically designated for such purpose. (Code 1989, § 9.06)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Town parks and recreational facilities.",
+  "note": "Read 11 Nov 2026 in the author's Chrome through the Municode content service (api.municode.com/CodesContent, latest job), section text as returned, whitespace collapsed. NEW 11 Nov 2026. Not drawn: no dataset carries the water limits of these parks.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 11 Nov 2026",
+   "subsection": "whole provision",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "neg-local-2026-11-11",
+  "cite": "Whole-code Municode searches of 166 Florida coastal jurisdictions, 11 Nov 2026",
+  "title": "Seventy-two coastal jurisdictions with no spear, speargun, harpoon, scuba, snorkel or skin-diving provision (confirmed negatives)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://library.municode.com/fl",
+  "effect": "A whole-code search of each jurisdiction below returned no section containing spear*, speargun*, harpoon*, scuba, snorkel*, \"skin diving\", \"skin dive\" or \"underwater fishing\". A rule that names only \"fishing\" or \"diving\" without those words would not be found.",
+  "excerpt": "[Whole-code keyword search of 166 Municode clients on 11 Nov 2026; the 72 listed in the note returned no section containing any of the search words.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Listed jurisdictions.",
+  "note": "Searched 11 Nov 2026 in the author's Chrome through api.municode.com/search (isAdvanced, contentTypeId CODES), every Municode product of each client. Zero hits: North Redington Beach, Redington Beach, South Palm Beach, Manalapan, Tequesta, Neptune Beach, Nassau County, Niceville, Valparaiso, Parker, Springfield, Port St. Joe, Port Richey, Oldsmar, North Port, North Miami, North Miami Beach, El Portal, Biscayne Park, West Palm Beach, Indiantown, Port St. Lucie, Orchid, Rockledge, Malabar, Oak Hill, Collier County, Punta Gorda, North Palm Beach, Vero Beach, Satellite Beach, Cape Canaveral, Indialantic, Holmes Beach, Bradenton Beach, Cape Coral, Indian Rocks Beach, Belleair Beach, Kenneth City, Levy County, Franklin County, Gulf County, Bay County, Fort Walton Beach, Gulf Breeze, St. Johns County, St. Augustine Beach, Flagler County, Ponce Inlet, New Smyrna Beach, Jupiter Island, Sewall's Point, Ocean Ridge, Gulf Stream, Highland Beach and the remaining zero-hit clients listed in reads.md. Several of these carry canal or pier rules that do not use the search words (Collier County § 210-67, Satellite Beach § 66-1, Bradenton Beach § 46-46, Cape Coral § 12-11, Bay County § 5-84); those stay in the registry. Not on Municode, so not covered: Lighthouse Point, Melbourne Beach, South Pasadena, Everglades City, Ocean Breeze, St. Lucie Village, Palm Bay, Grant-Valkaria, Hollywood, Pompano Beach, Mexico Beach. Charlotte County's special-acts table lists 'Spear fishing 30529 (1955)' as repealed by ch. 57-1218, which r. 68B-3.001 also repeals; that closes the 30 Sep 2026 lead.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-hollywood-2026-11-11",
+  "cite": "City of Hollywood Code chs. 98, 99, 103, 131, 132 and 133, every section, checked 12 Nov 2026",
+  "title": "Hollywood: no spearfishing rule outside § 99.03(F) in the marine, beach, parks and offenses chapters (confirmed negative)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://codelibrary.amlegal.com/codes/hollywood/latest/hollywood_fl/0-0-0-42109",
+  "effect": "Besides the beach rule already drawn (§ 99.03(F), no spearfishing within 100 yd of the public beach and no loaded spear gun on the beach or in swimming areas), the only diving provision in these chapters is § 98.011(B), which requires a float and a diver-down flag for divers more than 150 ft from shore or in the Intracoastal. Neither the parks chapter nor the offenses chapters mention spears.",
+  "excerpt": "(B) Any person who engages in skin diving, scuba diving, or who performs or attempts to perform any form of underwater diving activities and more than 150 feet (50 yards) from the shore, in accordance with § 99.02(A), at low water or within the Intracoastal Waterway, within the city limits shall be equipped with a float and a State of Florida approved diver down.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Hollywood.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on codelibrary.amlegal.com (code current through Ord. O-2026-12, passed 7-7-26): all 186 section pages of chs. 98 (Marine and Waterway Regulations), 99 (Municipal Beach), 103 (Parks and Recreation), 131 to 133 (offenses) fetched in page and searched for spear, scuba, snorkel, skin div and harpoon. The excerpt is § 98.011(B) as returned; the printed text ends at 'diver down'. Chapters outside these six were not section-searched: American Legal's chapter pages list sections without their text, and its search page returned nothing for a location filter. This closes the part of open question 25 that asked for Hollywood outside chapter 99, with that limit stated.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 98.011(B)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ }
+]

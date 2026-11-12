@@ -99,7 +99,7 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     check('notice: persistent, has the required sentences',
       /Not legal advice · Not for navigation/.test(nt) && /Unshaded water is not shown as open/.test(nt) &&
       /Boundaries are approximate\. NOT FOR NAVIGATION\./.test(nt) && !w.document.getElementById('caution'));
-    check('notice: law.json version date shown', /Rules current as of 8 Oct 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
+    check('notice: law.json version date shown', /Rules current as of 11 Nov 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
     check('notice: no dismiss control', !w.document.querySelector('#notice [title="Dismiss"]'));
 
     /* base layers */
@@ -257,6 +257,12 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     const opened = await w.FLSpearMap.openSpot('western-sambo');
     await sleep(200);
     check('openSpot / ?spot= opens a spot popup', opened && /Western Sambo/.test(text('.leaflet-popup-content')));
+
+    /* ?zone= (links from questions.html) */
+    w.FLSpearMap.map.closePopup();
+    const zopened = await w.FLSpearMap.openZone('loc-riviera-philfoster');
+    await sleep(200);
+    check('openZone / ?zone= opens a zone popup', zopened && /Phil Foster/.test(text('.leaflet-popup-content')));
 
     /* contact and support dialog (js/support.js) */
     w.FLSpearMap.map.closePopup();

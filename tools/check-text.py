@@ -46,7 +46,7 @@ def walk(fname, obj, key=None):
 for p in sorted(glob.glob(os.path.join(ROOT, "data", "*.json"))):
     walk(os.path.basename(p), json.load(io.open(p, encoding="utf-8")))
 
-for page in ("index.html", "about.html", "404.html"):
+for page in ("index.html", "about.html", "questions.html", "404.html"):
     for n, line in enumerate(io.open(os.path.join(ROOT, page), encoding="utf-8"), 1):
         if DASH.search(line):
             hits.append("%s:%d dash" % (page, n))

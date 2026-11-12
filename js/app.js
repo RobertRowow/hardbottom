@@ -268,6 +268,8 @@ async function boot() {
   CATS.forEach(c => { if (shown[c.id]) (c.src || []).forEach(n => want.add(n)); });
   want.forEach(n => ensure(n));
   if (P.spot) openSpot(P.spot);
+  else if (P.zone) openZone(P.zone);
+  if (P.law && window.FLLaw) window.FLLaw.open(P.law);
 }
 
 /* ---------- persistent notice (cannot be dismissed; collapses to one line) ---------- */
@@ -573,7 +575,7 @@ function drawZones() {
           line: oneLine(z.rule), law: zlaw });
       }
       const b = ringsBox([z.geom]);
-      regSearch({ g: 'zone', n: z.name, sub: 'Palm Beach County zone', cat: catForZone(z), layer: l,
+      regSearch({ g: 'zone', zid: z.id, n: z.name, sub: 'Palm Beach County zone', cat: catForZone(z), layer: l,
         ll: centroid(z.geom), b: boxLL(b) });
     }
   });
@@ -1058,7 +1060,7 @@ function drawZone(z, file) {
     law: z.law || [] };
   if (rings.length) qPoly(rings, meta);
   else qNoGeom(lines.concat(pts.length ? pts.map(p => [p]) : []), meta);
-  if (ll) regSearch({ g: 'zone', n: wName(z), sub: (GRP_OF[catId] || 'Legal zone') +
+  if (ll) regSearch({ g: 'zone', zid: z.id, n: wName(z), sub: (GRP_OF[catId] || 'Legal zone') +
     (z.active && z.active !== 'always' ? ' · ' + z.active : ''), cat: catId,
     layer: anchor || first, ll: ll, b: rings.length || lines.length ? boxLL(box) : null, z: 14 });
 }
@@ -1329,6 +1331,15 @@ function buildSpots() {
     regSearch({ g: 'spot', id: s.id, n: s.n, a: s.aka || '', sub: [SPOT_KIND[s.kind] || s.kind, s.county,
       s.depth_ft ? s.depth_ft + ' ft' : ''].filter(Boolean).join(' · '), cat: 'spots', layer: m,
       ll: [s.lat, s.lon], z: 15 });
+  });
+}
+/* ?zone=<id> (from the open questions page): load the zone files, then go to that zone */
+function openZone(id) {
+  return Promise.all(['zones-local', 'zones-statewide'].map(n => ensure(n).catch(() => null))).then(() => {
+    const it = SEARCH_ITEMS.find(x => x.g === 'zone' && x.zid === id);
+    if (!it) return false;
+    focusFeature(it);
+    return true;
   });
 }
 function openSpot(id) {
@@ -1871,7 +1882,7 @@ function applyParams() {
   let r = null;
   if (rn) r = RAMPS.find(x => x.n.toLowerCase().includes(rn.toLowerCase()));
   return { ramp: r, lat: parseFloat(q.get('lat')), lon: parseFloat(q.get('lon')), zoom: parseInt(q.get('zoom'), 10),
-           spot: q.get('spot') };
+           spot: q.get('spot'), zone: q.get('zone'), law: q.get('law') };
 }
 
 window.FLSpearMap = {
@@ -1880,6 +1891,7 @@ window.FLSpearMap = {
   get ramps() { return RAMPS; },
   get spots() { return SPOTS; },
   ready: coreReady,
+  openZone,
   setMode(m) {
     if (m !== 'scuba' && m !== 'free') return;
     mode = m;

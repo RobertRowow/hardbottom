@@ -1,0 +1,28 @@
+2026-11-11/research-federal | cfr-622-187 | updated  appended note
+2026-11-11/research-federal | fknms-blueprint-2025 | updated  appended note
+2026-11-11/research-federal | eo-14430 | updated  appended note
+2026-11-11/research-federal | fr-91-72841 | added
+2026-11-11/research-state | fac-68b-14-0036 | updated title,effect,excerpt,verified,url,note
+2026-11-11/research-state | neg-currency-2026-11-11 | added
+2026-11-11/research-state | neg-68b-3-broward-8636 | added
+2026-11-11/research-state | fac-68b-35-004 | updated  appended note
+2026-11-11/research-local | rivierabeach-13-32 | added
+2026-11-11/research-local | rivierabeach-13-26 | added
+2026-11-11/research-local | pbc-21-27 | added
+2026-11-11/research-local | newportrichey-14-3 | added
+2026-11-11/research-local | seminole-38-2 | added
+2026-11-11/research-local | clearwater-8-08 | added
+2026-11-11/research-local | stmarks-78-1 | added
+2026-11-11/research-local | yankeetown-22-3 | added
+2026-11-11/research-local | titusville-12-7 | added
+2026-11-11/research-local | palmcoast-4-16 | added
+2026-11-11/research-local | venice-46-134 | added
+2026-11-11/research-local | gulfport-17-22 | added
+2026-11-11/research-local | sunnyisles-201-6 | added
+2026-11-11/research-local | miamidade-26-1-r17 | added
+2026-11-11/research-local | bocaraton-11-81 | added
+2026-11-11/research-local | indianharbourbeach-12-36 | added
+2026-11-11/research-local | indianrivercounty-205-03 | added
+2026-11-11/research-local | goldenbeach-22-61 | added
+2026-11-11/research-local | neg-local-2026-11-11 | added
+2026-11-11/research-local | neg-hollywood-2026-11-11 | added

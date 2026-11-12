@@ -3,6 +3,40 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
+## 12 November 2026: statewide sweep, new local closures, open questions page
+
+Rules current as of 11 Nov 2026. The registry holds 349 entries (326 verbatim, 23 secondary).
+
+- **Atlantic and Keys gag and black grouper.** Fla. Admin. Code r. 68B-14.0036 was amended effective
+  28 Oct 2026: in Atlantic state waters and all Monroe County waters, 1 gag or black grouper per person
+  per day and no more than 2 gag or black grouper in any combination aboard any vessel at any time,
+  charters included. The South Atlantic federal limit from the same date is 2 combined per private
+  vessel per day, or per trip on a charter or headboat (50 C.F.R. § 622.187(b)(2)(i)(A), (B)). The
+  species cards and the seasons note are updated; the old note that the state rule text had not been
+  read is gone.
+- **Riviera Beach, newly drawn closed.** City Code §§ 13-31 and 13-32 ban spearfishing in Lake Worth
+  north of SR 703 and Phil Foster Park within 1,000 ft of Singer Island, within 150 ft of the park's
+  south shoreline (the Blue Heron Bridge beach), and within 75 ft of any dock, wharf or bridge in the
+  city. Riviera Beach had been recorded as a negative in August 2026.
+- **New Port Richey and Seminole, drawn closed citywide.** New Port Richey § 14-3 bans discharging an
+  underwater spear gun anywhere in the city outside a designated range. Seminole § 38-2 follows the
+  Treasure Island and Clearwater pattern (spearfishing excepted only where designated).
+- **County park water.** Palm Beach County § 21-27(c) bans spear fishing on county park property,
+  which includes park water (markers at Phil Foster Park and Peanut Island). Miami-Dade County § 26-1
+  Rule 17 bans spear and gig fishing in park waters except where prescribed (markers at Haulover and
+  Crandon). Neither has a stated seaward limit; both are new open questions.
+- **Other new local entries.** St. Marks § 78-1 (marker), Venice §§ 46-134 and 46-135, Clearwater
+  § 8.08, Sunny Isles Beach § 201-6, Boca Raton § 11-81, Gulfport § 17-22, Titusville § 12-7,
+  Yankeetown § 22-3, Palm Coast ULDC § 4.16 and three park-water rules (Indian Harbour Beach, Indian
+  River County, Golden Beach). Miami-Dade's August negative is corrected.
+- **Confirmed negatives.** 72 coastal jurisdictions returned no spear, speargun, harpoon, scuba,
+  snorkel or skin-diving provision in a whole-code search; Hollywood's marine, beach, parks and offenses
+  chapters hold nothing beyond § 99.03(F); FWC has not repealed Broward's 1921 inside-waters act; no
+  other state or federal spearfishing rule changed between 8 Oct and 11 Nov 2026.
+- **Open questions page.** A new page, linked from the header, lists every question the map cannot
+  settle from public text, who can answer it, and links that open the map on the zone (`?zone=<id>`)
+  or the encyclopedia on the citation (`?law=<id>`). It also lists every flagged map feature.
+
 ## 17 October 2026: contact dialog
 
 No rule changed.

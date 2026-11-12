@@ -1,0 +1,6 @@
+{
+ "date": "2026-11-11",
+ "purpose": "Statewide sweep of 11 and 12 Nov 2026. research-federal.json and research-state.json are the currency pass (eCFR, Federal Register API, FLRules chapter listings, FWC executive orders); research-local.json is a whole-code keyword search of 166 Municode clients plus reads of every new hit. Every passage was read in the author's Chrome at the primary host; reads.md logs them. The 'axes' key records the four-axis check and is not copied into law.json.",
+ "order": ["research-federal", "research-state", "research-local"],
+ "semantics": "As 2026-10-07: an entry whose id is new is added whole. For an existing id, every field named in 'replaces' (or, without 'replaces', every supplied field not named in 'append') replaces the old value; every field named in 'append' is appended to the old value unless already present."
+}

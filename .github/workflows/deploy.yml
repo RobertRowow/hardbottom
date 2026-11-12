@@ -43,7 +43,7 @@ jobs:
         run: |
           set -e
           mkdir -p dist
-          cp index.html about.html 404.html favicon.svg robots.txt sitemap.xml .htaccess dist/
+          cp index.html about.html questions.html 404.html favicon.svg robots.txt sitemap.xml .htaccess dist/
           cp -r css js data vendor dist/
           cp LICENSE LICENSE-DATA.md DATA-SOURCES.md dist/
           python3 build-standalone.py --out dist

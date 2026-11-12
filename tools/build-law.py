@@ -375,7 +375,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from law_updates import apply
 L, AUDIT = apply(L, "2026-09-30")
 
-data = {"version": "2026-10-08", "entries": L}  # date of the last legal currency check, shown as "Rules current as of"
+data = {"version": "2026-11-11", "entries": L}  # date of the last legal currency check, shown as "Rules current as of"
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "law.json")
 with io.open(OUT, "w", encoding="utf-8") as f:

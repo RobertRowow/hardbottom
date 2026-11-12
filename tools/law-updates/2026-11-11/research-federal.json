@@ -1,0 +1,62 @@
+[
+ {
+  "id": "cfr-622-187",
+  "append": [
+   "note"
+  ],
+  "note": "Re-read 11 Nov 2026 in the author's Chrome on the eCFR renderer (current; latest version 28 Oct 2026). Regulatory Amendment 36 is now rendered: \"(A) The vessel limit for gag and black grouper on a vessel operating as a private recreational vessel is two fish per day in any combination. (B) The vessel limit for gag and black grouper on a vessel operating as a charter vessel or headboat is two fish per trip in any combination.\" (b)(2)(i) also reads \"No more than one fish may be a gag or a black grouper.\" The separate gag and black grouper vessel limits read on 7 Oct 2026 no longer appear.",
+  "axes": {
+   "in_force": "yes, version of 28 Oct 2026",
+   "subsection": "(b)(2)(i)(A), (B)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fknms-blueprint-2025",
+  "append": [
+   "note"
+  ],
+  "note": "Re-checked 11 Nov 2026: Federal Register API searches for 15 C.F.R. part 922 and the term 'Florida Keys National Marine Sanctuary' from 6 Oct 2026 return no codification or effective-date notice. The state and federal split stands.",
+  "axes": {
+   "in_force": "unchanged",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "eo-14430",
+  "append": [
+   "note"
+  ],
+  "note": "Re-checked 11 Nov 2026: a Federal Register full-text search for '14430' returns only the order itself (2026-19417); no NOAA, NPS, FWS or FKNMS document cites it, and no document in 50 C.F.R. parts 17, 26, 27, 32, 600, 622, 640, 36 C.F.R. part 7, 15 C.F.R. part 922 or 33 C.F.R. part 334 was published between 6 Oct and 12 Nov 2026 that changes a Florida spearfishing rule.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fr-91-72841",
+  "cite": "91 Fed. Reg. 72841 (12 Nov 2026), proposed rule, SA Coral Amendment 11 / Shrimp Amendment 12",
+  "title": "Proposed: shrimp fishery access area beside the Oculina Bank HAPC (not a spearfishing rule; comments to 14 Dec 2026)",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23020/coral-coral-reefs-and-livehardbottom-habitats-of-the-south-atlantic-and-the-shrimp-fishery-of-the-south-atlantic-region",
+  "effect": "Proposed only. Would add § 622.224(b)(3) and a table for a rock shrimp access area by the Oculina Bank HAPC. It does not change any recreational or spearfishing rule and does not correct the HAPC coordinate defects in § 622.224 (open question 18).",
+  "excerpt": "DATES: Written comments on the proposed rule must be received on or before December 14, 2026.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "South Atlantic EEZ off east-central Florida.",
+  "note": "Read 11 Nov 2026 in the author's Chrome from federalregister.gov full text (doc. 2026-23020). The text was searched for the defective point 21 longitude and the 80°14′ origins; neither appears, so the proposal does not fix them. The comment window is the place to raise them.",
+  "geom": null,
+  "axes": {
+   "in_force": "proposed only",
+   "subsection": "§ 622.224(b)(3) proposed",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ }
+]

@@ -1,0 +1,80 @@
+[
+ {
+  "id": "fac-68b-14-0036",
+  "replaces": [
+   "title",
+   "effect",
+   "excerpt",
+   "verified",
+   "url",
+   "note"
+  ],
+  "title": "Reef fish bag and vessel limits; Atlantic and Keys gag and black grouper: 1 per person and 2 per vessel combined from 28 Oct 2026",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0036",
+  "effect": "Snapper aggregate 10 per person. Grouper aggregate 4 per person in the Gulf outside Monroe County, 3 in the Atlantic and all Monroe County waters. From 28 Oct 2026, in Atlantic and all Monroe County state waters, 1 gag or black grouper per person per day and no more than 2 gag or black grouper in any combination aboard any vessel at any time. Gulf state waters outside Monroe: no more than 2 gag per person within the aggregate.",
+  "excerpt": "(1)(a) ... no recreational harvester shall harvest within or without Florida waters, nor possess within or without Florida waters, more than a total of 10 snapper per day, in any combination of species. ... (2)(b)1. No recreational harvester shall harvest in or from all Florida waters of the Atlantic Ocean and all Florida waters of Monroe County, nor possess while in or on Florida waters of the Atlantic Ocean and all Florida waters of Monroe County, more than 1 gag or black grouper per day and no more than 2 gag or black grouper in any combination shall be possessed aboard any vessel in or on Florida waters of the Atlantic Ocean and all Florida waters of Monroe County at any time (consistent with Federal Standard established in 50 C.F.R §622.187 as of October 28, 2026).",
+  "verified": "verbatim",
+  "note": "UPDATED 11 Nov 2026. FLRules shows a new final adopted version, rule file date 26 Oct 2026, effective 28 Oct 2026 (notice 31547424, adopting the 5 Oct 2026 proposal, notice 31448290). The adopted .doc (tid 31547424) was fetched in the author's Chrome from flrules.org and its text extracted in the page; (1)(a) and (2)(b)1. are quoted from that text, whitespace collapsed. The page title reads 'Recreational Bag and Vessel Limits'; the first line of the .doc reads 'Recreational Bag Limits'. The state vessel limit has no charter exception: 2 gag or black grouper combined aboard any vessel at any time, which is stricter than the federal for-hire limit of 2 per trip. Earlier notes said the text in force since 1 Apr 2026 had not been read; that version is superseded.",
+  "axes": {
+   "in_force": "yes, effective 28 Oct 2026",
+   "subsection": "(1)(a), (2)(b)1.",
+   "verbatim": "yes, from the adopted .doc text",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-currency-2026-11-11",
+  "cite": "FLRules chapter listings and FWC executive orders, checked 11 Nov 2026",
+  "title": "No other state spearfishing rule change between 8 Oct and 11 Nov 2026 (confirmed negative)",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=68B-20",
+  "effect": "Apart from r. 68B-14.0036 (above), no rule in chapters 68B-1 to 68B-62, 68C-22, 68A-19, 68A-23, 62D-2 or 18-18 to 18-21 took effect after 1 Sep 2026 that affects spearfishing. Chapter 68B-20 is unchanged since 1 Aug 2014.",
+  "excerpt": "[FLRules chapter listings for 68B-1 to 68B-62, 68C-22, 68A-19, 68A-23, 62D-2 and 18-18 to 18-21 read 11 Nov 2026; every rule with an effective date on or after 1 Jul 2026 checked; none changes a spearfishing rule except r. 68B-14.0036.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Statewide.",
+  "note": "Read 11 Nov 2026 in the author's Chrome: every chapter page on flrules.org listed above, filtered for effective dates on or after 1 Jul 2026. Hits and why they do not matter here: ch. 68B-8 (special activity licences, 29 Jul 2026), 68B-2.012 (tagging), 68B-14.009 (already read, 1 Sep 2026), 68B-52.004 (shad, 4 Nov 2026), 68A-15 and 68A-23.012 (wildlife management areas, Lake Okeechobee), 68D-24.003 and 68D-24.0041 (a Dutchman Key, Pasco County, external propeller limitation zone over private submerged land, effective 18 Oct 2026; it limits propellers, not divers). FWC executive orders 26-34 to 26-42 (listed 11 Nov 2026) are hunting, alligator and Hurricane Isaias procurement orders; none is a saltwater fishing order. EO 26-40 (Hurricane Isaias) was viewed: it suspends procurement statutes for derelict-vessel response only.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "n/a",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-68b-3-broward-8636",
+  "cite": "Fla. Admin. Code ch. 68B-3 (rules 68B-3.001 to 68B-3.050), checked for Laws of Fla. ch. 8636 (1921)",
+  "title": "FWC has not repealed Broward's 1921 inside-waters gear act (confirmed negative)",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=68B-3",
+  "effect": "No rule in ch. 68B-3 repeals Laws of Fla. ch. 8636 (1921), printed as Broward County Code § 13-5. The only Broward repeal, r. 68B-3.045, removes section 2 of ch. 25714 (1949). Broward § 13-5 is therefore still printed and unrepealed by FWC; whether it reaches salt water is the open question (open question 27).",
+  "excerpt": "The Fish and Wildlife Conservation Commission has determined that the repeal of a portion of Broward County Special Act of Local Application, chapter 25714, Laws of Florida (1949), will not adversely affect the marine resources of Broward County or of the State of Florida, therefore Section 2 of Broward County Special Act of Local Application, chapter 25714, Laws of Florida (1949), is hereby repealed.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Broward County.",
+  "note": "Read 11 Nov 2026 in the author's Chrome: the ch. 68B-3 listing on flrules.org (32 rules, 68B-3.001 to 68B-3.050) and the text of r. 68B-3.045 (tid 21119245, .doc text extracted in page). The legislature could have repealed ch. 8636 by a later special act; that was not searched. Until answered, the map keeps treating Broward's inside waters as possibly closed to spearing.",
+  "geom": null,
+  "axes": {
+   "in_force": "r. 68B-3.045 in force since 19 Nov 2018",
+   "subsection": "whole rule",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fac-68b-35-004",
+  "append": [
+   "note"
+  ],
+  "note": "Read 11 Nov 2026 in the author's Chrome (flrules.org .doc, tid 12228419): paragraph (5)(a) is only an exception for pompano or permit taken in adjacent federal waters as incidental bycatch in gill or entangling nets; it has nothing to do with spearing. The Special Permit Zone (r. 68B-35.002(14): south of 25°40′ N off Cape Florida, Biscayne Bay south of Rickenbacker Causeway, and further described waters) changes the size and bag limits in r. 68B-35.003 and 68B-35.0035, not the gear rule. So r. 68B-35.004(2)(a) and (3) leave spearing of African pompano and permit in adjacent federal waters unprohibited by chapter 68B-35, while r. 68B-20.005 lists both species with no geographic qualifier. The map keeps the reading that closes more water: do not spear either species anywhere. Question 29 is answered as far as the text goes; only FWC can say whether r. 68B-20.005 reaches federal waters.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(5)(a); r. 68B-35.002(14)",
+   "verbatim": "paraphrase in note only",
+   "url_resolves": "yes"
+  }
+ }
+]

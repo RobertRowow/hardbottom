@@ -205,14 +205,6 @@ mk("loc-gulfport-posted", "Gulfport: no fishing of any kind, spear included, in 
    ["gulfport-17-22"], [[27.74644, -82.70994]],
    "<b>Fishing by any method, spear and gig included, is banned in areas the city designates and posts as no-fishing areas.</b>",
    TIGER, "The posted areas are not listed in the code and are not drawn.")
-mk("loc-cocoabeach-canals", "Cocoa Beach: hook and line or hand-thrown cast net only in the listed residential canals",
-   ["cocoabeach-5-56"], [[28.32914, -80.62754]],
-   "<b>Taking fish by any means other than hook and line or a hand-thrown cast net is banned in the residential saltwater canals listed in § 5-56(a).</b> Spearing is not an allowed method.",
-   TIGER, "The listed canals cover the city's canal subdivisions on the Banana River side and are not drawn.")
-mk("loc-melbournebeach-canals", "Melbourne Beach: hook and line or hand-thrown cast net only in five named residential canals",
-   ["melbournebeach-40-33"], [[28.06687, -80.55960]],
-   "<b>Catching fish by any means other than hook and line or a hand-thrown cast net is banned in the Driftwood Avenue, Riverview Lane, Sandy Key, Anchor Key and Pelican Key canals.</b>",
-   TIGER, "The five canals are not drawn.")
 
 mk("loc-cutlerbay-parks", "Cutler Bay parks: no spear or gig fishing in park waters except where prescribed",
    ["cutlerbay-22-109"], [[25.57615, -80.33401]],
@@ -317,6 +309,46 @@ Z.append(dict(
     s="<b>Possessing or using a spear gun in Lake Ponte Vedra (Guana Lake) is prohibited</b>, r. 68A-15.065(13). Gigs are barred too except for frogs, and cast nets and gigs within 50 yd of the Guana Dam structure.",
     src="USGS National Hydrography Dataset (high resolution): the waterbody named Lake Ponte Vedra and the unnamed area that fills the lake south to the Guana Dam.",
     flag="NHD names only the head of the impoundment 'Lake Ponte Vedra'; the map reads the name as the whole impoundment above the Guana Dam, which closes more water. The river reach joining the two NHD features is not drawn."))
+
+# Canal gear rules drawn from USGS NHD canal areas (pulled 12 Nov 2026, pulled.txt lines MBC, SAT and
+# COC). Melbourne Beach's five canals are one NHD canal polygon between Driftwood Avenue and Riverview
+# Lane, checked against TIGER street lines for the five streets the section names. For Satellite Beach
+# and Cocoa Beach the sections list canals by street bounds; every NHD canal area inside each city's
+# TIGERweb boundary is drawn, which covers the listed canals and closes any unlisted ones too.
+def dec_parts(key):
+    s = next(lines[i + 1][5:] for i, ln in enumerate(lines) if ln.startswith(key + "\t"))
+    out = []
+    for part in s.split("|"):
+        pts3, a3, o3 = [], 0, 0
+        for k, p in enumerate(part.split(";")):
+            x, y = map(int, p.split(","))
+            a3, o3 = (x, y) if k == 0 else (a3 + x, o3 + y)
+            pts3.append(fwd(a3 / 1e5, o3 / 1e5))
+        if len(pts3) >= 4:
+            out.append(Polygon(pts3).buffer(0))
+    g = unary_union(out)
+    polys = [g] if g.geom_type == "Polygon" else list(g.geoms)
+    return [[[round(y, 5), round(x, 5)] for x, y in (inv(*c) for c in q.exterior.coords)] for q in polys if q.area > 1]
+
+
+Z.append(dict(
+    id="loc-melbournebeach-canals", n="Melbourne Beach: hook and line or hand-thrown cast net only in five named residential canals",
+    law=["melbournebeach-40-33"], cat="local", kind="closed", r=dec_parts("MBC"), line=[], pts=[], active=None,
+    s="<b>Catching fish by any means other than hook and line or a hand-thrown cast net is banned in the dredged canals between Driftwood Avenue and Riverview Lane</b>, around Pelican Key, Sandy Key and Anchor Key. Spearing is not an allowed method.",
+    src="USGS National Hydrography Dataset (high resolution) canal area, checked against the TIGER street lines the section names.",
+    flag="NHD's canal polygon follows the seawalls as mapped; docks and boat lifts over the water are inside it."))
+Z.append(dict(
+    id="loc-satellitebeach-canals", n="Satellite Beach: hook and line or hand-thrown cast net only in the listed residential canals",
+    law=["satellitebeach-66-1"], cat="local", kind="closed", r=dec_parts("SAT"), line=[], pts=[], active=None,
+    s="<b>Taking fish from the fourteen manmade residential canals § 66-1 lists, the Grand Canal included, by any means other than hook and line or a hand-thrown cast net is prohibited.</b> Spearing is not an allowed method.",
+    src="USGS National Hydrography Dataset (high resolution) canal areas inside the TIGERweb city boundary.",
+    flag="Every NHD canal area inside the city is drawn, a superset of the fourteen listed canals."))
+Z.append(dict(
+    id="loc-cocoabeach-canals", n="Cocoa Beach: hook and line or hand-thrown cast net only in the listed residential canals",
+    law=["cocoabeach-5-56"], cat="local", kind="closed", r=dec_parts("COC"), line=[], pts=[], active=None,
+    s="<b>Taking fish by any means other than hook and line or a hand-thrown cast net is banned in the residential saltwater canals listed in § 5-56(a)</b>, the city's canal subdivisions on the Banana River side. Spearing is not an allowed method.",
+    src="USGS National Hydrography Dataset (high resolution) canal areas inside the TIGERweb city boundary.",
+    flag="Every NHD canal area inside the city is drawn, a superset of the listed canals; the list after item (12) was not read."))
 
 ds = json.load(io.open(SP, encoding="utf-8"))
 zs = ds["zones"]

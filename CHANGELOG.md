@@ -54,6 +54,11 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   Vedra (Guana Lake), r. 68A-15.065(13); the impoundment above the Guana Dam is drawn closed from USGS
   NHD. Water management district land rules bar spear guns and scuba on district lands without a
   special use authorization (r. 40D-9.230 and similar); district lands are not drawn.
+- **Canal rules drawn.** The Melbourne Beach (§ 40-33), Satellite Beach (§ 66-1) and Cocoa Beach
+  (§ 5-56) canal gear rules are now drawn closed over the USGS NHD canal areas inside each city, in
+  place of the markers; Satellite Beach and Cocoa Beach draw every canal in the city, a superset of
+  the listed ones. Cape Coral, Sanibel, Pinellas County, Brevard County and Collier County canal rules
+  are still text and markers: their canal networks are too large to move through the browser.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

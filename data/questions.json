@@ -395,14 +395,16 @@
   },
   {
    "n": 42,
-   "status": "needs-person",
+   "status": "partly",
    "region": "Tampa Bay",
    "title": "Belleair Beach: where is the city marina in which swimming and diving are banned?",
-   "why": "§ 30-195(b) bans all swimming and diving within the marina, and the zoning code calls it 'the city-owned property known as the Belleair Beach Marina', but neither says where it is. It could not be identified on imagery, so it is not drawn.",
+   "why": "§ 30-195(b) bans all swimming and diving within the marina, and the code does not say where it is. The city's marina page places it on the Intracoastal at 3505 Gulf Boulevard, and the map draws the slips along that seawall from imagery. What the city counts as 'within the marina' is still unstated.",
    "ask": "City of Belleair Beach, City Clerk",
    "contact": null,
-   "q": "Where is the Belleair Beach Marina covered by chapter 30, article V, and what water does the city treat as 'within the marina'?",
-   "zones": [],
+   "q": "Is the water covered by § 30-195(b) only the slips along the seawall at 3505 Gulf Boulevard, or a wider area of the basin?",
+   "zones": [
+    "loc-belleairbeach-marina"
+   ],
    "law": [
     "belleairbeach-30-195"
    ]

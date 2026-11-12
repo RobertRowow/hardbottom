@@ -244,6 +244,15 @@ mk("loc-pinellaspark-parks", "Pinellas Park parks: no spear or gig fishing in pa
    "<b>Fishing in Pinellas Park park waters by spear, gig or any other device is prohibited except where designated.</b>",
    TIGER, "Every city park with water is covered.")
 
+Z.append(dict(
+    id="loc-belleairbeach-marina", n="Belleair Beach: no swimming or diving in the city marina",
+    law=["belleairbeach-30-195"], cat="local", kind="closed",
+    r=ring(box4(27.93698, 27.93563, -82.83942, -82.83900)),
+    line=[], pts=[], active=None,
+    s="<b>All swimming and diving are prohibited within the Belleair Beach city marina</b>, on the Intracoastal at 3505 Gulf Boulevard.",
+    src="Location from the city's marina page; the slips along the seawall boxed on Esri World Imagery (zoom 19). No distance added.",
+    flag="The code does not define the marina's water. The box covers the slips along the seawall only."))
+
 # Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
 # the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
 # CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see

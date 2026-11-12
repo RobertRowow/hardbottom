@@ -23,7 +23,8 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   Ormond Beach parks, Navarre Beach and Escambia beaches, Yankeetown's yacht basin, the Titusville,
   Flagler Beach and Mexico Beach piers, Palm Coast marinas, Gulfport posted areas, and the Cocoa Beach
   and Melbourne Beach canals. Venice § 46-64 joins the Venice zone. Not drawn: Volusia County
-  conservation lands (locations not listed), Belleair Beach's marina and Collier County § 146-51.
+  conservation lands (locations not listed) and Collier County § 146-51. Belleair Beach's marina is
+  drawn from the city's own marina page (3505 Gulf Boulevard) and imagery.
 - **Port authority rules.** Canaveral Port Authority Tariff Rule 380 prohibits underwater diving in all
   water east of the Barge Canal lock through the jetties, unless the Harbormaster authorizes it; the
   harbor is drawn closed. The Port of Palm Beach tariff (Item 546) prohibits underwater diving within
@@ -39,8 +40,7 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   § 17-12, Pinellas Park § 2-1007), and St. Petersburg's old spear section is recorded as repealed in
   2012.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
-  bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
-  code does not locate, so it is not drawn.
+  bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

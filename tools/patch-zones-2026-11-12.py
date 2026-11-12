@@ -231,6 +231,19 @@ mk("loc-irshores-parks", "Indian River Shores parks: no swimming, diving, scuba 
    "<b>In any Indian River Shores park or recreational area, swimming, diving, scuba and fishing are prohibited unless the area is designated for them.</b>",
    TIGER, "Every town park and recreational area is covered, beach accesses included where the town treats them as parks.")
 
+mk("loc-hernando-parks", "Hernando County parks: no spear guns unless authorized",
+   ["hernando-22-20"], [[28.56851, -82.65583]],
+   "<b>Unless the parks department authorizes it, no one may carry, use or possess a spear gun on Hernando County park property.</b> Marker: Alfred McKethan Pine Island Park.",
+   "Pine Island Park geocoded. Not a boundary.", "Every county park is covered; whether park water counts as park property is not stated.")
+mk("loc-largo-parks", "Largo parks: no spear or gig fishing in park waters except where designated",
+   ["largo-17-12"], [[27.90767, -82.77394]],
+   "<b>Fishing in Largo park waters, fresh or salt, by spear, gig or any other device is prohibited except where designated.</b>",
+   TIGER, "Most of the city's park water is fresh; any saltwater park frontage is covered too.")
+mk("loc-pinellaspark-parks", "Pinellas Park parks: no spear or gig fishing in park waters except where designated",
+   ["pinellaspark-2-1007"], [[27.85888, -82.70821]],
+   "<b>Fishing in Pinellas Park park waters by spear, gig or any other device is prohibited except where designated.</b>",
+   TIGER, "Every city park with water is covered.")
+
 # Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
 # the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
 # CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see

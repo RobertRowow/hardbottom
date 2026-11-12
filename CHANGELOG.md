@@ -34,6 +34,10 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   fishing in park waters except where prescribed), Palm Beach Gardens § 46-37 (no spear guns in parks)
   and Indian River Shores § 95.03(20) (no diving, scuba or fishing in parks except where designated),
   each with a marker. Jacksonville Beach § 20-13(12) covers land parks only and is not drawn.
+- **Whole-state Municode search.** All 416 Florida clients in Municode's list were searched for spear,
+  speargun, spearfishing and harpoon. Three more park rules were added (Hernando County § 22-20, Largo
+  § 17-12, Pinellas Park § 2-1007), and St. Petersburg's old spear section is recorded as repealed in
+  2012.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
   bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
   code does not locate, so it is not drawn.

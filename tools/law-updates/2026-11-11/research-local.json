@@ -1103,5 +1103,89 @@
    "verbatim": "yes",
    "url_resolves": "yes (library page renders in a browser only)"
   }
+ },
+ {
+  "id": "hernando-22-20",
+  "cite": "Hernando County Code § 22-20(a)",
+  "title": "Hernando County parks: no spear guns carried, used or possessed unless authorized",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/hernando_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH22PARE_ARTIINGE_S22-20HUWE",
+  "effect": "Unless the parks department authorizes it, no one may carry, use or possess a spear gun on any county park property or recreational area, the coastal parks included.",
+  "excerpt": "(a) Unless the department has otherwise specifically authorized its use within any park property or recreational area, no person shall carry, use or possess any device capable of mechanically, rather than explosively, propelling or expelling a projectile. The devices prohibited include, but are not limited to, air rifles, air pistols, spring guns, gas guns, blowguns, paint ball guns, spear guns, bows, crossbows, water cannons, slingshots, BB guns and boomerangs.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Hernando County park property and recreational areas (e.g. Alfred McKethan Pine Island Park, Linda Pedersen Park).",
+  "note": "Found 12 Nov 2026 by a whole-state Municode search of all 416 Florida clients in the statewide client list for spear, speargun, spearfishing, spear fishing, spear gun and harpoon; section text as returned by the content service. The 30 Sep 2026 Nature Coast negative did not list it.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(a)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "largo-17-12",
+  "cite": "City of Largo Code § 17-12(b)",
+  "title": "Largo parks: no spear or gig fishing in park waters except where designated",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/largo/codes/code_of_ordinances?nodeId=PTIICOOR_CH17PARE_S17-12FI",
+  "effect": "Fishing in city park waters, fresh or salt, by spear, gig or any other device is prohibited except in waters the department designates.",
+  "excerpt": "(b) No person shall fish in any park property waters, whether fresh or salt, and whether by the use of hook-and-line, seine, net, trap, spear, gig, or other device, except in such waters thereof as are or may be designated by the department for that use and under such regulations and restrictions as have been or may be prescribed by said department.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Largo park property waters.",
+  "note": "Found 12 Nov 2026 by the whole-state Municode search; section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(b)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "pinellaspark-2-1007",
+  "cite": "City of Pinellas Park Code § 2-1007",
+  "title": "Pinellas Park parks: no spear or gig fishing in park waters except where designated",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/pinellas_park/codes/code_of_ordinances?nodeId=CO_CH2AD_ARTXPARE_S2-1007PRPRWILIHUFI",
+  "effect": "Fishing in city park waters by spear, gig or any other device is prohibited except in waters the Parks and Recreation Director designates.",
+  "excerpt": "No person shall fish in any park waters, and whether by the use of hook and line, seine, net, trap, spear, gig or other device, except in such waters thereof as are or may be designated by the Parks and Recreation Director for that use and under such regulations and restrictions as have been or may be prescribed by said director.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Pinellas Park park waters.",
+  "note": "Found 12 Nov 2026 by the whole-state Municode search; the excerpt is the fishing paragraph of the section as returned (its letter was not captured).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "fishing paragraph",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "neg-stpete-7-134",
+  "cite": "City of St. Petersburg Code § 7-134 (editor's note), checked 12 Nov 2026",
+  "title": "St. Petersburg: the city's spear and harpoon section was repealed in 2012 (confirmed negative)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://library.municode.com/fl/st._petersburg/codes/code_of_ordinances?nodeId=PTIISTPECO_CH7BOBEWA_ARTVCIYABABAHAPOSTPE_DIV1GE_S7-134TRDOSLWA",
+  "effect": "St. Petersburg's former § 7-134 on the use of spears or harpoons was repealed by Ord. No. 22-H in 2012; the number now holds a dock trespass rule. The city's park water and bridge fishing rule (§ 21-44) still applies.",
+  "excerpt": "Editor's note— Ord. No. 22-H, § 2, adopted June 7, 2012, repealed the former § 7-134 which pertained to use of spears or harpoons and derived from § 10-58 of the 1973 Code and § 7-125 of the 1992 Code.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of St. Petersburg.",
+  "note": "Found 12 Nov 2026 by the whole-state Municode search; the editor's note as returned in the search fragment. Recorded because older guides still cite a St. Petersburg spear ordinance.",
+  "geom": null,
+  "axes": {
+   "in_force": "repeal confirmed in current Municode job 12 Nov 2026",
+   "subsection": "editor's note",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
  }
 ]

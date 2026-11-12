@@ -1187,5 +1187,68 @@
    "verbatim": "yes",
    "url_resolves": "yes (library page renders in a browser only)"
   }
+ },
+ {
+  "id": "marcoisland-54-36",
+  "cite": "City of Marco Island Code § 54-36(h)",
+  "title": "Marco Island beaches: no swimming within 150 ft of a pier, jetty or breakwater",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/marco_island/codes/code_of_ordinances?nodeId=PTIICOOR_CH54WABE_ARTIIBEMAVECO_S54-36REUSCOBE",
+  "effect": "Off Marco Island's beaches, no swimming within 150 ft of any pier, jetty or breakwater, which is wider than the statewide 100 ft jetty buffer for spearfishing; swimming in the beach area between the two jetties by Cape Marco is at the swimmer's own risk.",
+  "excerpt": "(h) Swimming. The public may swim at its own risk in the beach area between the two jetties adjacent to the Cape Marco property. Otherwise, no person except a person actually engaged in a rescue attempt shall: (1) Swim or bath within 150 feet, measured in any direction, of a pier, jetty or breakwater; (2) Swim or bath in any area posted exclusively for vessel and/or sail craft use.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Marco Island beaches and the water off them.",
+  "note": "Found 12 Nov 2026 by a whole-state Municode search of all 416 clients for 'fish from', 'fishing from', 'fish in', 'fishing in', 'fishing on', 'fishing within' and 'fish within', filtered to sections near bridges, piers, jetties, docks, seawalls, causeways, marinas, inlets, canals, channels, ramps, groins and beaches; section text as returned. Same wording as Collier County § 146-51(g).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(h)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "sanibel-74-96-98",
+  "cite": "City of Sanibel Code §§ 74-96(b), 74-98(a)(6), (7)",
+  "title": "Sanibel public boat ramp: no fishing within 100 ft, no swimming or diving within 50 ft",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/sanibel/codes/code_of_ordinances?nodeId=SPAGEOR_CH74WA_ARTIIIBORA_S74-98USPUBORAFA",
+  "effect": "At the city public boat ramp facility by the causeway, fishing of any kind is unlawful within 100 ft of the facility, and swimming, diving or floating within 50 ft.",
+  "excerpt": "(a) It is unlawful and prohibited for any person to do any of the following at, or in conjunction with, the city public boat ramp facility: [...] (6) Swim, wade, bathe, dive or float, or water ski within 50 feet of the facility. (7) Fish within 100 feet of the facility.",
+  "full": "§ 74-96(b): It is unlawful for any person to fish, or to use cast nets, hand-held or otherwise, for fishing within 100 feet of the city public boat ramp facility. (Code 1981, § 13-10)",
+  "verified": "verbatim",
+  "scope": "Sanibel public boat ramp facility, Punta Ybel at the causeway.",
+  "note": "Found 12 Nov 2026 by the whole-state 'fishing from / in / within' search; section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "74-96(b); 74-98(a)(6), (7)",
+   "verbatim": "yes, with one marked omission",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "neg-bridge-fishing-2026-11-12",
+  "cite": "Bridge, seawall and waterfront fishing bans in 16 Florida codes, checked 12 Nov 2026",
+  "title": "Bans on fishing from bridges, seawalls and waterfront facilities do not reach a spearfisher in the water (confirmed negative, with one caution)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://library.municode.com/fl/monroe_county/codes/code_of_ordinances",
+  "effect": "These sections bar fishing from a bridge, seawall, street or waterfront facility, or loitering on it; none bars spearing in the water around it: Bal Harbour § 10-1, Belleair § 34-6, Deerfield Beach § 46-4, Fort Lauderdale §§ 16-74 and 8-5, Hallandale Beach § 19-12, Key Colony Beach § 5-9, Martin County § 83.1, Miami-Dade County § 7-3, Monroe County §§ 19-3 and 19-5, Ocean Ridge § 38-5, Tequesta § 54-6, Treasure Island § 58-35, Town of Palm Beach § 74-163, Oakland Park § 8-5 and Wilton Manors § 12-4. Caution: the statewide 100 yd spearfishing buffer of r. 68B-20.003(2)(c) attaches only where public fishing from the bridge is legally permitted, so a bridge where fishing is banned (Card Sound, Sadowski Causeway, Tom's Harbor Channel) arguably has no such buffer. The map still draws the buffer at every bridge, the reading that closes more water. Bal Harbour § 10-1 also bars fishing in any area of the village posted against fishing, and Cocoa Beach § 5-30 bars fishing within 50 ft of the centre of any posted bridge; both sit inside the statewide bridge buffer as drawn.",
+  "excerpt": "(a) There shall be no fishing from the Card Sound Bridge in Monroe County, Florida.",
+  "full": null,
+  "verified": "secondary",
+  "scope": "The jurisdictions named.",
+  "note": "Found 12 Nov 2026 by the whole-state 'fishing from / in / within' Municode search and read through the content service. The excerpt is Monroe County § 19-3(a), as an example of the form. Other sections from that search with no bearing on spearing: Hernando County § 21-1 (nets and crab traps in canals), Naples §§ 42-53 and 28-34 (pier and park conduct), St. Augustine Beach § 5-4 (county pier conduct), Volusia County § 20-116 (ocean fishing after a Beach Patrol warning; chumming within 600 ft), Venice § 46-63 and Bradenton Beach § 66-60 (no fishing in swimming areas).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "as listed",
+   "verbatim": "excerpt verbatim; list secondary",
+   "url_resolves": "yes"
+  }
  }
 ]

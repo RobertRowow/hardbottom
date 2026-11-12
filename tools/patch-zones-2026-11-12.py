@@ -253,6 +253,16 @@ Z.append(dict(
     src="Location from the city's marina page; the slips along the seawall boxed on Esri World Imagery (zoom 19). No distance added.",
     flag="The code does not define the marina's water. The box covers the slips along the seawall only."))
 
+mk("loc-marcoisland-swim", "Marco Island beaches: no swimming within 150 ft of a pier, jetty or breakwater",
+   ["marcoisland-54-36"], [[25.93202, -81.70484]],
+   "<b>Off Marco Island's beaches, no swimming within 150 ft of any pier, jetty or breakwater</b>, wider than the statewide 100 ft jetty buffer.",
+   TIGER, "The beach jetties and breakwaters are not buffered at 150 ft; the statewide 100 ft jetty buffer is drawn where the jetty layer has them.")
+mk("loc-sanibel-ramp", "Sanibel public boat ramp: no fishing within 100 ft, no swimming or diving within 50 ft",
+   ["sanibel-74-96-98"], [[26.45346, -82.03601]],
+   "<b>No fishing of any kind within 100 ft of the Sanibel public boat ramp facility, and no swimming, diving or floating within 50 ft.</b>",
+   "Ramp position from the FWC boat ramp inventory (data/ramps.json, 'Sanibel Island Public').",
+   "The facility's extent (ramp lanes, docks and basin) is not drawn; the 100 ft runs from every part of it.")
+
 # Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
 # the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
 # CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see

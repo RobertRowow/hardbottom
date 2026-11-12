@@ -41,6 +41,13 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   2012.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
   bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina.
+- **Fishing near structures.** A whole-state search for 'fishing from', 'fishing in' and 'fishing
+  within' added Marco Island § 54-36(h) (no swimming within 150 ft of a pier, jetty or breakwater) and
+  Sanibel §§ 74-96 and 74-98 (no fishing within 100 ft of the city boat ramp, no swimming or diving
+  within 50 ft), each with a marker. Sixteen codes that ban fishing from a bridge, seawall or
+  waterfront facility are recorded as not reaching a spearfisher in the water; where fishing from a
+  bridge is banned, the statewide spearfishing buffer arguably does not attach, and the map draws it
+  anyway.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

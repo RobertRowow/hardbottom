@@ -15,6 +15,7 @@
 2026-11-11/research-state | fac-40d-9-230 | added
 2026-11-11/research-state | fac-68a-15-065-guana | added
 2026-11-11/research-state | fac-68b-5-005 | added
+2026-11-11/research-state | neg-statutes-fulltext-2026-11-12 | added
 2026-11-11/research-local | rivierabeach-13-32 | added
 2026-11-11/research-local | rivierabeach-13-26 | added
 2026-11-11/research-local | pbc-21-27 | added

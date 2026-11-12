@@ -181,5 +181,26 @@
    "verbatim": "yes, with one marked omission",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "neg-statutes-fulltext-2026-11-12",
+  "cite": "Florida Statutes (2026) full-text search for spear, spearing, spearfishing, speargun and 'spear gun', 12 Nov 2026",
+  "title": "Every Florida statute that mentions spears is in the registry or does not govern spearfishing in salt water (confirmed negative)",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Search_Statutes&Submenu=4&Tab=statutes",
+  "effect": "Online Sunshine's 2026 statute search returned §§ 379.2425, 379.2431 and 379.401 (all in the registry) and these others: § 379.3015 makes a light plus spear guns, gigs or harpoons at night, where alligators may be, prima facie evidence of intent to take alligators (a caution for night divers in brackish water); § 258.156 counts a spearfish gun as a firearm in the Savannas State Reserve (fresh water, and state park water is closed to spearing anyway); § 790.225 excludes underwater spear guns from the ballistic self-propelled knife ban; chapter 790 definitions and § 196.173 have no rule for divers.",
+  "excerpt": "[Method: Online Sunshine statute search, year 2026, for each term; every section returned was opened and read on leg.state.fl.us.]",
+  "full": null,
+  "verified": "secondary",
+  "scope": "Florida Statutes, 2026 edition.",
+  "note": "Recorded 12 Nov 2026. § 379.3015 reads in part: the display or use of a light where alligators might be known to inhabit, together with the possession of firearms, spear guns, gigs and harpoons customarily used for taking alligators, between 1 hour after sunset and 1 hour before sunrise, is prima facie evidence of intent to violate the alligator laws.",
+  "geom": null,
+  "axes": {
+   "in_force": "2026 statutes",
+   "subsection": "n/a",
+   "verbatim": "method note only",
+   "url_resolves": "yes"
+  }
  }
 ]

@@ -23,7 +23,8 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   Ormond Beach parks, Navarre Beach and Escambia beaches, Yankeetown's yacht basin, the Titusville,
   Flagler Beach and Mexico Beach piers, Palm Coast marinas, Gulfport posted areas, and the Cocoa Beach
   and Melbourne Beach canals. Venice § 46-64 joins the Venice zone. Not drawn: Volusia County
-  conservation lands (locations not listed) and Collier County § 146-51. Belleair Beach's marina is
+  conservation lands (locations not listed). Collier County § 146-51 has markers at two county beach
+  parks. Belleair Beach's marina is
   drawn from the city's own marina page (3505 Gulf Boulevard) and imagery.
 - **Port authority rules.** Canaveral Port Authority Tariff Rule 380 prohibits underwater diving in all
   water east of the Barge Canal lock through the jetties, unless the Harbormaster authorizes it; the

@@ -255,6 +255,12 @@ mk("loc-sanibel-ramp", "Sanibel public boat ramp: no fishing within 100 ft, no s
    "Ramp position from the FWC boat ramp inventory (data/ramps.json, 'Sanibel Island Public').",
    "The facility's extent (ramp lanes, docks and basin) is not drawn; the 100 ft runs from every part of it.")
 
+mk("loc-collier-beaches-swim", "Collier County beaches: no swimming within 150 ft of a pier or jetty",
+   ["collier-146-51"], [[26.24389, -81.67360], [25.94832, -81.74352]],
+   "<b>On the Collier County beaches § 146-51 regulates, no swimming within 150 ft of any pier or jetty</b>, wider than the statewide 100 ft jetty buffer. Markers: Vanderbilt Beach Park and Tigertail Beach Park.",
+   "Both parks geocoded. Not boundaries.",
+   "The 150 ft rings around county beach piers and jetties are not drawn; the statewide 100 ft jetty buffer is drawn where the jetty layer has them.")
+
 # Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
 # the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
 # CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see

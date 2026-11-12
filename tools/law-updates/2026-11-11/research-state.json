@@ -160,5 +160,26 @@
    "verbatim": "yes",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "fac-68b-5-005",
+  "cite": "Fla. Admin. Code r. 68B-5.005",
+  "title": "Divers may not feed fish, except to attract fish they are lawfully harvesting",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-5.005",
+  "effect": "A diver (anyone in the water with a mask, mask and snorkel, or breathing apparatus) may not feed fish, and no one may run a vessel for hire to take passengers to feed fish or watch it. Introducing food to attract fish for a lawful harvest is outside the definition, so chumming to spear a legal fish is not fish feeding under this rule.",
+  "excerpt": "(1) No diver shall engage in the practice of fish feeding. [...] (b) “Fish feeding” means the introduction of any food or other substance into the water by a diver for the purpose of feeding or attracting marine species, except for the purpose of harvesting such marine species as otherwise allowed by rules of the Fish and Wildlife Conservation Commission.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "State waters.",
+  "note": "Found 12 Nov 2026 by fetching every rule in FLRules chapters 68B-1 to 68B-66, 68C-22, 68D-21, 68D-23, 68D-24, 68E-1, 68A-4, 68A-23, 68A-24, 18-18, 18-20, 18-21, 62B-33, 62B-55, 62B-56 and 62D-15 (681 rules) and searching the adopted Word files for spear, skin diving, snorkel, underwater breathing, rebreather, powerhead and bangstick. Every other hit is already in the registry or is a species gear rule that agrees with r. 68B-20.005 (red drum r. 68B-22.006, weakfish r. 68B-47.006: no spearing; dolphin, flounder and Spanish mackerel: spearing allowed). History: New 1-1-02.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, effective 1 Jan 2002",
+   "subsection": "(1), (3)(b)",
+   "verbatim": "yes, with one marked omission",
+   "url_resolves": "yes"
+  }
  }
 ]

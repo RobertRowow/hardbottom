@@ -192,9 +192,9 @@ mk("loc-flaglerbeach-pier", "Flagler Beach: no swimming within 150 ft either sid
    ["flaglerbeach-6-3"], [[29.47984, -81.12649]],
    "<b>No swimming within 150 ft on either side of the Flagler Beach municipal pier</b>; lifeguards may expand the area. Inside the statewide 100 yd pier buffer.",
    "Pier position from the FWC fishing pier inventory (data/piers.json).", "Nothing beyond the statewide pier buffer unless a lifeguard expands the area.")
-mk("loc-mexicobeach-pier", "Mexico Beach: no diving from the city pier, and no swimming within 50 ft of it",
-   ["mexicobeach-95-02"], [[29.94310, -85.41111]],
-   "<b>No diving from the Mexico Beach city pier and no swimming or otherwise occupying the water within 50 ft of it.</b>",
+mk("loc-mexicobeach-pier", "Mexico Beach: no diving from the city pier, no swimming within 50 ft of it or in buoyed rental lanes",
+   ["mexicobeach-95-02", "mexicobeach-95-20"], [[29.94310, -85.41111]],
+   "<b>No diving from the Mexico Beach city pier and no swimming or otherwise occupying the water within 50 ft of it.</b> No swimming inside the buoyed channels that beach watercraft-rental locations must mark (§ 95.20).",
    "Marker on the beach where the geocoder places the pier; no pier structure is visible there on Esri World Imagery.",
    "The pier was destroyed by Hurricane Michael in 2018 and its rebuild was not confirmed; the FWC pier inventory has no Mexico Beach entry. Where a pier stands, the statewide 100 yd pier buffer applies as well.")
 mk("loc-palmcoast-marinas", "Palm Coast: no swimming, diving or skin diving inside a marina area",

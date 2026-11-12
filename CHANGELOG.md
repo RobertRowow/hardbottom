@@ -47,7 +47,9 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   within 50 ft), each with a marker. Sixteen codes that ban fishing from a bridge, seawall or
   waterfront facility are recorded as not reaching a spearfisher in the water; where fishing from a
   bridge is banned, the statewide spearfishing buffer arguably does not attach, and the map draws it
-  anyway.
+  anyway. On American Legal, Mexico Beach § 95.20 (no swimming in buoyed rental channels) joins the
+  Mexico Beach pier marker, and Pompano Beach § 132.35 is recorded as not reaching spears: it defines
+  fishing as line, hooks, nets or baskets.
 - **Confirmed negatives.** South Pasadena, Ocean Breeze and St. Lucie Village have no spearfishing or
   fishing rule in what they publish. Grant-Valkaria and Everglades City publish no general code
   online; Everglades City is a new open question.

@@ -1250,5 +1250,47 @@
    "verbatim": "excerpt verbatim; list secondary",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "mexicobeach-95-20",
+  "cite": "City of Mexico Beach Code § 95.20",
+  "title": "Mexico Beach: no swimming in a buoyed watercraft-rental channel",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/mexicobeach/latest/mexicobeach_fl/0-0-0-2775",
+  "effect": "No swimming inside a channel marked under § 95.17(A), the buoyed lanes perpendicular to the shore that each beach rental location for motor-driven floating devices must keep. The lanes sit inside the statewide 100 yd beach buffer.",
+  "excerpt": "No person shall knowingly swim within any channel properly marked pursuant to § 95.17 (A). (1998 Code, § 92.40) (Ord. 274, passed 5-11-1993)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Marked rental channels off Mexico Beach.",
+  "note": "Found 12 Nov 2026 by an American Legal Florida-wide search for 'fishing within', 'swim within', 'swimming within', 'fishing from', 'no fishing', 'diving from', 'skin diving', scuba, snorkel and underwater; section text as returned by the search API, checked against § 95.17(A).",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, American Legal latest",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "neg-pompano-132-35",
+  "cite": "City of Pompano Beach Code § 132.35, checked 12 Nov 2026",
+  "title": "Pompano Beach: posted no-fishing areas do not reach spearfishing, because the section defines fishing as line, hooks, nets or baskets (confirmed negative)",
+  "juris": "city",
+  "kind": "negative",
+  "url": "https://codelibrary.amlegal.com/codes/pompanobeach/latest/pompanobeach_fl/0-0-0-85913",
+  "effect": "§ 132.35 lets the City Manager post no-fishing areas and bars fishing from posted bridges and areas, but subsection (D) defines fishing as harvesting with line, hooks, nets or baskets, so spears are outside it. Pompano's spear rules are § 98.02(M) (beach waters), § 98.12 (the pier) and § 91.22 (Hillsboro Inlet), all already in the registry.",
+  "excerpt": "(D) FISHING shall mean the act of harvesting finfish, shellfish, or crabs through the use of line, hooks, nets, or baskets.(Ord. 85-51, passed 4-23-85; Am. Ord. 2021-35, passed 1-26-21)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Pompano Beach.",
+  "note": "Read 12 Nov 2026 in the author's Chrome on codelibrary.amlegal.com, section page text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, American Legal latest",
+   "subsection": "(D)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
  }
 ]

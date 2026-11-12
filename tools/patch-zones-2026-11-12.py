@@ -214,6 +214,23 @@ mk("loc-melbournebeach-canals", "Melbourne Beach: hook and line or hand-thrown c
    "<b>Catching fish by any means other than hook and line or a hand-thrown cast net is banned in the Driftwood Avenue, Riverview Lane, Sandy Key, Anchor Key and Pelican Key canals.</b>",
    TIGER, "The five canals are not drawn.")
 
+mk("loc-cutlerbay-parks", "Cutler Bay parks: no spear or gig fishing in park waters except where prescribed",
+   ["cutlerbay-22-109"], [[25.57615, -80.33401]],
+   "<b>Fishing in Cutler Bay park waters, fresh or salt, by spear, gig or any other device is prohibited except where prescribed.</b>",
+   TIGER, "Every town park with water is covered, bayfront parks included; 'park waters' has no stated seaward limit.")
+mk("loc-palmettobay-parks", "Palmetto Bay parks: no spear or gig fishing in park waters except where prescribed",
+   ["palmettobay-20-62"], [[25.62170, -80.31891]],
+   "<b>Fishing in Palmetto Bay park property waters, fresh or salt, by spear, gig or any other device is prohibited except where prescribed.</b>",
+   TIGER, "Every village park with water is covered, the Biscayne Bay parks included; no seaward limit is stated.")
+mk("loc-pbgardens-parks", "Palm Beach Gardens parks: no spear guns in a park",
+   ["pbgardens-46-37"], [[26.84879, -80.16712]],
+   "<b>Carrying, using or possessing a spear gun on or in any Palm Beach Gardens park area or property is prohibited.</b>",
+   TIGER, "Every city park is covered; whether a park's water counts as 'park area' is not stated.")
+mk("loc-irshores-parks", "Indian River Shores parks: no swimming, diving, scuba or fishing except in designated areas",
+   ["irshores-95-03"], [[27.70900, -80.38938]],
+   "<b>In any Indian River Shores park or recreational area, swimming, diving, scuba and fishing are prohibited unless the area is designated for them.</b>",
+   TIGER, "Every town park and recreational area is covered, beach accesses included where the town treats them as parks.")
+
 # Port authority tariff rules. Port Canaveral's Rule 380 defines its area in words ("all water east of
 # the Barge Canal Lock through the Jetties to the Atlantic Ocean"), so it is drawn: the USGS NHD
 # CanalDitch area that fills the harbor and canal east of the lock (pulled 12 Nov 2026, see

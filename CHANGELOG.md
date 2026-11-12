@@ -30,6 +30,10 @@ Rules current as of 12 Nov 2026. The registry holds 377 entries (352 verbatim, 2
   the port (marker), and Port Everglades Tariff Item 280 requires the Harbormaster's written approval
   for any dive inside the port. JAXPORT, PortMiami and Port Tampa Bay tariffs have no such rule. The
   encyclopedia gains a group for port authorities and special districts.
+- **Park rules found on a re-check.** Cutler Bay § 22-109 and Palmetto Bay § 20-62 (no spear or gig
+  fishing in park waters except where prescribed), Palm Beach Gardens § 46-37 (no spear guns in parks)
+  and Indian River Shores § 95.03(20) (no diving, scuba or fishing in parks except where designated),
+  each with a marker. Jacksonville Beach § 20-13(12) covers land parks only and is not drawn.
 - **Other new entries.** Lighthouse Point § 54-8 bans fishing from or within 25 ft of any city
   bridge at night. Belleair Beach § 30-195(b) bans swimming and diving in the city marina, which the
   code does not locate, so it is not drawn.

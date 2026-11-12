@@ -36,3 +36,4 @@ Whitespace was collapsed; nothing else was changed.
 | 28 | Port of Palm Beach Tariff 24E (1 Oct 2025), Item 546; Port Everglades Tariff No. 12 (1 Oct 2026), Item No. 280 | PDF.js in page on each port's site | quoted in `ppb-tariff-546` and `pev-tariff-280` |
 | 29 | JAXPORT, PortMiami and Port Tampa Bay tariffs | PDF.js in page | no hits; `neg-port-tariffs-2026-11-12` |
 | 30 | Port Canaveral harbor outline | USGS NHD MapServer/9, CanalDitch 125274012 and Lock Chamber 125256958 | geom/pulled.txt line CPA |
+| 31 | Spot re-check of 64 Atlantic coast Municode clients | api.municode.com/search, spear, speargun, spearfishing, harpoon, skin diving, scuba, snorkel | five sections not yet in the registry: Cutler Bay § 22-109, Palmetto Bay § 20-62, Palm Beach Gardens § 46-37, Indian River Shores § 95.03(20), Jacksonville Beach § 20-13(12) |

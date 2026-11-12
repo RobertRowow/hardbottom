@@ -998,5 +998,110 @@
    "verbatim": "method note only",
    "url_resolves": "yes"
   }
+ },
+ {
+  "id": "cutlerbay-22-109",
+  "cite": "Town of Cutler Bay Code § 22-109",
+  "title": "Cutler Bay parks: no spear or gig fishing in park waters except where prescribed",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/cutler_bay/codes/code_of_ordinances?nodeId=PTIICOOR_CH22PARE_ARTIIRURE_DIV4REAC_S22-109FI",
+  "effect": "Fishing in town park waters, fresh or salt, by spear, gig or any other device is prohibited except at places prescribed for it. The rule copies Miami-Dade County's park rule 17 and covers the town's bayfront parks.",
+  "excerpt": "No person, adult or minor, shall fish in park waters, either fresh or salt, by use of hook-and-line, seine, net, trap, spear, gig or other device except at such places and in such areas as have been prescribed for such usage which will include specified lakes, canals, lagoons and creeks. (Code 2005, § 26-1(rule 17); Ord. No. 10-05, § 2(26-1, rule 17), 4-28-2010)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Town of Cutler Bay park waters.",
+  "note": "Found 12 Nov 2026 by a spot re-check of 64 Atlantic coast Municode clients for spear, speargun, harpoon, skin diving, scuba and snorkel; read through the Municode content service in the author's Chrome, section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "palmettobay-20-62",
+  "cite": "Village of Palmetto Bay Code § 20-62",
+  "title": "Palmetto Bay parks: no spear or gig fishing in park waters except where prescribed",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palmetto_bay/codes/code_of_ordinances?nodeId=COOR_CH20PARE_ARTIIRURE_S20-62FI",
+  "effect": "Fishing in village park waters, fresh or salt, by spear, gig or any other device is prohibited except at places prescribed for it. Covers the village's Biscayne Bay parks.",
+  "excerpt": "No person, adult or minor, shall fish in park property waters, either fresh or salt, by use of hook and line, seine, net, trap, spear gig or other device except at such places and in such areas as have been prescribed for such usage, which may include stretches on ocean beaches marked by signs as permitted, in areas other than those used for bathing. (Ord. No. 07-16, § 1(Rule 12), 6-11-2007)",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Village of Palmetto Bay park property waters.",
+  "note": "Found 12 Nov 2026 by the same spot re-check; section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "whole section",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "pbgardens-46-37",
+  "cite": "City of Palm Beach Gardens Code § 46-37(a)",
+  "title": "Palm Beach Gardens parks: no spear guns carried, used or possessed in a park",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_beach_gardens/codes/code_of_ordinances?nodeId=PTIICOOR_CH46PARE_ARTIIGEPR_S46-37HUTOGU",
+  "effect": "Carrying, using or possessing a spear gun on or in any city park area or property is prohibited.",
+  "excerpt": "(a) No person shall carry, use, or possess any spear guns, spring guns, bows and arrows, crossbows, and/or any replica or toy firearms on or in a park area or property. Such apparatus are specifically determined to be inimical to wildlife and dangerous to human safety.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Palm Beach Gardens parks.",
+  "note": "Found 12 Nov 2026 by the same spot re-check; section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(a)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "irshores-95-03",
+  "cite": "Town of Indian River Shores Code § 95.03(20)",
+  "title": "Indian River Shores parks: no swimming, diving, scuba or fishing except in designated areas",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/indian_river_shores/codes/code_of_ordinances?nodeId=TITIXGERE_CH95PA_S95.03RURE",
+  "effect": "In any town park or recreational area, swimming, diving, scuba and fishing are prohibited unless the area is designated for them.",
+  "excerpt": "(20) Water activity. No person shall swim, ski, dive, surf, scuba, fish, or use boats in any area in any park or recreational area unless the area is specifically designated for such purpose.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Town of Indian River Shores parks and recreational areas.",
+  "note": "Found 12 Nov 2026 by the same spot re-check; section text as returned.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(20)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
+ },
+ {
+  "id": "jaxbeach-20-13",
+  "cite": "City of Jacksonville Beach Code § 20-13(12)",
+  "title": "Jacksonville Beach parks: no propelling a spear in the listed city parks (land parks; not a water rule)",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/jacksonville_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH20PARE_ARTIVPARURE_S20-13GEPARURE",
+  "effect": "In the listed city parks (among them Oceanfront Park, Seawalk Pavilion and Latham Plaza, and South Beach Park), it is unlawful to launch or propel a spear or other dangerous object. The parks are land; the rule does not reach the ocean, so nothing is drawn.",
+  "excerpt": "(12) To launch, throw, hurl, or otherwise propel an arrow, spear, BB, pellet, slingshot, javelin, or other dangerous object.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "The parks listed in § 20-13(a).",
+  "note": "Found 12 Nov 2026 by the same spot re-check; section text as returned. Delray Beach § 101.36 was also returned and only cross-refers to § 101.34, already in the registry.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current Municode job 12 Nov 2026",
+   "subsection": "(12)",
+   "verbatim": "yes",
+   "url_resolves": "yes (library page renders in a browser only)"
+  }
  }
 ]

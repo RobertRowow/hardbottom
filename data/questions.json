@@ -1,5 +1,5 @@
 {
- "version": "2026-11-11",
+ "version": "2026-11-12",
  "intro": "Each question below is a point where the map cannot settle what the law means or where it applies, from public text alone. Most need an answer from the agency or city that enforces the rule. Until one arrives, the map draws the reading that closes more water and says so in the popup.",
  "status_def": {
   "needs-person": "Needs an answer from an agency, a city clerk or a park office. More reading will not settle it.",
@@ -356,9 +356,71 @@
    "ask": "City of St. Marks City Clerk",
    "contact": null,
    "q": "Which water does the city treat as covered by § 78-1, the St. Marks River, the Wakulla River, or both?",
-   "zones": [],
+   "zones": [
+    "loc-stmarks"
+   ],
    "law": [
     "stmarks-78-1"
+   ]
+  },
+  {
+   "n": 40,
+   "status": "needs-person",
+   "region": "Southwest",
+   "title": "Everglades City: does the city have any rule on spearfishing, diving or swimming near its docks and bridges?",
+   "why": "Everglades City publishes only its land development code, charter and plan, all as image scans, and no general code of ordinances is online. It is the gateway to the Ten Thousand Islands, so a dock, bridge or Barron River rule would matter and could not be found.",
+   "ask": "City of Everglades City, City Clerk",
+   "contact": null,
+   "q": "Does the city code contain any ordinance on spearfishing, fishing, diving or swimming in the Barron River, the city's canals or near city docks and bridges, and where can the current code be read?",
+   "zones": [],
+   "law": [
+    "neg-small-towns-2026-11-12"
+   ]
+  },
+  {
+   "n": 41,
+   "status": "needs-person",
+   "region": "Southeast",
+   "title": "Pompano Beach: how far do 'the waters of the public beach' reach?",
+   "why": "§ 98.02(M) bans spearguns, gigs and slings 'on the beach or in the waters of the public beach' without a seaward limit. The map shows a marker. A reading that runs to the reef line would close the nearshore reef off the city.",
+   "ask": "City of Pompano Beach, Ocean Rescue or City Attorney",
+   "contact": null,
+   "q": "Where does the city treat 'the waters of the public beach' in § 98.02(M) as ending: the swimming area, a set distance from shore, or the city limit offshore?",
+   "zones": [
+    "loc-pompano-beach"
+   ],
+   "law": [
+    "pompano-98-02"
+   ]
+  },
+  {
+   "n": 42,
+   "status": "needs-person",
+   "region": "Tampa Bay",
+   "title": "Belleair Beach: where is the city marina in which swimming and diving are banned?",
+   "why": "§ 30-195(b) bans all swimming and diving within the marina, and the zoning code calls it 'the city-owned property known as the Belleair Beach Marina', but neither says where it is. It could not be identified on imagery, so it is not drawn.",
+   "ask": "City of Belleair Beach, City Clerk",
+   "contact": null,
+   "q": "Where is the Belleair Beach Marina covered by chapter 30, article V, and what water does the city treat as 'within the marina'?",
+   "zones": [],
+   "law": [
+    "belleairbeach-30-195"
+   ]
+  },
+  {
+   "n": 43,
+   "status": "needs-person",
+   "region": "Southeast",
+   "title": "Miami: what are the limits of the Dinner Key, Miamarina and Watson Island marina waters?",
+   "why": "§ 50-228 bans swimming, diving and fishing in the waters of three city marinas without boundaries. The map draws each basin from imagery; the Dinner Key mooring field and the Watson Island south-side marina are left out.",
+   "ask": "City of Miami, Department of Real Estate and Asset Management (marinas)",
+   "contact": null,
+   "q": "Does the city treat the Dinner Key mooring field and the marina on the south side of Watson Island as part of the waters named in § 50-228?",
+   "zones": [
+    "loc-miami-marinas"
+   ],
+   "law": [
+    "miami-50-228"
    ]
   }
  ]
